@@ -1,0 +1,100 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Paper Trade — Keystone</title><meta name="theme-color" content="#11150f"/>
+<meta name="description" content="Keystone Paper Trade: simulated BTC/ETH perpetuals with fake USDC. No real money."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#11150f;--ink-soft:#1a2017;--paper:#ebece4;--paper-deep:#dfe1d7;--line:#11150f29;--acid:#c9f46d;--acid-deep:#95bd45;--moss:#5f6e50;--muted:#74796e;--white:#f6f7f0;--red:#d9534f}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Manrope,sans-serif}
+a{color:inherit}.wrap{max-width:1180px;margin:0 auto;padding:20px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{font-weight:800;text-decoration:none;font-size:20px}.brand span{background:var(--ink);color:var(--acid);padding:4px 8px;border-radius:8px;margin-right:8px}
+.banner{margin:18px 0;background:var(--ink);color:var(--acid);border-radius:14px;padding:12px 16px;font-weight:800;letter-spacing:.06em;text-align:center}
+.banner small{display:block;color:var(--white);font-weight:400;letter-spacing:0;margin-top:4px;opacity:.8}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media(max-width:820px){.grid{grid-template-columns:1fr}}
+.card{background:var(--white);border:1px solid var(--line);border-radius:18px;padding:18px}
+.dark{background:var(--ink);color:var(--white)}h1{font-size:clamp(32px,5vw,56px);margin:8px 0;line-height:1}h2{margin:0 0 12px;font-size:18px}
+.prices{display:flex;gap:16px;flex-wrap:wrap}.px{flex:1;min-width:150px}.px b{display:block;font-size:28px;font-variant-numeric:tabular-nums}
+.muted{color:var(--muted);font-size:13px}.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:10px 0}
+label{font-size:13px;font-weight:600}input,select{font:inherit;padding:10px;border-radius:10px;border:1px solid var(--line);background:var(--paper);width:100%}
+input[type=range]{padding:0}
+.btn{font:inherit;font-weight:800;border:0;border-radius:999px;padding:12px 18px;cursor:pointer}
+.long{background:var(--acid);color:var(--ink)}.short{background:var(--red);color:#fff}.ghost{background:transparent;border:1px solid var(--line)}
+.dark .ghost{border-color:#f6f7f044;color:var(--white)}
+table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line)}
+.pos{color:var(--acid-deep);font-weight:700}.neg{color:var(--red);font-weight:700}.err{color:var(--red);min-height:18px;font-size:13px}
+.stat b{display:block;font-size:22px}.full{grid-column:1/-1}.tbl{overflow-x:auto}
+.ad h3{margin:14px 0 6px;font-size:15px}.ad .feed{max-height:260px;overflow:auto}.ad table{font-size:12px}.sig{display:inline-block;padding:3px 9px;border-radius:999px;font-weight:700}.sig.long{background:#d9f7c4;color:#1d5a07}.sig.short{background:#ffd9d9;color:#8a1010}.sig.flat{background:#eee;color:#555}.mono{font-family:ui-monospace,Menlo,monospace;font-size:11px}
+</style></head><body><div class="wrap">
+<nav class="top"><a class="brand" href="../"><span>K</span>Keystone</a><a class="btn ghost" href="../">← Back to protocol</a></nav>
+<div class="banner">PAPER TRADING — NO REAL MONEY<small>Simulated perpetuals with fake USDC. No wallet connection, no keys, no real transactions. Prices are live mids for reference only.</small></div>
+<h1>Paper Trade</h1><p class="muted">BTC &amp; ETH perpetuals · long/short · 1x–100x · 0.05% fee on open &amp; close · balance saved in this browser.</p>
+<div class="grid">
+ <section class="card dark"><h2>Live mid prices</h2><div class="prices">
+  <div class="px">BTC-PERP<b id="p-BTC">—</b></div><div class="px">ETH-PERP<b id="p-ETH">—</b></div></div>
+  <p class="muted" id="src" style="color:#aab">Connecting…</p>
+  <div class="row"><div class="stat" style="flex:1">Paper balance<b id="bal">—</b></div><div class="stat" style="flex:1">Equity<b id="eq">—</b></div>
+  <button class="btn ghost" id="reset">Reset to 10,000</button></div></section>
+ <section class="card"><h2>Open position</h2>
+  <div class="row"><div style="flex:1"><label>Market</label><select id="coin"><option>BTC</option><option>ETH</option></select></div>
+  <div style="flex:1"><label>Margin (paper USDC)</label><input id="margin" type="number" min="1" step="1" value="100"></div></div>
+  <label>Leverage: <span id="levv">10</span>x</label><input id="lev" type="range" min="1" max="100" value="10">
+  <p class="muted" id="preview"></p>
+  <div class="row"><button class="btn long" id="goLong" style="flex:1">Long</button><button class="btn short" id="goShort" style="flex:1">Short</button></div>
+  <div class="err" id="err"></div></section>
+ <section class="card full"><h2>Open positions</h2><div class="tbl"><table><thead><tr><th>Market</th><th>Side</th><th>Lev</th><th>Size</th><th>Margin</th><th>Entry</th><th>Mark</th><th>Liq.</th><th>uPnL</th><th></th></tr></thead><tbody id="positions"></tbody></table></div></section>
+ <section class="card full"><h2>Stats</h2><div class="row">
+  <div class="stat" style="flex:1">Trades<b id="s-n">0</b></div><div class="stat" style="flex:1">Win rate<b id="s-wr">0%</b></div><div class="stat" style="flex:1">Total realized PnL<b id="s-pnl">0</b></div></div>
+  <h2 style="margin-top:12px">Trade history</h2><div class="tbl"><table><thead><tr><th>Closed</th><th>Market</th><th>Side</th><th>Lev</th><th>Size</th><th>Entry</th><th>Exit</th><th>Fees</th><th>Net PnL</th><th>Result</th></tr></thead><tbody id="history"></tbody></table></div></section>
+
+ <section class="card full ad" id="agentdesk"><h2>Agent Desk</h2>
+  <p class="muted" id="ad-gen">Loading agents.json…</p>
+  <h3>Agent signal (experimental) — BTC / ETH</h3>
+  <p class="muted">Transparent rule on Hyperliquid 1h candles: EMA9 vs EMA21 cross + last-1h momentum. LONG if EMA9&gt;EMA21 and 1h change&gt;0; SHORT if EMA9&lt;EMA21 and 1h change&lt;0; otherwise FLAT. Not advice.</p>
+  <div class="tbl"><table><thead><tr><th>Market</th><th>Signal</th><th>EMA9</th><th>EMA21</th><th>1h chg</th><th></th></tr></thead><tbody id="ad-sig"><tr><td colspan="6" class="muted">Computing…</td></tr></tbody></table></div>
+  <div class="row" style="align-items:center;margin-top:8px"><label style="margin:0"><input type="checkbox" id="ad-auto"> Auto-follow (paper, 50 USDC margin, 5x; opens/closes on signal flips while this tab is open)</label></div>
+  <p class="muted" id="ad-log"></p>
+  <h3>Sol sniper — live trades (public data)</h3><div class="row" id="ad-sn-stats"></div>
+  <div class="tbl feed"><table><thead><tr><th>Time</th><th>Symbol</th><th>Side</th><th>Reason</th><th>PnL %</th><th>Net SOL</th><th>Mint</th></tr></thead><tbody id="ad-sn"></tbody></table></div>
+  <h3>Polly Control — signals &amp; paper desk</h3><div class="row" id="ad-po-stats"></div>
+  <div class="tbl feed"><table><thead><tr><th>Time</th><th>Symbol</th><th>Side</th><th>Conf.</th><th>Reason</th></tr></thead><tbody id="ad-po"></tbody></table></div>
+  <h3>Polymarket paper copy bot</h3><div class="row" id="ad-pc-stats"></div>
+  <div class="tbl feed"><table><thead><tr><th>Time</th><th>Event</th><th>Market</th><th>Outcome</th><th>Price</th><th>Size</th></tr></thead><tbody id="ad-pc"></tbody></table></div>
+ </section>
+</div><p class="muted" style="margin-top:20px">Simulation only. Not financial advice. Nothing here touches the blockchain.</p></div>
+<script src="engine.js"></script>
+<script src="agents.js" defer></script>
+<script>
+(function(){var E=PaperEngine,KEY='keystone.papertrade.v1',mids={},S;
+try{S=JSON.parse(localStorage.getItem(KEY))||E.fresh()}catch(e){S=E.fresh()}
+function save(){localStorage.setItem(KEY,JSON.stringify(S))}
+var $=function(i){return document.getElementById(i)};
+function usd(n,d){return (n<0?'-':'')+'$'+Math.abs(n).toLocaleString(undefined,{minimumFractionDigits:d==null?2:d,maximumFractionDigits:d==null?2:d})}
+function cls(n){return n>0?'pos':n<0?'neg':''}
+async function fetchMids(){
+ try{var r=await fetch('https://api.hyperliquid.xyz/info',{method:'POST',headers:{'Content-Type':'application/json'},body:'{"type":"allMids"}'});var j=await r.json();
+  if(+j.BTC&&+j.ETH)return{m:{BTC:+j.BTC,ETH:+j.ETH},src:'Hyperliquid'}}catch(e){}
+ try{var a=await Promise.all(['BTCUSDT','ETHUSDT'].map(function(s){return fetch('https://api.binance.com/api/v3/ticker/bookTicker?symbol='+s).then(function(r){return r.json()})}));
+  return{m:{BTC:(+a[0].bidPrice+ +a[0].askPrice)/2,ETH:(+a[1].bidPrice+ +a[1].askPrice)/2},src:'Binance'}}catch(e){}
+ var c=await Promise.all(['BTC-USD','ETH-USD'].map(function(s){return fetch('https://api.coinbase.com/v2/prices/'+s+'/spot').then(function(r){return r.json()})}));
+ return{m:{BTC:+c[0].data.amount,ETH:+c[1].data.amount},src:'Coinbase'}}
+async function tick(){try{var r=await fetchMids();mids=r.m;$('src').textContent='Source: '+r.src+' · updated '+new Date().toLocaleTimeString();
+ var l=E.checkLiqs(S,mids);if(l.length){save();$('err').textContent=l.length+' position(s) liquidated.'}}catch(e){$('src').textContent='Price feed unavailable — retrying…'}render()}
+function render(){['BTC','ETH'].forEach(function(c){$('p-'+c).textContent=mids[c]?usd(mids[c]):'—'});
+ var u=0;$('positions').innerHTML=S.positions.map(function(p){var m=mids[p.coin],pn=m?E.upnl(p,m):0;u+=p.margin+pn;
+  return '<tr><td>'+p.coin+'</td><td class="'+(p.side==='long'?'pos':'neg')+'">'+p.side.toUpperCase()+'</td><td>'+p.lev+'x</td><td>'+usd(p.size)+'</td><td>'+usd(p.margin)+'</td><td>'+usd(p.entry)+'</td><td>'+(m?usd(m):'—')+'</td><td>'+usd(p.liq)+'</td><td class="'+cls(pn)+'">'+usd(pn)+' ('+(pn/p.margin*100).toFixed(1)+'%)</td><td><button class="btn ghost" data-close="'+p.id+'">Close</button></td></tr>'}).join('')||'<tr><td colspan="10" class="muted">No open positions.</td></tr>';
+ $('bal').textContent=usd(S.balance);$('eq').textContent=usd(S.balance+u);
+ var st=E.stats(S);$('s-n').textContent=st.trades;$('s-wr').textContent=(st.winRate*100).toFixed(1)+'%';$('s-pnl').textContent=usd(st.totalPnl);$('s-pnl').className=cls(st.totalPnl);
+ $('history').innerHTML=S.history.slice(0,100).map(function(h){return '<tr><td>'+new Date(h.closedAt).toLocaleString()+'</td><td>'+h.coin+'</td><td>'+h.side.toUpperCase()+'</td><td>'+h.lev+'x</td><td>'+usd(h.size)+'</td><td>'+usd(h.entry)+'</td><td>'+usd(h.exit)+'</td><td>'+usd(h.fees)+'</td><td class="'+cls(h.pnl)+'">'+usd(h.pnl)+'</td><td>'+h.reason+'</td></tr>'}).join('')||'<tr><td colspan="10" class="muted">No trades yet.</td></tr>';
+ preview()}
+function preview(){var c=$('coin').value,m=+$('margin').value,l=+$('lev').value,p=mids[c];$('levv').textContent=l;
+ if(!p||!(m>0)){$('preview').textContent='';return}var sz=m*l;
+ $('preview').textContent='Size '+usd(sz)+' · fee '+usd(sz*E.FEE)+' · liq. long '+usd(E.liqPrice('long',p,l))+' / short '+usd(E.liqPrice('short',p,l))}
+function go(side){$('err').textContent='';try{E.open(S,$('coin').value,side,$('margin').value,$('lev').value,mids[$('coin').value]);save();render()}catch(e){$('err').textContent=e.message}}
+$('goLong').onclick=function(){go('long')};$('goShort').onclick=function(){go('short')};
+['coin','margin','lev'].forEach(function(i){$(i).oninput=preview});
+$('positions').onclick=function(e){var id=e.target.getAttribute('data-close');if(!id)return;var p=S.positions.find(function(x){return x.id==id});if(!p||!mids[p.coin])return;E.close(S,+id,mids[p.coin],'closed');save();render()};
+$('reset').onclick=function(){if(confirm('Reset paper account to 10,000 USDC and clear history?')){S=E.fresh();save();render()}};
+window.KSPaper={get S(){return S},mids:function(){return mids},save:save,render:render};
+render();tick();setInterval(tick,3000)})();
+</script></body></html>

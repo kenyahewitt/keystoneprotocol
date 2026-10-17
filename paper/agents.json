@@ -1,0 +1,546 @@
+{
+ "generated": "2026-10-17T01:23:54.893011+00:00",
+ "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
+ "sol_sniper": {
+  "closed_trades": 213,
+  "wins": 85,
+  "win_rate": 0.3991,
+  "net_sol": -0.1122,
+  "net_sol_24h": -0.0054,
+  "closed_24h": 3,
+  "open_positions": [],
+  "recent": [
+   {
+    "time": "2026-10-16T17:31:58.908426+00:00",
+    "symbol": "STREAM",
+    "mint": "Diy4Q5aiNEcdn7CWhuwYtuoHtHD9rKBTHCa9hi4qpump",
+    "side": "sell",
+    "reason": "STOP",
+    "source": "sniper",
+    "pnl_pct": -18.55,
+    "net_sol": -0.00492
+   },
+   {
+    "time": "2026-10-16T17:20:39.444816+00:00",
+    "symbol": "STREAM",
+    "mint": "Diy4Q5aiNEcdn7CWhuwYtuoHtHD9rKBTHCa9hi4qpump",
+    "side": "buy",
+    "reason": "SNIPE",
+    "source": "sniper",
+    "pnl_pct": null,
+    "net_sol": null
+   },
+   {
+    "time": "2026-10-16T17:11:32.054575+00:00",
+    "symbol": "SR",
+    "mint": "5e8GPzhqxLKFVU6gb87aJLZMoSQnbjBhQupXvCCZpump",
+    "side": "sell",
+    "reason": "STOP",
+    "source": "polly",
+    "pnl_pct": -10.03,
+    "net_sol": -0.00216
+   },
+   {
+    "time": "2026-10-16T17:10:12.430708+00:00",
+    "symbol": "SR",
+    "mint": "5e8GPzhqxLKFVU6gb87aJLZMoSQnbjBhQupXvCCZpump",
+    "side": "buy",
+    "reason": "SNIPE",
+    "source": "polly",
+    "pnl_pct": null,
+    "net_sol": null
+   },
+   {
+    "time": "2026-10-16T17:09:56.458632+00:00",
+    "symbol": "OWLDACITY",
+    "mint": "D61pTaTqR93axxVvu7AX5TW6c3a4vhffPPMfCnsYpump",
+    "side": "sell",
+    "reason": "TRAIL",
+    "source": "polly",
+    "pnl_pct": 6.27,
+    "net_sol": 0.00166
+   },
+   {
+    "time": "2026-10-16T15:01:40.892365+00:00",
+    "symbol": "OWLDACITY",
+    "mint": "D61pTaTqR93axxVvu7AX5TW6c3a4vhffPPMfCnsYpump",
+    "side": "buy",
+    "reason": "SNIPE",
+    "source": "polly",
+    "pnl_pct": null,
+    "net_sol": null
+   },
+   {
+    "time": "2026-10-13T05:37:28.046851+00:00",
+    "symbol": "FIGHT",
+    "mint": "A8JUiZLzjGAsKxE74evdspHcuW4hvhPbvryDhaDZpump",
+    "side": "sell",
+    "reason": "STOP",
+    "source": "polly",
+    "pnl_pct": -93.0,
+    "net_sol": -0.0246
+   },
+   {
+    "time": "2026-10-13T04:07:26.339622+00:00",
+    "symbol": "FIGHT",
+    "mint": "A8JUiZLzjGAsKxE74evdspHcuW4hvhPbvryDhaDZpump",
+    "side": "buy",
+    "reason": "SNIPE",
+    "source": "polly",
+    "pnl_pct": null,
+    "net_sol": null
+   },
+   {
+    "time": "2026-10-13T03:01:47.630802+00:00",
+    "symbol": "Bear",
+    "mint": "49PU6ENTpYc3zkhgCruzCSBzgVAdix5muP2oVzRGpump",
+    "side": "sell",
+    "reason": "STOP",
+    "source": "sniper",
+    "pnl_pct": -10.27,
+    "net_sol": -0.00221
+   },
+   {
+    "time": "2026-10-13T03:01:16.365764+00:00",
+    "symbol": "Bear",
+    "mint": "49PU6ENTpYc3zkhgCruzCSBzgVAdix5muP2oVzRGpump",
+    "side": "buy",
+    "reason": "SNIPE",
+    "source": "sniper",
+    "pnl_pct": null,
+    "net_sol": null
+   },
+   {
+    "time": "2026-10-13T01:55:28.380236+00:00",
+    "symbol": "HUMPH",
+    "mint": "7jNwX4Me9zGEjmWY7zARDG2LYjVs1WXD6DZ1JvSfpump",
+    "side": "sell",
+    "reason": "STOP",
+    "source": "polly",
+    "pnl_pct": -11.61,
+    "net_sol": -0.00308
+   },
+   {
+    "time": "2026-10-13T01:19:39.249885+00:00",
+    "symbol": "HUMPH",
+    "mint": "7jNwX4Me9zGEjmWY7zARDG2LYjVs1WXD6DZ1JvSfpump",
+    "side": "buy",
+    "reason": "SNIPE",
+    "source": "polly",
+    "pnl_pct": null,
+    "net_sol": null
+   },
+   {
+    "time": "2026-10-12T18:16:12.519082+00:00",
+    "symbol": "CASINU",
+    "mint": "9qj1HN5n227FeRnHiiHoyGjzDZqcGh3mCdFahywzpump",
+    "side": "sell",
+    "reason": "STOP",
+    "source": "sniper",
+    "pnl_pct": -14.03,
+    "net_sol": -0.00302
+   },
+   {
+    "time": "2026-10-12T18:14:14.767010+00:00",
+    "symbol": "CASINU",
+    "mint": "9qj1HN5n227FeRnHiiHoyGjzDZqcGh3mCdFahywzpump",
+    "side": "buy",
+    "reason": "SNIPE",
+    "source": "sniper",
+    "pnl_pct": null,
+    "net_sol": null
+   },
+   {
+    "time": "2026-10-12T18:11:16.825646+00:00",
+    "symbol": "Bumo",
+    "mint": "7yg2UT3Ksh7wwmAPAasaKU6SBbakRtzf2eYqjZZzpump",
+    "side": "sell",
+    "reason": "STOP",
+    "source": "sniper",
+    "pnl_pct": -9.43,
+    "net_sol": -0.00203
+   },
+   {
+    "time": "2026-10-12T17:35:41.982893+00:00",
+    "symbol": "Bumo",
+    "mint": "7yg2UT3Ksh7wwmAPAasaKU6SBbakRtzf2eYqjZZzpump",
+    "side": "buy",
+    "reason": "SNIPE",
+    "source": "sniper",
+    "pnl_pct": null,
+    "net_sol": null
+   },
+   {
+    "time": "2026-10-12T15:54:57.250375+00:00",
+    "symbol": "Frank",
+    "mint": "HbPDWSqu8hpVMX6gMjwMDGe5rVgicWo3Qh3Jaojypump",
+    "side": "sell",
+    "reason": "STOP",
+    "source": "sniper",
+    "pnl_pct": -13.54,
+    "net_sol": -0.00359
+   },
+   {
+    "time": "2026-10-12T15:38:29.374223+00:00",
+    "symbol": "Frank",
+    "mint": "HbPDWSqu8hpVMX6gMjwMDGe5rVgicWo3Qh3Jaojypump",
+    "side": "buy",
+    "reason": "SNIPE",
+    "source": "sniper",
+    "pnl_pct": null,
+    "net_sol": null
+   },
+   {
+    "time": "2026-10-12T14:37:21.451791+00:00",
+    "symbol": "Frank",
+    "mint": "HbPDWSqu8hpVMX6gMjwMDGe5rVgicWo3Qh3Jaojypump",
+    "side": "sell",
+    "reason": "TRAIL",
+    "source": "sniper",
+    "pnl_pct": 13.93,
+    "net_sol": 0.00371
+   },
+   {
+    "time": "2026-10-12T13:03:01.294863+00:00",
+    "symbol": "Frank",
+    "mint": "HbPDWSqu8hpVMX6gMjwMDGe5rVgicWo3Qh3Jaojypump",
+    "side": "buy",
+    "reason": "SNIPE",
+    "source": "sniper",
+    "pnl_pct": null,
+    "net_sol": null
+   }
+  ]
+ },
+ "polly": {
+  "signals": [
+   {
+    "time": "2026-10-17T01:14:19.051252Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "NUBI",
+    "mint": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
+    "confidence": 0.7,
+    "reason": "positive five-minute momentum; liquidity above $50k; one-hour volume above $50k"
+   },
+   {
+    "time": "2026-10-17T01:07:43.450812Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "illusion",
+    "mint": "CpdbvrkDQNNbZdcLCMpto1U84ep8FrFdfT84Lme6pump",
+    "confidence": 0.7,
+    "reason": "positive five-minute momentum; measured one-hour demand"
+   },
+   {
+    "time": "2026-10-17T00:42:40.248905Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "NUBI",
+    "mint": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
+    "confidence": 0.7,
+    "reason": "positive five-minute momentum; liquidity above $50k; one-hour volume above $50k"
+   },
+   {
+    "time": "2026-10-17T00:36:09.647268Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "illusion",
+    "mint": "CpdbvrkDQNNbZdcLCMpto1U84ep8FrFdfT84Lme6pump",
+    "confidence": 0.7,
+    "reason": "positive five-minute momentum; measured one-hour demand"
+   },
+   {
+    "time": "2026-10-17T00:12:24.684011Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "NUBI",
+    "mint": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
+    "confidence": 0.7,
+    "reason": "measured one-hour demand; liquidity above $50k; one-hour volume above $50k"
+   },
+   {
+    "time": "2026-10-16T23:49:10.745067Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "SR",
+    "mint": "5e8GPzhqxLKFVU6gb87aJLZMoSQnbjBhQupXvCCZpump",
+    "confidence": 0.8,
+    "reason": "positive five-minute momentum; measured one-hour demand; liquidity above $50k; one-hour volume above $50k"
+   },
+   {
+    "time": "2026-10-16T23:38:10.960433Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "NUBI",
+    "mint": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
+    "confidence": 0.7,
+    "reason": "measured one-hour demand; liquidity above $50k; one-hour volume above $50k"
+   },
+   {
+    "time": "2026-10-16T23:19:01.424557Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "SR",
+    "mint": "5e8GPzhqxLKFVU6gb87aJLZMoSQnbjBhQupXvCCZpump",
+    "confidence": 0.8,
+    "reason": "positive five-minute momentum; measured one-hour demand; liquidity above $50k; one-hour volume above $50k"
+   },
+   {
+    "time": "2026-10-16T23:07:42.514647Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "NUBI",
+    "mint": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
+    "confidence": 0.8,
+    "reason": "positive five-minute momentum; measured one-hour demand; liquidity above $50k; one-hour volume above $50k"
+   },
+   {
+    "time": "2026-10-16T22:54:22.356142Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "illusion",
+    "mint": "CpdbvrkDQNNbZdcLCMpto1U84ep8FrFdfT84Lme6pump",
+    "confidence": 0.7,
+    "reason": "positive five-minute momentum; measured one-hour demand"
+   },
+   {
+    "time": "2026-10-16T22:37:40.175881Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "NUBI",
+    "mint": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
+    "confidence": 0.7,
+    "reason": "positive five-minute momentum; liquidity above $50k; one-hour volume above $50k"
+   },
+   {
+    "time": "2026-10-16T22:34:41.984874Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "SR",
+    "mint": "5e8GPzhqxLKFVU6gb87aJLZMoSQnbjBhQupXvCCZpump",
+    "confidence": 0.8,
+    "reason": "positive five-minute momentum; measured one-hour demand; liquidity above $50k; one-hour volume above $50k"
+   },
+   {
+    "time": "2026-10-16T22:21:01.604130Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "FTC",
+    "mint": "2aqkYwRa1sZrpvZ5nottuVs3csGtXJEYsc9QRY9wpump",
+    "confidence": 0.75,
+    "reason": "positive five-minute momentum; measured one-hour demand; one-hour volume above $50k"
+   },
+   {
+    "time": "2026-10-16T22:19:50.068623Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "illusion",
+    "mint": "CpdbvrkDQNNbZdcLCMpto1U84ep8FrFdfT84Lme6pump",
+    "confidence": 0.7,
+    "reason": "positive five-minute momentum; measured one-hour demand"
+   },
+   {
+    "time": "2026-10-16T22:04:15.844107Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "SR",
+    "mint": "5e8GPzhqxLKFVU6gb87aJLZMoSQnbjBhQupXvCCZpump",
+    "confidence": 0.7,
+    "reason": "positive five-minute momentum; liquidity above $50k; one-hour volume above $50k"
+   }
+  ],
+  "paper_desk": {
+   "mode": "paper-only",
+   "equity": 31.02795573,
+   "cash": 23.60394767,
+   "realizedPnl": -68.49130956,
+   "closedTrades": 80,
+   "wins": 33,
+   "losses": 47,
+   "dayStartEquity": 30.32066271,
+   "judge": "local-typed-heuristic",
+   "liveOrdersEnabled": false,
+   "position": {
+    "symbol": "NUBI",
+    "entryPrice": 0.0026749125,
+    "openedAt": "2026-10-17T00:46:25.731645Z"
+   },
+   "recentDecisions": [
+    {
+     "time": "2026-10-17T01:23:28.946992Z",
+     "symbol": "NUBI",
+     "decision": "yes",
+     "confidence": 0.7,
+     "reasons": [
+      "measured one-hour demand",
+      "liquidity above $50k",
+      "one-hour volume above $50k"
+     ]
+    },
+    {
+     "time": "2026-10-17T01:23:28.947028Z",
+     "symbol": "illusion",
+     "decision": "no",
+     "confidence": 0.5,
+     "reasons": [
+      "measured one-hour demand"
+     ]
+    }
+   ]
+  }
+ },
+ "polycopy": {
+  "summary": {
+   "updated": "2026-10-16T10:56:36",
+   "cash": -0.144,
+   "trades": 22,
+   "open": 22,
+   "resolved_or_exited": 0,
+   "wins": 0,
+   "losses": 0,
+   "realized_pnl": 0,
+   "open_cost": 100.144,
+   "avg_slippage_vs_leader": 0.0055,
+   "skips": 31971,
+   "fee_note": "taker fee = base_fee_bps/1e4*min(p,1-p)*shares, base_fee from clob /fee-rate per token (assumption)"
+  },
+  "events": [
+   {
+    "ev": "paper_buy",
+    "ts": "2026-10-10T04:55:55",
+    "side": null,
+    "title": "Will \"Doing Life\" be the #2 US Netflix movie this week?",
+    "outcome": "No",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-10-10T02:26:13",
+    "side": null,
+    "title": "Will the highest temperature in Shenzhen be 34\u00b0C on October 11?",
+    "outcome": "No",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-10-10T02:07:47",
+    "side": null,
+    "title": "Will the Republican Party candidate win the 2026 IN-06 House election by 40%-45%?",
+    "outcome": "No",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-10-10T02:07:47",
+    "side": null,
+    "title": "Will the Republican Party candidate win the 2026 IN-06 House election by 0%-5%?",
+    "outcome": "No",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-10-10T02:07:46",
+    "side": null,
+    "title": "Will the Republican Party candidate win the 2026 IN-06 House election by 30%-35%?",
+    "outcome": "No",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-10-10T02:07:46",
+    "side": null,
+    "title": "Will the highest temperature in Tokyo be 25\u00b0C on October 11?",
+    "outcome": "No",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-10-10T02:07:46",
+    "side": null,
+    "title": "Will the highest temperature in Tokyo be 28\u00b0C on October 11?",
+    "outcome": "No",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-10-10T02:07:46",
+    "side": null,
+    "title": "Will the highest temperature in Tokyo be 24\u00b0C on October 11?",
+    "outcome": "No",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-10-10T01:55:06",
+    "side": null,
+    "title": "Will the Swiss National Bank increase the SNB policy rate by 25 bps at the December meeting?",
+    "outcome": "No",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-10-10T01:55:06",
+    "side": null,
+    "title": "Will the Swiss National Bank decrease the SNB policy rate by 25 bps at the December meeting?",
+    "outcome": "No",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-10-10T01:54:06",
+    "side": null,
+    "title": "Will the highest temperature in London be 11\u00b0C or below on October 11?",
+    "outcome": "No",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-10-10T01:54:06",
+    "side": null,
+    "title": "Will Elin Hoffner be the next Regional Board Chair of Region J\u00e4mtland H\u00e4rjedalen?",
+    "outcome": "No",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-10-10T01:54:06",
+    "side": null,
+    "title": "Will Lionel Messi win the 2026 Ballon d'Or?",
+    "outcome": "No",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-10-10T01:54:06",
+    "side": null,
+    "title": "Will the highest temperature in London be 14\u00b0C on October 11?",
+    "outcome": "No",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-10-10T01:54:05",
+    "side": null,
+    "title": "Will the highest temperature in London be 17\u00b0C on October 11?",
+    "outcome": "No",
+    "px": null,
+    "size": null
+   }
+  ]
+ }
+}
