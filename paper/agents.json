@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T01:23:54.893011+00:00",
+ "generated": "2026-10-17T04:24:19.073756+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
   "closed_trades": 213,
@@ -8,8 +8,23 @@
   "net_sol": -0.1122,
   "net_sol_24h": -0.0054,
   "closed_24h": 3,
-  "open_positions": [],
+  "open_positions": [
+   {
+    "symbol": "NUBI",
+    "mint": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump"
+   }
+  ],
   "recent": [
+   {
+    "time": "2026-10-17T04:01:14.097408+00:00",
+    "symbol": "NUBI",
+    "mint": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
+    "side": "buy",
+    "reason": "SNIPE",
+    "source": "polly",
+    "pnl_pct": null,
+    "net_sol": null
+   },
    {
     "time": "2026-10-16T17:31:58.908426+00:00",
     "symbol": "STREAM",
@@ -199,21 +214,101 @@
     "source": "sniper",
     "pnl_pct": 13.93,
     "net_sol": 0.00371
-   },
-   {
-    "time": "2026-10-12T13:03:01.294863+00:00",
-    "symbol": "Frank",
-    "mint": "HbPDWSqu8hpVMX6gMjwMDGe5rVgicWo3Qh3Jaojypump",
-    "side": "buy",
-    "reason": "SNIPE",
-    "source": "sniper",
-    "pnl_pct": null,
-    "net_sol": null
    }
   ]
  },
  "polly": {
   "signals": [
+   {
+    "time": "2026-10-17T04:20:50.081805Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "illusion",
+    "mint": "CpdbvrkDQNNbZdcLCMpto1U84ep8FrFdfT84Lme6pump",
+    "confidence": 0.7,
+    "reason": "positive five-minute momentum; measured one-hour demand"
+   },
+   {
+    "time": "2026-10-17T04:19:42.776049Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "NUBI",
+    "mint": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
+    "confidence": 0.8,
+    "reason": "positive five-minute momentum; measured one-hour demand; liquidity above $50k; one-hour volume above $50k"
+   },
+   {
+    "time": "2026-10-17T03:50:43.936776Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "illusion",
+    "mint": "CpdbvrkDQNNbZdcLCMpto1U84ep8FrFdfT84Lme6pump",
+    "confidence": 0.7,
+    "reason": "positive five-minute momentum; measured one-hour demand"
+   },
+   {
+    "time": "2026-10-17T03:49:06.361602Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "NUBI",
+    "mint": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
+    "confidence": 0.7,
+    "reason": "positive five-minute momentum; liquidity above $50k; one-hour volume above $50k"
+   },
+   {
+    "time": "2026-10-17T03:20:36.070628Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "illusion",
+    "mint": "CpdbvrkDQNNbZdcLCMpto1U84ep8FrFdfT84Lme6pump",
+    "confidence": 0.7,
+    "reason": "positive five-minute momentum; measured one-hour demand"
+   },
+   {
+    "time": "2026-10-17T03:18:13.524545Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "NUBI",
+    "mint": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
+    "confidence": 0.7,
+    "reason": "positive five-minute momentum; liquidity above $50k; one-hour volume above $50k"
+   },
+   {
+    "time": "2026-10-17T02:18:29.868490Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "NUBI",
+    "mint": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
+    "confidence": 0.7,
+    "reason": "positive five-minute momentum; liquidity above $50k; one-hour volume above $50k"
+   },
+   {
+    "time": "2026-10-17T02:08:53.339395Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "illusion",
+    "mint": "CpdbvrkDQNNbZdcLCMpto1U84ep8FrFdfT84Lme6pump",
+    "confidence": 0.7,
+    "reason": "positive five-minute momentum; measured one-hour demand"
+   },
+   {
+    "time": "2026-10-17T01:44:58.415893Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "NUBI",
+    "mint": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
+    "confidence": 0.8,
+    "reason": "positive five-minute momentum; measured one-hour demand; liquidity above $50k; one-hour volume above $50k"
+   },
+   {
+    "time": "2026-10-17T01:37:48.747883Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "illusion",
+    "mint": "CpdbvrkDQNNbZdcLCMpto1U84ep8FrFdfT84Lme6pump",
+    "confidence": 0.7,
+    "reason": "positive five-minute momentum; measured one-hour demand"
+   },
    {
     "time": "2026-10-17T01:14:19.051252Z",
     "side": "buy",
@@ -258,117 +353,39 @@
     "mint": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
     "confidence": 0.7,
     "reason": "measured one-hour demand; liquidity above $50k; one-hour volume above $50k"
-   },
-   {
-    "time": "2026-10-16T23:49:10.745067Z",
-    "side": "buy",
-    "chain": "solana",
-    "symbol": "SR",
-    "mint": "5e8GPzhqxLKFVU6gb87aJLZMoSQnbjBhQupXvCCZpump",
-    "confidence": 0.8,
-    "reason": "positive five-minute momentum; measured one-hour demand; liquidity above $50k; one-hour volume above $50k"
-   },
-   {
-    "time": "2026-10-16T23:38:10.960433Z",
-    "side": "buy",
-    "chain": "solana",
-    "symbol": "NUBI",
-    "mint": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
-    "confidence": 0.7,
-    "reason": "measured one-hour demand; liquidity above $50k; one-hour volume above $50k"
-   },
-   {
-    "time": "2026-10-16T23:19:01.424557Z",
-    "side": "buy",
-    "chain": "solana",
-    "symbol": "SR",
-    "mint": "5e8GPzhqxLKFVU6gb87aJLZMoSQnbjBhQupXvCCZpump",
-    "confidence": 0.8,
-    "reason": "positive five-minute momentum; measured one-hour demand; liquidity above $50k; one-hour volume above $50k"
-   },
-   {
-    "time": "2026-10-16T23:07:42.514647Z",
-    "side": "buy",
-    "chain": "solana",
-    "symbol": "NUBI",
-    "mint": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
-    "confidence": 0.8,
-    "reason": "positive five-minute momentum; measured one-hour demand; liquidity above $50k; one-hour volume above $50k"
-   },
-   {
-    "time": "2026-10-16T22:54:22.356142Z",
-    "side": "buy",
-    "chain": "solana",
-    "symbol": "illusion",
-    "mint": "CpdbvrkDQNNbZdcLCMpto1U84ep8FrFdfT84Lme6pump",
-    "confidence": 0.7,
-    "reason": "positive five-minute momentum; measured one-hour demand"
-   },
-   {
-    "time": "2026-10-16T22:37:40.175881Z",
-    "side": "buy",
-    "chain": "solana",
-    "symbol": "NUBI",
-    "mint": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
-    "confidence": 0.7,
-    "reason": "positive five-minute momentum; liquidity above $50k; one-hour volume above $50k"
-   },
-   {
-    "time": "2026-10-16T22:34:41.984874Z",
-    "side": "buy",
-    "chain": "solana",
-    "symbol": "SR",
-    "mint": "5e8GPzhqxLKFVU6gb87aJLZMoSQnbjBhQupXvCCZpump",
-    "confidence": 0.8,
-    "reason": "positive five-minute momentum; measured one-hour demand; liquidity above $50k; one-hour volume above $50k"
-   },
-   {
-    "time": "2026-10-16T22:21:01.604130Z",
-    "side": "buy",
-    "chain": "solana",
-    "symbol": "FTC",
-    "mint": "2aqkYwRa1sZrpvZ5nottuVs3csGtXJEYsc9QRY9wpump",
-    "confidence": 0.75,
-    "reason": "positive five-minute momentum; measured one-hour demand; one-hour volume above $50k"
-   },
-   {
-    "time": "2026-10-16T22:19:50.068623Z",
-    "side": "buy",
-    "chain": "solana",
-    "symbol": "illusion",
-    "mint": "CpdbvrkDQNNbZdcLCMpto1U84ep8FrFdfT84Lme6pump",
-    "confidence": 0.7,
-    "reason": "positive five-minute momentum; measured one-hour demand"
-   },
-   {
-    "time": "2026-10-16T22:04:15.844107Z",
-    "side": "buy",
-    "chain": "solana",
-    "symbol": "SR",
-    "mint": "5e8GPzhqxLKFVU6gb87aJLZMoSQnbjBhQupXvCCZpump",
-    "confidence": 0.7,
-    "reason": "positive five-minute momentum; liquidity above $50k; one-hour volume above $50k"
    }
   ],
   "paper_desk": {
    "mode": "paper-only",
-   "equity": 31.02795573,
-   "cash": 23.60394767,
-   "realizedPnl": -68.49130956,
-   "closedTrades": 80,
-   "wins": 33,
-   "losses": 47,
+   "equity": 29.98538345,
+   "cash": 22.35967738,
+   "realizedPnl": -70.15227439,
+   "closedTrades": 84,
+   "wins": 34,
+   "losses": 50,
    "dayStartEquity": 30.32066271,
    "judge": "local-typed-heuristic",
    "liveOrdersEnabled": false,
    "position": {
-    "symbol": "NUBI",
-    "entryPrice": 0.0026749125,
-    "openedAt": "2026-10-17T00:46:25.731645Z"
+    "symbol": "DAWG",
+    "entryPrice": 0.004664725,
+    "openedAt": "2026-10-17T04:21:47.078551Z"
    },
    "recentDecisions": [
     {
-     "time": "2026-10-17T01:23:28.946992Z",
+     "time": "2026-10-17T04:26:09.105487Z",
+     "symbol": "DAWG",
+     "decision": "yes",
+     "confidence": 0.8,
+     "reasons": [
+      "positive five-minute momentum",
+      "measured one-hour demand",
+      "liquidity above $50k",
+      "one-hour volume above $50k"
+     ]
+    },
+    {
+     "time": "2026-10-17T04:26:09.106587Z",
      "symbol": "NUBI",
      "decision": "yes",
      "confidence": 0.7,
@@ -379,7 +396,7 @@
      ]
     },
     {
-     "time": "2026-10-17T01:23:28.947028Z",
+     "time": "2026-10-17T04:26:09.106614Z",
      "symbol": "illusion",
      "decision": "no",
      "confidence": 0.5,
