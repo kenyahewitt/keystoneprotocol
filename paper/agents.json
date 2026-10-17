@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-17T04:24:19.073756+00:00",
+ "generated": "2026-10-17T04:57:11.653599+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
   "closed_trades": 213,
@@ -220,6 +220,15 @@
  "polly": {
   "signals": [
    {
+    "time": "2026-10-17T04:49:46.024687Z",
+    "side": "buy",
+    "chain": "solana",
+    "symbol": "NUBI",
+    "mint": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
+    "confidence": 0.8,
+    "reason": "positive five-minute momentum; measured one-hour demand; liquidity above $50k; one-hour volume above $50k"
+   },
+   {
     "time": "2026-10-17T04:20:50.081805Z",
     "side": "buy",
     "chain": "solana",
@@ -344,20 +353,11 @@
     "mint": "CpdbvrkDQNNbZdcLCMpto1U84ep8FrFdfT84Lme6pump",
     "confidence": 0.7,
     "reason": "positive five-minute momentum; measured one-hour demand"
-   },
-   {
-    "time": "2026-10-17T00:12:24.684011Z",
-    "side": "buy",
-    "chain": "solana",
-    "symbol": "NUBI",
-    "mint": "2e3zQiA8JWeDjjVeuqzv9X1Q3aqRRaPqL8UYEbxVpump",
-    "confidence": 0.7,
-    "reason": "measured one-hour demand; liquidity above $50k; one-hour volume above $50k"
    }
   ],
   "paper_desk": {
    "mode": "paper-only",
-   "equity": 29.98538345,
+   "equity": 30.25908618,
    "cash": 22.35967738,
    "realizedPnl": -70.15227439,
    "closedTrades": 84,
@@ -371,40 +371,7 @@
     "entryPrice": 0.004664725,
     "openedAt": "2026-10-17T04:21:47.078551Z"
    },
-   "recentDecisions": [
-    {
-     "time": "2026-10-17T04:26:09.105487Z",
-     "symbol": "DAWG",
-     "decision": "yes",
-     "confidence": 0.8,
-     "reasons": [
-      "positive five-minute momentum",
-      "measured one-hour demand",
-      "liquidity above $50k",
-      "one-hour volume above $50k"
-     ]
-    },
-    {
-     "time": "2026-10-17T04:26:09.106587Z",
-     "symbol": "NUBI",
-     "decision": "yes",
-     "confidence": 0.7,
-     "reasons": [
-      "measured one-hour demand",
-      "liquidity above $50k",
-      "one-hour volume above $50k"
-     ]
-    },
-    {
-     "time": "2026-10-17T04:26:09.106614Z",
-     "symbol": "illusion",
-     "decision": "no",
-     "confidence": 0.5,
-     "reasons": [
-      "measured one-hour demand"
-     ]
-    }
-   ]
+   "recentDecisions": []
   }
  },
  "polycopy": {
