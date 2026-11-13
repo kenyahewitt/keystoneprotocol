@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-13T13:26:49.559322+00:00",
+ "generated": "2026-11-13T13:58:05.412601+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
   "closed_trades": 319,
   "wins": 116,
   "win_rate": 0.3636,
   "net_sol": -0.353,
-  "net_sol_24h": -0.0591,
-  "closed_24h": 11,
+  "net_sol_24h": -0.0524,
+  "closed_24h": 10,
   "open_positions": [],
   "recent": [
    {
