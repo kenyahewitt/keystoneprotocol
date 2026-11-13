@@ -1,15 +1,50 @@
 {
- "generated": "2026-11-13T17:57:27.741854+00:00",
+ "generated": "2026-11-13T18:29:04.755970+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
-  "closed_trades": 320,
-  "wins": 116,
-  "win_rate": 0.3625,
-  "net_sol": -0.3616,
-  "net_sol_24h": -0.0458,
+  "closed_trades": 321,
+  "wins": 117,
+  "win_rate": 0.3645,
+  "net_sol": -0.3539,
+  "net_sol_24h": -0.0286,
   "closed_24h": 10,
-  "open_positions": [],
+  "open_positions": [
+   {
+    "symbol": "9J41to",
+    "mint": "9J41toneswGA3hZJyfYiWkC9jMm8doMDP3QEBYM1pump"
+   }
+  ],
   "recent": [
+   {
+    "time": "2026-11-13T18:26:03.419574+00:00",
+    "symbol": "9J41to",
+    "mint": "9J41toneswGA3hZJyfYiWkC9jMm8doMDP3QEBYM1pump",
+    "side": "buy",
+    "reason": "SNIPE",
+    "source": "sniper",
+    "pnl_pct": null,
+    "net_sol": null
+   },
+   {
+    "time": "2026-11-13T18:21:22.421148+00:00",
+    "symbol": "91fxZs",
+    "mint": "91fxZsD9St9CFJJ8yDAwkFRmQVEdUP29E27ARrjapump",
+    "side": "sell",
+    "reason": "NB_TP2",
+    "source": "sniper",
+    "pnl_pct": 17.55,
+    "net_sol": 0.00774
+   },
+   {
+    "time": "2026-11-13T18:16:12.318385+00:00",
+    "symbol": "91fxZs",
+    "mint": "91fxZsD9St9CFJJ8yDAwkFRmQVEdUP29E27ARrjapump",
+    "side": "buy",
+    "reason": "SNIPE",
+    "source": "sniper",
+    "pnl_pct": null,
+    "net_sol": null
+   },
    {
     "time": "2026-11-13T17:29:42.044924+00:00",
     "symbol": "BdgruX",
@@ -179,36 +214,6 @@
     "source": "sniper",
     "pnl_pct": -14.07,
     "net_sol": -0.008
-   },
-   {
-    "time": "2026-11-12T21:34:31.226369+00:00",
-    "symbol": "478PuX",
-    "mint": "478PuXdVMyM8K23kPnprBguEHYER8G4LBjcXWbPTpump",
-    "side": "buy",
-    "reason": "SNIPE",
-    "source": "sniper",
-    "pnl_pct": null,
-    "net_sol": null
-   },
-   {
-    "time": "2026-11-12T18:20:31.160005+00:00",
-    "symbol": "GxbPRy",
-    "mint": "GxbPRyta6AUHNZnohPg14tD5YcCeLbphV4ovVprgpump",
-    "side": "sell",
-    "reason": "NB_STOP10",
-    "source": "sniper",
-    "pnl_pct": -15.84,
-    "net_sol": -0.00953
-   },
-   {
-    "time": "2026-11-12T18:19:24.669947+00:00",
-    "symbol": "GxbPRy",
-    "mint": "GxbPRyta6AUHNZnohPg14tD5YcCeLbphV4ovVprgpump",
-    "side": "buy",
-    "reason": "SNIPE",
-    "source": "sniper",
-    "pnl_pct": null,
-    "net_sol": null
    }
   ]
  },
