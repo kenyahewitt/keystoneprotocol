@@ -1,15 +1,35 @@
 {
- "generated": "2026-11-14T13:31:59.524267+00:00",
+ "generated": "2026-11-14T13:59:39.436017+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
-  "closed_trades": 328,
+  "closed_trades": 329,
   "wins": 121,
-  "win_rate": 0.3689,
-  "net_sol": -0.3126,
-  "net_sol_24h": 0.0404,
-  "closed_24h": 9,
+  "win_rate": 0.3678,
+  "net_sol": -0.319,
+  "net_sol_24h": 0.034,
+  "closed_24h": 10,
   "open_positions": [],
   "recent": [
+   {
+    "time": "2026-11-14T13:52:21.550198+00:00",
+    "symbol": "8azHd6",
+    "mint": "8azHd6ZpAdpyFzGAaNkofyKhr19RWNNquSC8bAGEpump",
+    "side": "sell",
+    "reason": "NB_STOP10",
+    "source": "sniper",
+    "pnl_pct": -10.44,
+    "net_sol": -0.0064
+   },
+   {
+    "time": "2026-11-14T13:51:28.368799+00:00",
+    "symbol": "8azHd6",
+    "mint": "8azHd6ZpAdpyFzGAaNkofyKhr19RWNNquSC8bAGEpump",
+    "side": "buy",
+    "reason": "SNIPE",
+    "source": "sniper",
+    "pnl_pct": null,
+    "net_sol": null
+   },
    {
     "time": "2026-11-14T13:04:53.925165+00:00",
     "symbol": "8azHd6",
@@ -184,26 +204,6 @@
     "time": "2026-11-13T17:28:20.135534+00:00",
     "symbol": "BdgruX",
     "mint": "BdgruXDnBP4v7MQ7t5475vy9n9FSQyWWMFMz6QZxpump",
-    "side": "buy",
-    "reason": "SNIPE",
-    "source": "sniper",
-    "pnl_pct": null,
-    "net_sol": null
-   },
-   {
-    "time": "2026-11-13T12:44:53.996147+00:00",
-    "symbol": "5u7GRY",
-    "mint": "5u7GRYRQ4jnDRF1k287Er6zb1777ZQVrr94zkmS6pump",
-    "side": "sell",
-    "reason": "STOP",
-    "source": "sniper",
-    "pnl_pct": -17.65,
-    "net_sol": -0.00887
-   },
-   {
-    "time": "2026-11-13T12:44:42.795100+00:00",
-    "symbol": "5u7GRY",
-    "mint": "5u7GRYRQ4jnDRF1k287Er6zb1777ZQVrr94zkmS6pump",
     "side": "buy",
     "reason": "SNIPE",
     "source": "sniper",
