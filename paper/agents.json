@@ -1,29 +1,29 @@
 {
- "generated": "2026-11-15T07:00:28.146514+00:00",
+ "generated": "2026-11-19T23:57:32.536251+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
-  "closed_trades": 337,
-  "wins": 122,
-  "win_rate": 0.362,
-  "net_sol": -0.3614,
-  "net_sol_24h": -0.0209,
-  "closed_24h": 11,
+  "closed_trades": 384,
+  "wins": 149,
+  "win_rate": 0.388,
+  "net_sol": -0.2617,
+  "net_sol_24h": -0.0069,
+  "closed_24h": 8,
   "open_positions": [],
   "recent": [
    {
-    "time": "2026-11-15T07:00:22.211794+00:00",
-    "symbol": "FVzqGq",
-    "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+    "time": "2026-11-19T23:24:51.792411+00:00",
+    "symbol": "AJsDVx",
+    "mint": "AJsDVx4C7Y8Wehdp7ZnqAXAi3PZVQ6htxCm8gGPXpump",
     "side": "sell",
-    "reason": "NB_STOP10",
+    "reason": "BE_LOCK_STOP",
     "source": "sniper",
-    "pnl_pct": -11.9,
-    "net_sol": -0.00549
+    "pnl_pct": 5.74,
+    "net_sol": 0.00444
    },
    {
-    "time": "2026-11-15T06:59:58.221140+00:00",
-    "symbol": "FVzqGq",
-    "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+    "time": "2026-11-19T23:24:22.959539+00:00",
+    "symbol": "AJsDVx",
+    "mint": "AJsDVx4C7Y8Wehdp7ZnqAXAi3PZVQ6htxCm8gGPXpump",
     "side": "buy",
     "reason": "SNIPE",
     "source": "sniper",
@@ -31,19 +31,19 @@
     "net_sol": null
    },
    {
-    "time": "2026-11-15T01:46:35.711846+00:00",
-    "symbol": "7mH4Pa",
-    "mint": "7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump",
+    "time": "2026-11-19T21:55:59.217505+00:00",
+    "symbol": "H1jcPQ",
+    "mint": "H1jcPQwCX9VPiNGBUpQNJdGzZEHiisFSs1WS4fi6pump",
     "side": "sell",
-    "reason": "NB_STOP10",
+    "reason": "BE_LOCK_STOP",
     "source": "sniper",
-    "pnl_pct": -12.01,
-    "net_sol": -0.00578
+    "pnl_pct": 6.34,
+    "net_sol": 0.0048
    },
    {
-    "time": "2026-11-15T01:43:59.495522+00:00",
-    "symbol": "7mH4Pa",
-    "mint": "7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump",
+    "time": "2026-11-19T21:55:29.772055+00:00",
+    "symbol": "H1jcPQ",
+    "mint": "H1jcPQwCX9VPiNGBUpQNJdGzZEHiisFSs1WS4fi6pump",
     "side": "buy",
     "reason": "SNIPE",
     "source": "sniper",
@@ -51,19 +51,19 @@
     "net_sol": null
    },
    {
-    "time": "2026-11-15T01:31:54.836099+00:00",
-    "symbol": "6edJUF",
-    "mint": "6edJUFSC85CyyLFB1QcCvYu7uzqaD4kV9o5YUPxrpump",
+    "time": "2026-11-19T19:52:58.066909+00:00",
+    "symbol": "BxpmBq",
+    "mint": "BxpmBqQNRYoJXoP6F9abvcLfp1fgYJzafsyDEFEppump",
     "side": "sell",
     "reason": "NB_STOP10",
     "source": "sniper",
-    "pnl_pct": -20.14,
-    "net_sol": -0.01043
+    "pnl_pct": -12.72,
+    "net_sol": -0.01008
    },
    {
-    "time": "2026-11-15T01:28:18.163329+00:00",
-    "symbol": "6edJUF",
-    "mint": "6edJUFSC85CyyLFB1QcCvYu7uzqaD4kV9o5YUPxrpump",
+    "time": "2026-11-19T19:50:35.260239+00:00",
+    "symbol": "BxpmBq",
+    "mint": "BxpmBqQNRYoJXoP6F9abvcLfp1fgYJzafsyDEFEppump",
     "side": "buy",
     "reason": "SNIPE",
     "source": "sniper",
@@ -71,19 +71,19 @@
     "net_sol": null
    },
    {
-    "time": "2026-11-15T00:29:09.883876+00:00",
-    "symbol": "A9QkSf",
-    "mint": "A9QkSfaZHR4V51ETxE1NACaGNQom2FtE45bAGBP2pump",
+    "time": "2026-11-19T09:24:04.781059+00:00",
+    "symbol": "DUZrwd",
+    "mint": "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump",
     "side": "sell",
-    "reason": "NB_STOP10",
+    "reason": "BE_LOCK_STOP",
     "source": "sniper",
-    "pnl_pct": -9.67,
-    "net_sol": -0.00518
+    "pnl_pct": 0.73,
+    "net_sol": 0.00058
    },
    {
-    "time": "2026-11-15T00:28:42.952691+00:00",
-    "symbol": "A9QkSf",
-    "mint": "A9QkSfaZHR4V51ETxE1NACaGNQom2FtE45bAGBP2pump",
+    "time": "2026-11-19T09:10:16.932064+00:00",
+    "symbol": "DUZrwd",
+    "mint": "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump",
     "side": "buy",
     "reason": "SNIPE",
     "source": "sniper",
@@ -91,19 +91,79 @@
     "net_sol": null
    },
    {
-    "time": "2026-11-14T22:05:01.202471+00:00",
-    "symbol": "AJfKTj",
-    "mint": "AJfKTj4gkMFWFaBdVrcHVrsNGauuGYo3Z2eJCnqZpump",
+    "time": "2026-11-19T03:24:59.296687+00:00",
+    "symbol": "8CuPLa",
+    "mint": "8CuPLa1GMedPBFcMJy7bkvjuywCkqjtHofHimjXFpump",
+    "side": "sell",
+    "reason": "BE_LOCK_STOP",
+    "source": "sniper",
+    "pnl_pct": -1.25,
+    "net_sol": -0.001
+   },
+   {
+    "time": "2026-11-19T03:23:39.834223+00:00",
+    "symbol": "8CuPLa",
+    "mint": "8CuPLa1GMedPBFcMJy7bkvjuywCkqjtHofHimjXFpump",
+    "side": "buy",
+    "reason": "SNIPE",
+    "source": "sniper",
+    "pnl_pct": null,
+    "net_sol": null
+   },
+   {
+    "time": "2026-11-19T02:58:29.081214+00:00",
+    "symbol": "92m4S5",
+    "mint": "92m4S52bu3dZyqzPmPStu8Krz6JcpzHdsG4D5QBqpump",
+    "side": "sell",
+    "reason": "NB_STOP10",
+    "source": "sniper",
+    "pnl_pct": -12.12,
+    "net_sol": -0.01007
+   },
+   {
+    "time": "2026-11-19T02:58:13.590616+00:00",
+    "symbol": "92m4S5",
+    "mint": "92m4S52bu3dZyqzPmPStu8Krz6JcpzHdsG4D5QBqpump",
+    "side": "buy",
+    "reason": "SNIPE",
+    "source": "sniper",
+    "pnl_pct": null,
+    "net_sol": null
+   },
+   {
+    "time": "2026-11-19T02:00:06.454685+00:00",
+    "symbol": "Hhcyc5",
+    "mint": "Hhcyc5MBHPophkGjsfpJmma4NoztommaQGq7D4RVpump",
+    "side": "sell",
+    "reason": "NB_STOP10",
+    "source": "sniper",
+    "pnl_pct": -11.06,
+    "net_sol": -0.00955
+   },
+   {
+    "time": "2026-11-19T01:58:42.327964+00:00",
+    "symbol": "Hhcyc5",
+    "mint": "Hhcyc5MBHPophkGjsfpJmma4NoztommaQGq7D4RVpump",
+    "side": "buy",
+    "reason": "SNIPE",
+    "source": "sniper",
+    "pnl_pct": null,
+    "net_sol": null
+   },
+   {
+    "time": "2026-11-19T01:13:22.594828+00:00",
+    "symbol": "Hhcyc5",
+    "mint": "Hhcyc5MBHPophkGjsfpJmma4NoztommaQGq7D4RVpump",
     "side": "sell",
     "reason": "NB_TP2",
     "source": "sniper",
-    "pnl_pct": 7.91,
-    "net_sol": 0.00413
+    "pnl_pct": 17.15,
+    "net_sol": 0.01396
    },
    {
-    "time": "2026-11-14T22:04:10.324107+00:00",
-    "symbol": "AJfKTj",
-    "mint": "AJfKTj4gkMFWFaBdVrcHVrsNGauuGYo3Z2eJCnqZpump",
+    "time": "2026-11-19T01:12:32.995644+00:00",
+    "symbol": "Hhcyc5",
+    "mint": "Hhcyc5MBHPophkGjsfpJmma4NoztommaQGq7D4RVpump",
     "side": "buy",
     "reason": "SNIPE",
     "source": "sniper",
@@ -111,19 +171,19 @@
     "net_sol": null
    },
    {
-    "time": "2026-11-14T21:52:25.286965+00:00",
-    "symbol": "6vtfL1",
-    "mint": "6vtfL1Zi8YQqQrsxwLqguFNFCvwmER5SnYSBYDTRpump",
+    "time": "2026-11-18T23:11:02.736659+00:00",
+    "symbol": "pp6Sut",
+    "mint": "pp6SutEifuohJtxBDduiuKja1SbBChg9ohrT7Ukpump",
     "side": "sell",
     "reason": "NB_STOP10",
     "source": "sniper",
-    "pnl_pct": -13.3,
-    "net_sol": -0.00728
+    "pnl_pct": -14.91,
+    "net_sol": -0.01282
    },
    {
-    "time": "2026-11-14T21:51:58.697961+00:00",
-    "symbol": "6vtfL1",
-    "mint": "6vtfL1Zi8YQqQrsxwLqguFNFCvwmER5SnYSBYDTRpump",
+    "time": "2026-11-18T23:07:06.264293+00:00",
+    "symbol": "pp6Sut",
+    "mint": "pp6SutEifuohJtxBDduiuKja1SbBChg9ohrT7Ukpump",
     "side": "buy",
     "reason": "SNIPE",
     "source": "sniper",
@@ -131,79 +191,19 @@
     "net_sol": null
    },
    {
-    "time": "2026-11-14T21:39:45.889504+00:00",
-    "symbol": "HWA17g",
-    "mint": "HWA17ggpNtLaxCe5b9r3gzg9FcV5KAGk2A2Z9UMmpump",
+    "time": "2026-11-18T22:25:35.945127+00:00",
+    "symbol": "7wkPPo",
+    "mint": "7wkPPoNPfrp3qVZCAme7wEXd6XhwP3G6xxrWeu8GTA6",
     "side": "sell",
-    "reason": "NB_STOP10",
+    "reason": "BE_LOCK_STOP",
     "source": "sniper",
-    "pnl_pct": -11.34,
-    "net_sol": -0.00646
+    "pnl_pct": -0.78,
+    "net_sol": -0.00067
    },
    {
-    "time": "2026-11-14T21:39:32.668327+00:00",
-    "symbol": "HWA17g",
-    "mint": "HWA17ggpNtLaxCe5b9r3gzg9FcV5KAGk2A2Z9UMmpump",
-    "side": "buy",
-    "reason": "SNIPE",
-    "source": "sniper",
-    "pnl_pct": null,
-    "net_sol": null
-   },
-   {
-    "time": "2026-11-14T16:38:53.510471+00:00",
-    "symbol": "FBwLNT",
-    "mint": "FBwLNTQwVwZK4jQak7aGVYiLe7WPg7JCsJfKSADKpump",
-    "side": "sell",
-    "reason": "NB_STOP10",
-    "source": "sniper",
-    "pnl_pct": -9.93,
-    "net_sol": -0.00586
-   },
-   {
-    "time": "2026-11-14T16:37:32.033315+00:00",
-    "symbol": "FBwLNT",
-    "mint": "FBwLNTQwVwZK4jQak7aGVYiLe7WPg7JCsJfKSADKpump",
-    "side": "buy",
-    "reason": "SNIPE",
-    "source": "sniper",
-    "pnl_pct": null,
-    "net_sol": null
-   },
-   {
-    "time": "2026-11-14T13:52:21.550198+00:00",
-    "symbol": "8azHd6",
-    "mint": "8azHd6ZpAdpyFzGAaNkofyKhr19RWNNquSC8bAGEpump",
-    "side": "sell",
-    "reason": "NB_STOP10",
-    "source": "sniper",
-    "pnl_pct": -10.44,
-    "net_sol": -0.0064
-   },
-   {
-    "time": "2026-11-14T13:51:28.368799+00:00",
-    "symbol": "8azHd6",
-    "mint": "8azHd6ZpAdpyFzGAaNkofyKhr19RWNNquSC8bAGEpump",
-    "side": "buy",
-    "reason": "SNIPE",
-    "source": "sniper",
-    "pnl_pct": null,
-    "net_sol": null
-   },
-   {
-    "time": "2026-11-14T13:04:53.925165+00:00",
-    "symbol": "8azHd6",
-    "mint": "8azHd6ZpAdpyFzGAaNkofyKhr19RWNNquSC8bAGEpump",
-    "side": "sell",
-    "reason": "TIME",
-    "source": "sniper",
-    "pnl_pct": 15.45,
-    "net_sol": 0.00898
-   },
-   {
-    "time": "2026-11-14T12:49:45.721525+00:00",
-    "symbol": "8azHd6",
-    "mint": "8azHd6ZpAdpyFzGAaNkofyKhr19RWNNquSC8bAGEpump",
+    "time": "2026-11-18T22:23:37.878892+00:00",
+    "symbol": "7wkPPo",
+    "mint": "7wkPPoNPfrp3qVZCAme7wEXd6XhwP3G6xxrWeu8GTA6",
     "side": "buy",
     "reason": "SNIPE",
     "source": "sniper",
