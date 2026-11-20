@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T20:26:16.512611+00:00",
+ "generated": "2026-11-20T20:54:40.783818+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
   "closed_trades": 390,
@@ -371,7 +371,7 @@
  },
  "polycopy": {
   "summary": {
-   "updated": "2026-11-20T15:25:47",
+   "updated": "2026-11-20T15:54:38",
    "cash": 62.656,
    "trades": 23,
    "open": 7,
