@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T17:01:09.666963+00:00",
+ "generated": "2026-11-21T17:15:39.834212+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
   "closed_trades": 392,
@@ -371,7 +371,7 @@
  },
  "polycopy": {
   "summary": {
-   "updated": "2026-11-21T12:00:43",
+   "updated": "2026-11-21T12:15:30",
    "cash": -0.0594,
    "trades": 42,
    "open": 19,
@@ -381,7 +381,7 @@
    "realized_pnl": -21.6199,
    "open_cost": 78.4394,
    "avg_slippage_vs_leader": 0.0063,
-   "skips": 32040,
+   "skips": 32052,
    "fee_note": "taker fee = base_fee_bps/1e4*min(p,1-p)*shares, base_fee from clob /fee-rate per token (assumption)"
   },
   "events": [
@@ -521,5 +521,475 @@
     "size": null
    }
   ]
+ },
+ "btc_ladder": {
+  "summary": {
+   "updated": "2026-11-21T12:15:23-05:00",
+   "name": "BTC Ladder (paper)",
+   "mode": "PAPER",
+   "pairs": 37,
+   "pairs_open": 25,
+   "gaps_over_15": 0,
+   "open": 0,
+   "closed": 0,
+   "wins": 0,
+   "losses": 0,
+   "realized_pnl": 0,
+   "unrealized_pnl": 0,
+   "paper_cash": 1000.0,
+   "live_caps": {
+    "per_trade": 3.0,
+    "total_open": 10.0
+   },
+   "live_ready": false,
+   "live_blockers": [
+    "Polymarket CLOB API credentials are missing (no POLYMARKET_API_KEY / BTC_LADDER_PRIVATE_KEY / btc-ladder/clob_creds.json). polycopy is paper-only and has no keys. The site .env.example only lists public VITE_CLOB_API / VITE_GAMMA_API URLs. A private key exists in the agent hot-wallet file for other bots; this agent will not load or use it.",
+    "py-clob-client is not installed in the furbi-bots venv, so live intl orders cannot be signed.",
+    "Known public EVM address 0xe32e038ee1CaDEFf02aEa9b07514C96C8B50B6D4 has 0 USDC/USDC.e on Polygon (need a funded Polymarket account)."
+   ],
+   "scorecard_due": "2026-12-01",
+   "settlement": {
+    "intl": "Binance BTC/USDT 1-minute candle (High for reach, Low for dip)",
+    "us": "CF Benchmarks Bitcoin Real-Time Index (BRTI)"
+   },
+   "markets_scanned": {
+    "intl": 69,
+    "us": 42
+   },
+   "consistency_flags": 1
+  },
+  "pairs": [
+   {
+    "horizon": "year-2026",
+    "kind": "reach",
+    "strike": 90000,
+    "intl_yes": 1.0,
+    "us_yes": 0.05,
+    "gap_points": 95.0,
+    "cheaper": "us",
+    "both_open": false
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 52500,
+    "intl_yes": 0.215,
+    "us_yes": 0.33,
+    "gap_points": 11.5,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 47500,
+    "intl_yes": 0.0815,
+    "us_yes": 0.03,
+    "gap_points": 5.15,
+    "cheaper": "us",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 40000,
+    "intl_yes": 0.116,
+    "us_yes": 0.14,
+    "gap_points": 2.4,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 50000,
+    "intl_yes": 0.3605,
+    "us_yes": 0.34,
+    "gap_points": 2.05,
+    "cheaper": "us",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 45000,
+    "intl_yes": 0.07,
+    "us_yes": 0.05,
+    "gap_points": 2.0,
+    "cheaper": "us",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 50000,
+    "intl_yes": 0.1315,
+    "us_yes": 0.15,
+    "gap_points": 1.85,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 45000,
+    "intl_yes": 0.1765,
+    "us_yes": 0.16,
+    "gap_points": 1.65,
+    "cheaper": "us",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 55000,
+    "intl_yes": 0.585,
+    "us_yes": 0.6,
+    "gap_points": 1.5,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 55000,
+    "intl_yes": 0.3885,
+    "us_yes": 0.38,
+    "gap_points": 0.85,
+    "cheaper": "us",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "reach",
+    "strike": 97500,
+    "intl_yes": 0.0015,
+    "us_yes": 0.01,
+    "gap_points": 0.85,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "reach",
+    "strike": 250000,
+    "intl_yes": 0.0015,
+    "us_yes": 0.01,
+    "gap_points": 0.85,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "reach",
+    "strike": 100000,
+    "intl_yes": 0.0025,
+    "us_yes": 0.01,
+    "gap_points": 0.75,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "reach",
+    "strike": 92500,
+    "intl_yes": 0.0025,
+    "us_yes": 0.01,
+    "gap_points": 0.75,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "reach",
+    "strike": 95000,
+    "intl_yes": 0.0025,
+    "us_yes": 0.01,
+    "gap_points": 0.75,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "reach",
+    "strike": 100000,
+    "intl_yes": 0.0225,
+    "us_yes": 0.03,
+    "gap_points": 0.75,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "reach",
+    "strike": 200000,
+    "intl_yes": 0.0035,
+    "us_yes": 0.01,
+    "gap_points": 0.65,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "reach",
+    "strike": 90000,
+    "intl_yes": 0.0045,
+    "us_yes": 0.01,
+    "gap_points": 0.55,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "reach",
+    "strike": 120000,
+    "intl_yes": 0.0145,
+    "us_yes": 0.01,
+    "gap_points": 0.45,
+    "cheaper": "us",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "reach",
+    "strike": 82500,
+    "intl_yes": 0.014,
+    "us_yes": 0.01,
+    "gap_points": 0.4,
+    "cheaper": "us",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "reach",
+    "strike": 85000,
+    "intl_yes": 0.0085,
+    "us_yes": 0.01,
+    "gap_points": 0.15,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "reach",
+    "strike": 110000,
+    "intl_yes": 0.0215,
+    "us_yes": 0.02,
+    "gap_points": 0.15,
+    "cheaper": "us",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "reach",
+    "strike": 87500,
+    "intl_yes": 0.009,
+    "us_yes": 0.01,
+    "gap_points": 0.1,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "reach",
+    "strike": 140000,
+    "intl_yes": 0.011,
+    "us_yes": 0.01,
+    "gap_points": 0.1,
+    "cheaper": "us",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "reach",
+    "strike": 130000,
+    "intl_yes": 0.0095,
+    "us_yes": 0.01,
+    "gap_points": 0.05,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 57500,
+    "intl_yes": 1.0,
+    "us_yes": 1.0,
+    "gap_points": 0.0,
+    "cheaper": "us",
+    "both_open": false
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 60000,
+    "intl_yes": 1.0,
+    "us_yes": 1.0,
+    "gap_points": 0.0,
+    "cheaper": "us",
+    "both_open": false
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 62500,
+    "intl_yes": 1.0,
+    "us_yes": 1.0,
+    "gap_points": 0.0,
+    "cheaper": "us",
+    "both_open": false
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 65000,
+    "intl_yes": 1.0,
+    "us_yes": 1.0,
+    "gap_points": 0.0,
+    "cheaper": "us",
+    "both_open": false
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 67500,
+    "intl_yes": 1.0,
+    "us_yes": 1.0,
+    "gap_points": 0.0,
+    "cheaper": "us",
+    "both_open": false
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 70000,
+    "intl_yes": 1.0,
+    "us_yes": 1.0,
+    "gap_points": 0.0,
+    "cheaper": "us",
+    "both_open": false
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 72500,
+    "intl_yes": 1.0,
+    "us_yes": 1.0,
+    "gap_points": 0.0,
+    "cheaper": "us",
+    "both_open": false
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 75000,
+    "intl_yes": 1.0,
+    "us_yes": 1.0,
+    "gap_points": 0.0,
+    "cheaper": "us",
+    "both_open": false
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 65000,
+    "intl_yes": 1.0,
+    "us_yes": 1.0,
+    "gap_points": 0.0,
+    "cheaper": "us",
+    "both_open": false
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 70000,
+    "intl_yes": 1.0,
+    "us_yes": 1.0,
+    "gap_points": 0.0,
+    "cheaper": "us",
+    "both_open": false
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 75000,
+    "intl_yes": 1.0,
+    "us_yes": 1.0,
+    "gap_points": 0.0,
+    "cheaper": "us",
+    "both_open": false
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "reach",
+    "strike": 150000,
+    "intl_yes": 0.01,
+    "us_yes": 0.01,
+    "gap_points": 0.0,
+    "cheaper": "us",
+    "both_open": true
+   }
+  ],
+  "wide_gaps": [],
+  "positions": [],
+  "closed_recent": [],
+  "consistency": [
+   {
+    "venue": "us",
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "a": 45000,
+    "a_yes": 0.05,
+    "b": 47500,
+    "b_yes": 0.03,
+    "break_points": 2.0
+   }
+  ],
+  "events": [
+   {
+    "ev": "start",
+    "ts": "2026-11-21T12:15:22-05:00",
+    "key": null,
+    "gap": null,
+    "horizon": null,
+    "kind": null,
+    "strike": null,
+    "cheap": null,
+    "pnl": null,
+    "order_id": null,
+    "tx": null
+   },
+   {
+    "ev": "start",
+    "ts": "2026-11-21T12:14:39-05:00",
+    "key": null,
+    "gap": null,
+    "horizon": null,
+    "kind": null,
+    "strike": null,
+    "cheap": null,
+    "pnl": null,
+    "order_id": null,
+    "tx": null
+   }
+  ],
+  "live": {
+   "ready": false,
+   "blockers": [
+    "Polymarket CLOB API credentials are missing (no POLYMARKET_API_KEY / BTC_LADDER_PRIVATE_KEY / btc-ladder/clob_creds.json). polycopy is paper-only and has no keys. The site .env.example only lists public VITE_CLOB_API / VITE_GAMMA_API URLs. A private key exists in the agent hot-wallet file for other bots; this agent will not load or use it.",
+    "py-clob-client is not installed in the furbi-bots venv, so live intl orders cannot be signed.",
+    "Known public EVM address 0xe32e038ee1CaDEFf02aEa9b07514C96C8B50B6D4 has 0 USDC/USDC.e on Polygon (need a funded Polymarket account)."
+   ],
+   "info": {
+    "address_checked": "0xe32e038ee1CaDEFf02aEa9b07514C96C8B50B6D4",
+    "usdc_e": 0.0,
+    "usdc": 0.0,
+    "usdc_total": 0,
+    "pm_trades": 0,
+    "py_clob": false,
+    "dedicated_creds": false
+   }
+  },
+  "scorecard_due": "2026-12-01"
  }
 }

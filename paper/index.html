@@ -60,6 +60,10 @@ table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:ta
   <div class="tbl feed"><table><thead><tr><th>Time</th><th>Symbol</th><th>Side</th><th>Conf.</th><th>Reason</th></tr></thead><tbody id="ad-po"></tbody></table></div>
   <h3>Polymarket paper copy bot</h3><div class="row" id="ad-pc-stats"></div>
   <div class="tbl feed"><table><thead><tr><th>Time</th><th>Event</th><th>Market</th><th>Outcome</th><th>Price</th><th>Size</th></tr></thead><tbody id="ad-pc"></tbody></table></div>
+  <h3>BTC Ladder (paper)</h3>
+  <p class="muted">Cross-venue BTC price-ladder watch (Polymarket intl vs US). Paper trades when the same strike differs by more than 15 points. Live intl orders only if a funded Polymarket account is already configured, hard-capped at $3 per trade and $10 total open. Settlement sources differ (Binance 1m vs CF BRTI). Not advice. Scorecard due Dec 1.</p>
+  <div class="row" id="ad-bl-stats"></div>
+  <div class="tbl feed"><table><thead><tr><th>Time</th><th>Event</th><th>Pair</th><th>Gap</th><th>Side</th><th>PnL</th></tr></thead><tbody id="ad-bl"></tbody></table></div>
  </section>
 </div><p class="muted" style="margin-top:20px">Simulation only. Not financial advice. Nothing here touches the blockchain.</p></div>
 <script src="engine.js"></script>

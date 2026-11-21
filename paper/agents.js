@@ -19,6 +19,11 @@ async function loadAgents(){try{var r=await fetch('agents.json?ts='+Date.now());
  var pc=d.polycopy||{},ps=pc.summary||{};
  $('ad-pc-stats').innerHTML=pc.error?'<span class="muted">'+esc(pc.error)+'</span>':stat('Paper trades',ps.trades)+stat('Open',ps.open)+stat('W / L',(ps.wins||0)+' / '+(ps.losses||0))+stat('Realized PnL','$'+(+ps.realized_pnl||0).toFixed(2),c(ps.realized_pnl))+stat('Open cost','$'+(+ps.open_cost||0).toFixed(2))+stat('Updated',ps.updated||'—');
  $('ad-pc').innerHTML=(pc.events||[]).map(function(x){return '<tr><td>'+esc(x.ts)+'</td><td>'+esc(x.ev)+'</td><td>'+esc(x.title)+'</td><td>'+esc(x.outcome)+'</td><td>'+esc(x.px)+'</td><td>'+esc(x.size)+'</td></tr>'}).join('')||'<tr><td colspan="6" class="muted">No events.</td></tr>';
+    var bl=d.btc_ladder||{}, bs=bl.summary||{};
+    $('ad-bl-stats').innerHTML=bl.error?'<span class="muted">'+esc(bl.error)+'</span>':stat('Mode',bs.mode||'PAPER')+stat('Pairs',bs.pairs_open!=null?bs.pairs_open+' open':'—')+stat('Gaps >15',bs.gaps_over_15||0)+stat('Paper PnL','$'+(+(bs.realized_pnl||0)).toFixed(2),c(bs.realized_pnl))+stat('Open trades',bs.open||0)+stat('Updated',bs.updated||'—');
+    var brows=(bl.events&&bl.events.length?bl.events:[]).concat();
+    if(!brows.length){ (bl.pairs||[]).slice(0,12).forEach(function(p){ brows.push({ts:'',ev:'watch',key:(p.horizon||'')+' '+(p.kind||'')+' $'+(p.strike||''),gap:p.gap_points,pnl:null,cheap:p.cheaper}); }); }
+    $('ad-bl').innerHTML=brows.map(function(x){return '<tr><td>'+esc(x.ts||'')+'</td><td>'+esc(x.ev||'watch')+'</td><td>'+esc(x.key||((x.horizon||'')+' '+(x.kind||'')+' $'+(x.strike||'')))+'</td><td>'+esc(x.gap!=null?x.gap+' pts':'')+'</td><td>'+esc(x.cheap||x.side||'')+'</td><td class="'+c(x.pnl)+'">'+esc(x.pnl==null?'':('$'+Number(x.pnl).toFixed(2)))+'</td></tr>'}).join('')||'<tr><td colspan="6" class="muted">No ladder events yet.</td></tr>';
 }catch(e){$('ad-gen').textContent='agents.json unavailable ('+e.message+')'}}
 function ema(a,n){var k=2/(n+1),e=a[0];for(var i=1;i<a.length;i++)e=a[i]*k+e*(1-k);return e}
 var SIG={};
