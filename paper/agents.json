@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T14:54:51.912211+00:00",
+ "generated": "2026-11-21T15:30:20.976181+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
   "closed_trades": 392,
@@ -371,20 +371,38 @@
  },
  "polycopy": {
   "summary": {
-   "updated": "2026-11-21T09:54:46",
+   "updated": "2026-11-21T10:30:10",
    "cash": -0.0594,
    "trades": 42,
-   "open": 26,
-   "resolved_or_exited": 16,
+   "open": 24,
+   "resolved_or_exited": 18,
    "wins": 13,
-   "losses": 3,
-   "realized_pnl": -6.2199,
-   "open_cost": 93.8394,
+   "losses": 5,
+   "realized_pnl": -10.6199,
+   "open_cost": 89.4394,
    "avg_slippage_vs_leader": 0.0063,
-   "skips": 32005,
+   "skips": 32015,
    "fee_note": "taker fee = base_fee_bps/1e4*min(p,1-p)*shares, base_fee from clob /fee-rate per token (assumption)"
   },
   "events": [
+   {
+    "ev": "resolved",
+    "ts": "2026-11-21T10:24:28",
+    "side": null,
+    "title": "Will the highest temperature in Tokyo be 11\u00b0C on November 21?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "resolved",
+    "ts": "2026-11-21T10:24:27",
+    "side": null,
+    "title": "Will the highest temperature in Tokyo be 13\u00b0C on November 21?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
    {
     "ev": "paper_buy",
     "ts": "2026-11-21T01:37:05",
@@ -498,24 +516,6 @@
     "ts": "2026-11-21T01:11:49",
     "side": null,
     "title": "Will the Republican Party candidate win the 2026 OH-12 House election by 10%-15%?",
-    "outcome": "No",
-    "px": null,
-    "size": null
-   },
-   {
-    "ev": "paper_buy",
-    "ts": "2026-11-21T01:11:49",
-    "side": null,
-    "title": "Will Ted Cruz post 60-79 posts from November 17 to November 24, 2026?",
-    "outcome": "No",
-    "px": null,
-    "size": null
-   },
-   {
-    "ev": "paper_buy",
-    "ts": "2026-11-21T01:11:49",
-    "side": null,
-    "title": "Will the highest temperature in New York City be between 56-57\u00b0F on November 21?",
     "outcome": "No",
     "px": null,
     "size": null
