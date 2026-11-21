@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T19:01:23.213596+00:00",
+ "generated": "2026-11-21T19:25:13.228636+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
   "closed_trades": 392,
@@ -371,20 +371,29 @@
  },
  "polycopy": {
   "summary": {
-   "updated": "2026-11-21T14:01:13",
+   "updated": "2026-11-21T14:25:04",
    "cash": -0.0594,
    "trades": 42,
-   "open": 18,
-   "resolved_or_exited": 24,
+   "open": 17,
+   "resolved_or_exited": 25,
    "wins": 13,
-   "losses": 11,
-   "realized_pnl": -23.8199,
-   "open_cost": 76.2394,
+   "losses": 12,
+   "realized_pnl": -24.4728,
+   "open_cost": 75.5866,
    "avg_slippage_vs_leader": 0.0063,
    "skips": 32060,
    "fee_note": "taker fee = base_fee_bps/1e4*min(p,1-p)*shares, base_fee from clob /fee-rate per token (assumption)"
   },
   "events": [
+   {
+    "ev": "resolved",
+    "ts": "2026-11-21T14:07:18",
+    "side": null,
+    "title": "Will Elon Musk post 240+ tweets from November 19 to November 21, 2026?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
    {
     "ev": "resolved",
     "ts": "2026-11-21T13:57:11",
@@ -510,21 +519,12 @@
     "outcome": "Yes",
     "px": null,
     "size": null
-   },
-   {
-    "ev": "paper_buy",
-    "ts": "2026-11-21T01:21:56",
-    "side": null,
-    "title": "Will the highest temperature in Hong Kong be 25\u00b0C on November 21?",
-    "outcome": "Yes",
-    "px": null,
-    "size": null
    }
   ]
  },
  "btc_ladder": {
   "summary": {
-   "updated": "2026-11-21T13:59:22-05:00",
+   "updated": "2026-11-21T14:23:37-05:00",
    "name": "BTC Ladder (paper)",
    "mode": "PAPER",
    "pairs": 37,
@@ -583,9 +583,19 @@
     "horizon": "year-2026",
     "kind": "dip",
     "strike": 40000,
-    "intl_yes": 0.1045,
+    "intl_yes": 0.1015,
     "us_yes": 0.14,
-    "gap_points": 3.55,
+    "gap_points": 3.85,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 55000,
+    "intl_yes": 0.347,
+    "us_yes": 0.38,
+    "gap_points": 3.3,
     "cheaper": "intl",
     "both_open": true
    },
@@ -593,19 +603,19 @@
     "horizon": "nov-2026",
     "kind": "dip",
     "strike": 50000,
-    "intl_yes": 0.125,
-    "us_yes": 0.16,
-    "gap_points": 3.5,
-    "cheaper": "intl",
+    "intl_yes": 0.1175,
+    "us_yes": 0.09,
+    "gap_points": 2.75,
+    "cheaper": "us",
     "both_open": true
    },
    {
     "horizon": "year-2026",
     "kind": "dip",
     "strike": 55000,
-    "intl_yes": 0.58,
+    "intl_yes": 0.575,
     "us_yes": 0.6,
-    "gap_points": 2.0,
+    "gap_points": 2.5,
     "cheaper": "intl",
     "both_open": true
    },
@@ -613,19 +623,19 @@
     "horizon": "year-2026",
     "kind": "dip",
     "strike": 50000,
-    "intl_yes": 0.359,
+    "intl_yes": 0.352,
     "us_yes": 0.34,
-    "gap_points": 1.9,
+    "gap_points": 1.2,
     "cheaper": "us",
     "both_open": true
    },
    {
     "horizon": "nov-2026",
-    "kind": "dip",
-    "strike": 55000,
-    "intl_yes": 0.3695,
-    "us_yes": 0.38,
-    "gap_points": 1.05,
+    "kind": "reach",
+    "strike": 100000,
+    "intl_yes": 0.0015,
+    "us_yes": 0.01,
+    "gap_points": 0.85,
     "cheaper": "intl",
     "both_open": true
    },
@@ -656,16 +666,6 @@
     "intl_yes": 0.022,
     "us_yes": 0.03,
     "gap_points": 0.8,
-    "cheaper": "intl",
-    "both_open": true
-   },
-   {
-    "horizon": "nov-2026",
-    "kind": "reach",
-    "strike": 100000,
-    "intl_yes": 0.0025,
-    "us_yes": 0.01,
-    "gap_points": 0.75,
     "cheaper": "intl",
     "both_open": true
    },
@@ -712,20 +712,10 @@
    {
     "horizon": "nov-2026",
     "kind": "dip",
-    "strike": 45000,
-    "intl_yes": 0.055,
-    "us_yes": 0.05,
-    "gap_points": 0.5,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "year-2026",
-    "kind": "dip",
-    "strike": 45000,
-    "intl_yes": 0.165,
-    "us_yes": 0.17,
-    "gap_points": 0.5,
+    "strike": 47500,
+    "intl_yes": 0.0855,
+    "us_yes": 0.09,
+    "gap_points": 0.45,
     "cheaper": "intl",
     "both_open": true
    },
@@ -743,19 +733,29 @@
     "horizon": "nov-2026",
     "kind": "reach",
     "strike": 87500,
-    "intl_yes": 0.0075,
+    "intl_yes": 0.007,
     "us_yes": 0.01,
-    "gap_points": 0.25,
+    "gap_points": 0.3,
     "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 45000,
+    "intl_yes": 0.173,
+    "us_yes": 0.17,
+    "gap_points": 0.3,
+    "cheaper": "us",
     "both_open": true
    },
    {
     "horizon": "nov-2026",
     "kind": "dip",
-    "strike": 47500,
-    "intl_yes": 0.0915,
-    "us_yes": 0.09,
-    "gap_points": 0.15,
+    "strike": 45000,
+    "intl_yes": 0.0525,
+    "us_yes": 0.05,
+    "gap_points": 0.25,
     "cheaper": "us",
     "both_open": true
    },
