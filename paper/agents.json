@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T15:30:20.976181+00:00",
+ "generated": "2026-11-21T15:53:22.424900+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
   "closed_trades": 392,
@@ -371,7 +371,7 @@
  },
  "polycopy": {
   "summary": {
-   "updated": "2026-11-21T10:30:10",
+   "updated": "2026-11-21T10:52:56",
    "cash": -0.0594,
    "trades": 42,
    "open": 24,
@@ -381,7 +381,7 @@
    "realized_pnl": -10.6199,
    "open_cost": 89.4394,
    "avg_slippage_vs_leader": 0.0063,
-   "skips": 32015,
+   "skips": 32017,
    "fee_note": "taker fee = base_fee_bps/1e4*min(p,1-p)*shares, base_fee from clob /fee-rate per token (assumption)"
   },
   "events": [
