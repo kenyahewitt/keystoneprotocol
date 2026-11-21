@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-21T15:53:22.424900+00:00",
+ "generated": "2026-11-21T16:27:47.382256+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
   "closed_trades": 392,
   "wins": 153,
   "win_rate": 0.3903,
   "net_sol": -0.2713,
-  "net_sol_24h": -0.0251,
-  "closed_24h": 7,
+  "net_sol_24h": -0.0117,
+  "closed_24h": 6,
   "open_positions": [],
   "recent": [
    {
@@ -371,20 +371,65 @@
  },
  "polycopy": {
   "summary": {
-   "updated": "2026-11-21T10:52:56",
+   "updated": "2026-11-21T11:27:18",
    "cash": -0.0594,
    "trades": 42,
-   "open": 24,
-   "resolved_or_exited": 18,
+   "open": 19,
+   "resolved_or_exited": 23,
    "wins": 13,
-   "losses": 5,
-   "realized_pnl": -10.6199,
-   "open_cost": 89.4394,
+   "losses": 10,
+   "realized_pnl": -21.6199,
+   "open_cost": 78.4394,
    "avg_slippage_vs_leader": 0.0063,
-   "skips": 32017,
+   "skips": 32023,
    "fee_note": "taker fee = base_fee_bps/1e4*min(p,1-p)*shares, base_fee from clob /fee-rate per token (assumption)"
   },
   "events": [
+   {
+    "ev": "resolved",
+    "ts": "2026-11-21T11:25:07",
+    "side": null,
+    "title": "Will the highest temperature in Beijing be 6\u00b0C on November 21?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "resolved",
+    "ts": "2026-11-21T11:25:07",
+    "side": null,
+    "title": "Will the highest temperature in Chengdu be 22\u00b0C or higher on November 21?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "resolved",
+    "ts": "2026-11-21T11:25:07",
+    "side": null,
+    "title": "Will the highest temperature in Beijing be 4\u00b0C on November 21?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "resolved",
+    "ts": "2026-11-21T11:25:06",
+    "side": null,
+    "title": "Will the highest temperature in Chongqing be 23\u00b0C on November 21?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "resolved",
+    "ts": "2026-11-21T11:20:02",
+    "side": null,
+    "title": "Will the highest temperature in Manila be 35\u00b0C on November 21?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
    {
     "ev": "resolved",
     "ts": "2026-11-21T10:24:28",
@@ -472,51 +517,6 @@
     "side": null,
     "title": "Will the price of XRP be above $0.90 on November 22?",
     "outcome": "Yes",
-    "px": null,
-    "size": null
-   },
-   {
-    "ev": "paper_buy",
-    "ts": "2026-11-21T01:21:56",
-    "side": null,
-    "title": "Will the highest temperature in Tokyo be 13\u00b0C on November 21?",
-    "outcome": "Yes",
-    "px": null,
-    "size": null
-   },
-   {
-    "ev": "paper_buy",
-    "ts": "2026-11-21T01:21:56",
-    "side": null,
-    "title": "Will the price of XRP be between $1.00 and $1.10 on November 22?",
-    "outcome": "No",
-    "px": null,
-    "size": null
-   },
-   {
-    "ev": "paper_buy",
-    "ts": "2026-11-21T01:21:55",
-    "side": null,
-    "title": "Will the highest temperature in Chongqing be 23\u00b0C on November 21?",
-    "outcome": "Yes",
-    "px": null,
-    "size": null
-   },
-   {
-    "ev": "paper_buy",
-    "ts": "2026-11-21T01:16:52",
-    "side": null,
-    "title": "Will the ECB announce a 50+ bps decrease at the December 2026 meeting?",
-    "outcome": "No",
-    "px": null,
-    "size": null
-   },
-   {
-    "ev": "paper_buy",
-    "ts": "2026-11-21T01:11:49",
-    "side": null,
-    "title": "Will the Republican Party candidate win the 2026 OH-12 House election by 10%-15%?",
-    "outcome": "No",
     "px": null,
     "size": null
    }
