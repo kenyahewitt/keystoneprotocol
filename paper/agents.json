@@ -1,15 +1,35 @@
 {
- "generated": "2026-11-21T05:54:01.545712+00:00",
+ "generated": "2026-11-21T06:26:20.432391+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
-  "closed_trades": 390,
-  "wins": 152,
-  "win_rate": 0.3897,
-  "net_sol": -0.2686,
-  "net_sol_24h": -0.0069,
+  "closed_trades": 391,
+  "wins": 153,
+  "win_rate": 0.3913,
+  "net_sol": -0.2618,
+  "net_sol_24h": -0.0155,
   "closed_24h": 6,
   "open_positions": [],
   "recent": [
+   {
+    "time": "2026-11-21T06:03:40.348399+00:00",
+    "symbol": "FQNz7B",
+    "mint": "FQNz7BKQejsQR3aFyCY746Km2smesUS9DWYsU9nopump",
+    "side": "sell",
+    "reason": "BE_LOCK_STOP",
+    "source": "sniper",
+    "pnl_pct": 8.96,
+    "net_sol": 0.00686
+   },
+   {
+    "time": "2026-11-21T06:03:14.958139+00:00",
+    "symbol": "FQNz7B",
+    "mint": "FQNz7BKQejsQR3aFyCY746Km2smesUS9DWYsU9nopump",
+    "side": "buy",
+    "reason": "SNIPE",
+    "source": "sniper",
+    "pnl_pct": null,
+    "net_sol": null
+   },
    {
     "time": "2026-11-20T18:40:47.348401+00:00",
     "symbol": "3JgkhG",
@@ -189,26 +209,6 @@
     "source": "sniper",
     "pnl_pct": null,
     "net_sol": null
-   },
-   {
-    "time": "2026-11-19T09:24:04.781059+00:00",
-    "symbol": "DUZrwd",
-    "mint": "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump",
-    "side": "sell",
-    "reason": "BE_LOCK_STOP",
-    "source": "sniper",
-    "pnl_pct": 0.73,
-    "net_sol": 0.00058
-   },
-   {
-    "time": "2026-11-19T09:10:16.932064+00:00",
-    "symbol": "DUZrwd",
-    "mint": "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump",
-    "side": "buy",
-    "reason": "SNIPE",
-    "source": "sniper",
-    "pnl_pct": null,
-    "net_sol": null
    }
   ]
  },
@@ -371,151 +371,151 @@
  },
  "polycopy": {
   "summary": {
-   "updated": "2026-11-21T00:53:52",
-   "cash": 57.665,
-   "trades": 24,
-   "open": 8,
+   "updated": "2026-11-21T01:26:14",
+   "cash": 9.3935,
+   "trades": 38,
+   "open": 22,
    "resolved_or_exited": 16,
    "wins": 13,
    "losses": 3,
    "realized_pnl": -6.2199,
-   "open_cost": 36.1151,
-   "avg_slippage_vs_leader": 0.0051,
+   "open_cost": 84.3866,
+   "avg_slippage_vs_leader": 0.0069,
    "skips": 31971,
    "fee_note": "taker fee = base_fee_bps/1e4*min(p,1-p)*shares, base_fee from clob /fee-rate per token (assumption)"
   },
   "events": [
    {
     "ev": "paper_buy",
-    "ts": "2026-11-21T00:51:35",
+    "ts": "2026-11-21T01:21:56",
     "side": null,
-    "title": "Will the price of Ethereum be greater than $2,300 on November 23?",
+    "title": "Will the highest temperature in Tokyo be 11\u00b0C on November 21?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-11-21T01:21:56",
+    "side": null,
+    "title": "Will the highest temperature in Hong Kong be 25\u00b0C on November 21?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-11-21T01:21:56",
+    "side": null,
+    "title": "Will the price of XRP be above $0.90 on November 22?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-11-21T01:21:56",
+    "side": null,
+    "title": "Will the highest temperature in Tokyo be 13\u00b0C on November 21?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-11-21T01:21:56",
+    "side": null,
+    "title": "Will the price of XRP be between $1.00 and $1.10 on November 22?",
     "outcome": "No",
     "px": null,
     "size": null
    },
    {
     "ev": "paper_buy",
-    "ts": "2026-11-20T11:55:07",
+    "ts": "2026-11-21T01:21:55",
     "side": null,
-    "title": "Xi Jinping out before 2027?",
+    "title": "Will the highest temperature in Chongqing be 23\u00b0C on November 21?",
     "outcome": "Yes",
     "px": null,
     "size": null
    },
    {
-    "ev": "resolved",
-    "ts": "2026-11-20T11:53:54",
+    "ev": "paper_buy",
+    "ts": "2026-11-21T01:16:52",
     "side": null,
-    "title": "Will \"Doing Life\" be the #2 US Netflix movie this week?",
+    "title": "Will the ECB announce a 50+ bps decrease at the December 2026 meeting?",
     "outcome": "No",
     "px": null,
     "size": null
    },
    {
-    "ev": "resolved",
-    "ts": "2026-11-20T11:53:54",
+    "ev": "paper_buy",
+    "ts": "2026-11-21T01:11:49",
     "side": null,
-    "title": "Will the highest temperature in Shenzhen be 34\u00b0C on October 11?",
+    "title": "Will the Republican Party candidate win the 2026 OH-12 House election by 10%-15%?",
     "outcome": "No",
     "px": null,
     "size": null
    },
    {
-    "ev": "resolved",
-    "ts": "2026-11-20T11:53:54",
+    "ev": "paper_buy",
+    "ts": "2026-11-21T01:11:49",
     "side": null,
-    "title": "Will the highest temperature in Tokyo be 25\u00b0C on October 11?",
+    "title": "Will Ted Cruz post 60-79 posts from November 17 to November 24, 2026?",
     "outcome": "No",
     "px": null,
     "size": null
    },
    {
-    "ev": "resolved",
-    "ts": "2026-11-20T11:53:53",
+    "ev": "paper_buy",
+    "ts": "2026-11-21T01:11:49",
     "side": null,
-    "title": "Will the highest temperature in Tokyo be 28\u00b0C on October 11?",
+    "title": "Will the highest temperature in New York City be between 56-57\u00b0F on November 21?",
     "outcome": "No",
     "px": null,
     "size": null
    },
    {
-    "ev": "resolved",
-    "ts": "2026-11-20T11:53:53",
+    "ev": "paper_buy",
+    "ts": "2026-11-21T01:11:48",
     "side": null,
-    "title": "Will the highest temperature in Tokyo be 24\u00b0C on October 11?",
+    "title": "Will Ramee be the second of these Kick streamers to finish GTA VI by December 31, 2026?",
     "outcome": "No",
     "px": null,
     "size": null
    },
    {
-    "ev": "resolved",
-    "ts": "2026-11-20T11:53:53",
+    "ev": "paper_buy",
+    "ts": "2026-11-21T01:06:45",
     "side": null,
-    "title": "Will the highest temperature in London be 11\u00b0C or below on October 11?",
+    "title": "Will the highest temperature in Lucknow be 22\u00b0C or below on November 21?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-11-21T01:06:45",
+    "side": null,
+    "title": "Will the highest temperature in Manila be 35\u00b0C on November 21?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-11-21T01:01:42",
+    "side": null,
+    "title": "Will the price of Bitcoin be greater than $72,000 on November 26?",
     "outcome": "No",
     "px": null,
     "size": null
    },
    {
-    "ev": "resolved",
-    "ts": "2026-11-20T11:53:53",
+    "ev": "paper_buy",
+    "ts": "2026-11-21T00:51:35",
     "side": null,
-    "title": "Will Lionel Messi win the 2026 Ballon d'Or?",
-    "outcome": "No",
-    "px": null,
-    "size": null
-   },
-   {
-    "ev": "resolved",
-    "ts": "2026-11-20T11:53:52",
-    "side": null,
-    "title": "Will the highest temperature in London be 14\u00b0C on October 11?",
-    "outcome": "No",
-    "px": null,
-    "size": null
-   },
-   {
-    "ev": "resolved",
-    "ts": "2026-11-20T11:53:52",
-    "side": null,
-    "title": "Will the highest temperature in London be 17\u00b0C on October 11?",
-    "outcome": "No",
-    "px": null,
-    "size": null
-   },
-   {
-    "ev": "resolved",
-    "ts": "2026-11-20T11:53:52",
-    "side": null,
-    "title": "Will Fabian Ruiz win the 2026 Ballon d'Or?",
-    "outcome": "No",
-    "px": null,
-    "size": null
-   },
-   {
-    "ev": "resolved",
-    "ts": "2026-11-20T11:53:52",
-    "side": null,
-    "title": "Will Reid Hamer-Jackson win the 2026 Kamloops mayoral election?",
-    "outcome": "No",
-    "px": null,
-    "size": null
-   },
-   {
-    "ev": "resolved",
-    "ts": "2026-11-20T11:53:52",
-    "side": null,
-    "title": "Will Kylian Mbapp\u00e9 win the 2026 Ballon d'Or?",
-    "outcome": "No",
-    "px": null,
-    "size": null
-   },
-   {
-    "ev": "resolved",
-    "ts": "2026-11-20T11:53:52",
-    "side": null,
-    "title": "Will Rodri win the 2026 Ballon d'Or?",
+    "title": "Will the price of Ethereum be greater than $2,300 on November 23?",
     "outcome": "No",
     "px": null,
     "size": null
