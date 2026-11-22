@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T00:02:41.657743+00:00",
+ "generated": "2026-11-22T00:32:49.522469+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
   "closed_trades": 394,
@@ -371,7 +371,7 @@
  },
  "polycopy": {
   "summary": {
-   "updated": "2026-11-21T19:02:13",
+   "updated": "2026-11-21T19:32:38",
    "cash": -0.0594,
    "trades": 42,
    "open": 17,
@@ -524,7 +524,7 @@
  },
  "btc_ladder": {
   "summary": {
-   "updated": "2026-11-21T19:02:39-05:00",
+   "updated": "2026-11-21T19:26:52-05:00",
    "name": "BTC Ladder (paper)",
    "mode": "PAPER",
    "pairs": 37,
@@ -591,42 +591,22 @@
    },
    {
     "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 47500,
+    "intl_yes": 0.069,
+    "us_yes": 0.05,
+    "gap_points": 1.9,
+    "cheaper": "us",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
     "kind": "reach",
     "strike": 97500,
     "intl_yes": 0.0015,
     "us_yes": 0.02,
     "gap_points": 1.85,
     "cheaper": "intl",
-    "both_open": true
-   },
-   {
-    "horizon": "nov-2026",
-    "kind": "dip",
-    "strike": 47500,
-    "intl_yes": 0.0675,
-    "us_yes": 0.05,
-    "gap_points": 1.75,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "nov-2026",
-    "kind": "dip",
-    "strike": 55000,
-    "intl_yes": 0.3305,
-    "us_yes": 0.32,
-    "gap_points": 1.05,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "year-2026",
-    "kind": "dip",
-    "strike": 55000,
-    "intl_yes": 0.6,
-    "us_yes": 0.59,
-    "gap_points": 1.0,
-    "cheaper": "us",
     "both_open": true
    },
    {
@@ -642,7 +622,7 @@
    {
     "horizon": "nov-2026",
     "kind": "reach",
-    "strike": 100000,
+    "strike": 92500,
     "intl_yes": 0.0015,
     "us_yes": 0.01,
     "gap_points": 0.85,
@@ -652,10 +632,10 @@
    {
     "horizon": "nov-2026",
     "kind": "reach",
-    "strike": 92500,
-    "intl_yes": 0.0015,
+    "strike": 100000,
+    "intl_yes": 0.0025,
     "us_yes": 0.01,
-    "gap_points": 0.85,
+    "gap_points": 0.75,
     "cheaper": "intl",
     "both_open": true
    },
@@ -681,6 +661,26 @@
    },
    {
     "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 45000,
+    "intl_yes": 0.043,
+    "us_yes": 0.05,
+    "gap_points": 0.7,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 50000,
+    "intl_yes": 0.1135,
+    "us_yes": 0.12,
+    "gap_points": 0.65,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
     "kind": "reach",
     "strike": 90000,
     "intl_yes": 0.0035,
@@ -700,22 +700,22 @@
     "both_open": true
    },
    {
-    "horizon": "nov-2026",
+    "horizon": "year-2026",
     "kind": "dip",
-    "strike": 45000,
-    "intl_yes": 0.044,
-    "us_yes": 0.05,
-    "gap_points": 0.6,
-    "cheaper": "intl",
+    "strike": 55000,
+    "intl_yes": 0.595,
+    "us_yes": 0.59,
+    "gap_points": 0.5,
+    "cheaper": "us",
     "both_open": true
    },
    {
     "horizon": "nov-2026",
     "kind": "reach",
     "strike": 82500,
-    "intl_yes": 0.014,
+    "intl_yes": 0.0145,
     "us_yes": 0.01,
-    "gap_points": 0.4,
+    "gap_points": 0.45,
     "cheaper": "us",
     "both_open": true
    },
@@ -772,11 +772,11 @@
    {
     "horizon": "nov-2026",
     "kind": "dip",
-    "strike": 50000,
-    "intl_yes": 0.1185,
-    "us_yes": 0.12,
-    "gap_points": 0.15,
-    "cheaper": "intl",
+    "strike": 55000,
+    "intl_yes": 0.3205,
+    "us_yes": 0.32,
+    "gap_points": 0.05,
+    "cheaper": "us",
     "both_open": true
    },
    {
@@ -803,6 +803,16 @@
     "horizon": "year-2026",
     "kind": "reach",
     "strike": 140000,
+    "intl_yes": 0.0105,
+    "us_yes": 0.01,
+    "gap_points": 0.05,
+    "cheaper": "us",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "reach",
+    "strike": 150000,
     "intl_yes": 0.0105,
     "us_yes": 0.01,
     "gap_points": 0.05,
@@ -918,16 +928,6 @@
     "gap_points": 0.0,
     "cheaper": "us",
     "both_open": false
-   },
-   {
-    "horizon": "year-2026",
-    "kind": "reach",
-    "strike": 150000,
-    "intl_yes": 0.01,
-    "us_yes": 0.01,
-    "gap_points": 0.0,
-    "cheaper": "us",
-    "both_open": true
    }
   ],
   "wide_gaps": [],
