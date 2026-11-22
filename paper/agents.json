@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T06:27:58.002525+00:00",
+ "generated": "2026-11-22T06:57:10.432836+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
   "closed_trades": 397,
@@ -371,20 +371,38 @@
  },
  "polycopy": {
   "summary": {
-   "updated": "2026-11-22T01:27:33",
-   "cash": 4.9406,
-   "trades": 42,
-   "open": 16,
+   "updated": "2026-11-22T01:56:52",
+   "cash": -0.0449,
+   "trades": 44,
+   "open": 18,
    "resolved_or_exited": 26,
    "wins": 14,
    "losses": 12,
    "realized_pnl": -24.4593,
-   "open_cost": 70.6001,
-   "avg_slippage_vs_leader": 0.0063,
-   "skips": 32066,
+   "open_cost": 75.5856,
+   "avg_slippage_vs_leader": 0.0069,
+   "skips": 32076,
    "fee_note": "taker fee = base_fee_bps/1e4*min(p,1-p)*shares, base_fee from clob /fee-rate per token (assumption)"
   },
   "events": [
+   {
+    "ev": "paper_buy",
+    "ts": "2026-11-22T01:43:29",
+    "side": null,
+    "title": "Will the price of Bitcoin be between $72,000 and $74,000 on November 22?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-11-22T01:38:25",
+    "side": null,
+    "title": "Will the price of Bitcoin be between $56,000 and $58,000 on November 22?",
+    "outcome": "No",
+    "px": null,
+    "size": null
+   },
    {
     "ev": "resolved",
     "ts": "2026-11-22T01:13:40",
@@ -501,32 +519,14 @@
     "outcome": "Yes",
     "px": null,
     "size": null
-   },
-   {
-    "ev": "paper_buy",
-    "ts": "2026-11-21T01:32:02",
-    "side": null,
-    "title": "Will the highest temperature in Beijing be 4\u00b0C on November 21?",
-    "outcome": "Yes",
-    "px": null,
-    "size": null
-   },
-   {
-    "ev": "paper_buy",
-    "ts": "2026-11-21T01:26:59",
-    "side": null,
-    "title": "Will the highest temperature in Hong Kong be 25\u00b0C on November 21?",
-    "outcome": "Yes",
-    "px": null,
-    "size": null
    }
   ]
  },
  "btc_ladder": {
   "summary": {
-   "updated": "2026-11-22T01:24:01-05:00",
+   "updated": "2026-11-22T01:55:16-05:00",
    "name": "BTC Ladder (paper)",
-   "mode": "PAPER",
+   "mode": "LIVE",
    "pairs": 37,
    "pairs_open": 25,
    "gaps_over_15": 0,
@@ -541,12 +541,8 @@
     "per_trade": 3.0,
     "total_open": 10.0
    },
-   "live_ready": false,
-   "live_blockers": [
-    "Polymarket CLOB API credentials are missing (no POLYMARKET_API_KEY / BTC_LADDER_PRIVATE_KEY / btc-ladder/clob_creds.json). polycopy is paper-only and has no keys. The site .env.example only lists public VITE_CLOB_API / VITE_GAMMA_API URLs. A private key exists in the agent hot-wallet file for other bots; this agent will not load or use it.",
-    "py-clob-client is not installed in the furbi-bots venv, so live intl orders cannot be signed.",
-    "Known public EVM address 0xe32e038ee1CaDEFf02aEa9b07514C96C8B50B6D4 has 0 USDC/USDC.e on Polygon (need a funded Polymarket account)."
-   ],
+   "live_ready": true,
+   "live_blockers": [],
    "scorecard_due": "2026-12-01",
    "settlement": {
     "intl": "Binance BTC/USDT 1-minute candle (High for reach, Low for dip)",
@@ -572,20 +568,20 @@
    {
     "horizon": "nov-2026",
     "kind": "dip",
-    "strike": 52500,
-    "intl_yes": 0.255,
-    "us_yes": 0.21,
-    "gap_points": 4.5,
+    "strike": 47500,
+    "intl_yes": 0.0945,
+    "us_yes": 0.05,
+    "gap_points": 4.45,
     "cheaper": "us",
     "both_open": true
    },
    {
     "horizon": "nov-2026",
     "kind": "dip",
-    "strike": 47500,
-    "intl_yes": 0.094,
-    "us_yes": 0.05,
-    "gap_points": 4.4,
+    "strike": 52500,
+    "intl_yes": 0.245,
+    "us_yes": 0.21,
+    "gap_points": 3.5,
     "cheaper": "us",
     "both_open": true
    },
@@ -593,19 +589,9 @@
     "horizon": "year-2026",
     "kind": "dip",
     "strike": 50000,
-    "intl_yes": 0.4005,
+    "intl_yes": 0.3945,
     "us_yes": 0.36,
-    "gap_points": 4.05,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "year-2026",
-    "kind": "dip",
-    "strike": 45000,
-    "intl_yes": 0.1875,
-    "us_yes": 0.16,
-    "gap_points": 2.75,
+    "gap_points": 3.45,
     "cheaper": "us",
     "both_open": true
    },
@@ -621,12 +607,42 @@
    },
    {
     "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 55000,
+    "intl_yes": 0.4275,
+    "us_yes": 0.45,
+    "gap_points": 2.25,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 45000,
+    "intl_yes": 0.1825,
+    "us_yes": 0.16,
+    "gap_points": 2.25,
+    "cheaper": "us",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
     "kind": "reach",
     "strike": 97500,
     "intl_yes": 0.0025,
     "us_yes": 0.02,
     "gap_points": 1.75,
     "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 55000,
+    "intl_yes": 0.675,
+    "us_yes": 0.66,
+    "gap_points": 1.5,
+    "cheaper": "us",
     "both_open": true
    },
    {
@@ -640,12 +656,12 @@
     "both_open": true
    },
    {
-    "horizon": "nov-2026",
+    "horizon": "year-2026",
     "kind": "dip",
-    "strike": 55000,
-    "intl_yes": 0.4395,
-    "us_yes": 0.45,
-    "gap_points": 1.05,
+    "strike": 40000,
+    "intl_yes": 0.142,
+    "us_yes": 0.15,
+    "gap_points": 0.8,
     "cheaper": "intl",
     "both_open": true
    },
@@ -701,6 +717,16 @@
    },
    {
     "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 50000,
+    "intl_yes": 0.143,
+    "us_yes": 0.15,
+    "gap_points": 0.7,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
     "kind": "reach",
     "strike": 90000,
     "intl_yes": 0.0035,
@@ -716,26 +742,6 @@
     "intl_yes": 0.0235,
     "us_yes": 0.03,
     "gap_points": 0.65,
-    "cheaper": "intl",
-    "both_open": true
-   },
-   {
-    "horizon": "year-2026",
-    "kind": "dip",
-    "strike": 55000,
-    "intl_yes": 0.665,
-    "us_yes": 0.66,
-    "gap_points": 0.5,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "year-2026",
-    "kind": "dip",
-    "strike": 40000,
-    "intl_yes": 0.1455,
-    "us_yes": 0.15,
-    "gap_points": 0.45,
     "cheaper": "intl",
     "both_open": true
    },
@@ -761,16 +767,6 @@
    },
    {
     "horizon": "nov-2026",
-    "kind": "dip",
-    "strike": 50000,
-    "intl_yes": 0.152,
-    "us_yes": 0.15,
-    "gap_points": 0.2,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "nov-2026",
     "kind": "reach",
     "strike": 85000,
     "intl_yes": 0.008,
@@ -780,23 +776,23 @@
     "both_open": true
    },
    {
-    "horizon": "year-2026",
-    "kind": "reach",
-    "strike": 110000,
-    "intl_yes": 0.018,
-    "us_yes": 0.02,
-    "gap_points": 0.2,
-    "cheaper": "intl",
-    "both_open": true
-   },
-   {
     "horizon": "nov-2026",
     "kind": "reach",
     "strike": 82500,
-    "intl_yes": 0.0105,
+    "intl_yes": 0.0115,
     "us_yes": 0.01,
-    "gap_points": 0.05,
+    "gap_points": 0.15,
     "cheaper": "us",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "reach",
+    "strike": 110000,
+    "intl_yes": 0.0195,
+    "us_yes": 0.02,
+    "gap_points": 0.05,
+    "cheaper": "intl",
     "both_open": true
    },
    {
@@ -948,6 +944,19 @@
   "events": [
    {
     "ev": "start",
+    "ts": "2026-11-22T01:37:02-05:00",
+    "key": null,
+    "gap": null,
+    "horizon": null,
+    "kind": null,
+    "strike": null,
+    "cheap": null,
+    "pnl": null,
+    "order_id": null,
+    "tx": null
+   },
+   {
+    "ev": "start",
     "ts": "2026-11-21T23:22:48-05:00",
     "key": null,
     "gap": null,
@@ -1000,20 +1009,19 @@
    }
   ],
   "live": {
-   "ready": false,
-   "blockers": [
-    "Polymarket CLOB API credentials are missing (no POLYMARKET_API_KEY / BTC_LADDER_PRIVATE_KEY / btc-ladder/clob_creds.json). polycopy is paper-only and has no keys. The site .env.example only lists public VITE_CLOB_API / VITE_GAMMA_API URLs. A private key exists in the agent hot-wallet file for other bots; this agent will not load or use it.",
-    "py-clob-client is not installed in the furbi-bots venv, so live intl orders cannot be signed.",
-    "Known public EVM address 0xe32e038ee1CaDEFf02aEa9b07514C96C8B50B6D4 has 0 USDC/USDC.e on Polygon (need a funded Polymarket account)."
-   ],
+   "ready": true,
+   "blockers": [],
    "info": {
     "address_checked": "0xe32e038ee1CaDEFf02aEa9b07514C96C8B50B6D4",
     "usdc_e": 0.0,
     "usdc": 0.0,
-    "usdc_total": 0,
+    "pusd": 11.697875,
+    "pol": 12.436036035725763,
+    "usdc_total": 11.697875,
     "pm_trades": 0,
-    "py_clob": false,
-    "dedicated_creds": false
+    "py_clob": true,
+    "polymarket_sdk": true,
+    "dedicated_creds": true
    }
   },
   "scorecard_due": "2026-12-01"
