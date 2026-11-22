@@ -24,6 +24,11 @@ async function loadAgents(){try{var r=await fetch('agents.json?ts='+Date.now());
     var brows=(bl.events&&bl.events.length?bl.events:[]).concat();
     if(!brows.length){ (bl.pairs||[]).slice(0,12).forEach(function(p){ brows.push({ts:'',ev:'watch',key:(p.horizon||'')+' '+(p.kind||'')+' $'+(p.strike||''),gap:p.gap_points,pnl:null,cheap:p.cheaper}); }); }
     $('ad-bl').innerHTML=brows.map(function(x){return '<tr><td>'+esc(x.ts||'')+'</td><td>'+esc(x.ev||'watch')+'</td><td>'+esc(x.key||((x.horizon||'')+' '+(x.kind||'')+' $'+(x.strike||'')))+'</td><td>'+esc(x.gap!=null?x.gap+' pts':'')+'</td><td>'+esc(x.cheap||x.side||'')+'</td><td class="'+c(x.pnl)+'">'+esc(x.pnl==null?'':('$'+Number(x.pnl).toFixed(2)))+'</td></tr>'}).join('')||'<tr><td colspan="6" class="muted">No ladder events yet.</td></tr>';
+    var ls=d.btc_longshort||{}, lss=ls.summary||{};
+    $('ad-ls-stats').innerHTML=ls.error?'<span class="muted">'+esc(ls.error)+'</span>':stat('Mode',lss.mode||'—')+stat('Signal',lss.signal||'—')+stat('BTC',lss.btc_px!=null?('$'+Number(lss.btc_px).toFixed(0)):'—')+stat('ETF',(lss.etf_date||'—')+' '+(lss.etf_total_m==null?'':(Number(lss.etf_total_m).toFixed(1)+'m')))+stat('Open',lss.open||0)+stat('PnL','$'+(+(lss.realized_pnl||0)).toFixed(2),c(lss.realized_pnl))+stat('Updated',lss.updated||'—');
+    var lrows=(ls.events&&ls.events.length?ls.events:[]).concat();
+    if(!lrows.length && (ls.positions||[]).length){ (ls.positions||[]).forEach(function(p){ lrows.push({ts:p.opened_at,ev:'open',signal:p.signal,title:p.title,order_id:p.order_id,tx:p.tx,pnl:p.u_pnl}); }); }
+    $('ad-ls').innerHTML=lrows.map(function(x){var oid=x.order_id||'';var tx=x.tx||'';var ref=tx||oid;return '<tr><td>'+esc(x.ts||'')+'</td><td>'+esc(x.ev||'')+'</td><td>'+esc(x.signal||x.side||'')+'</td><td>'+esc(x.title||x.slug||x.reason||x.why||'')+'</td><td class="mono">'+esc(ref||'')+'</td><td class="'+c(x.pnl)+'">'+esc(x.pnl==null?'':('$'+Number(x.pnl).toFixed(2)))+'</td></tr>'}).join('')||'<tr><td colspan="6" class="muted">No long/short events yet.</td></tr>';
 }catch(e){$('ad-gen').textContent='agents.json unavailable ('+e.message+')'}}
 function ema(a,n){var k=2/(n+1),e=a[0];for(var i=1;i<a.length;i++)e=a[i]*k+e*(1-k);return e}
 var SIG={};
