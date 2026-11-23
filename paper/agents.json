@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-23T16:59:52.273516+00:00",
+ "generated": "2026-11-23T17:31:59.582542+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
   "closed_trades": 411,
   "wins": 159,
   "win_rate": 0.3869,
   "net_sol": -0.3125,
-  "net_sol_24h": -0.0344,
-  "closed_24h": 13,
+  "net_sol_24h": -0.0366,
+  "closed_24h": 11,
   "open_positions": [],
   "recent": [
    {
@@ -371,20 +371,83 @@
  },
  "polycopy": {
   "summary": {
-   "updated": "2026-11-23T11:59:26",
-   "cash": -0.0429,
-   "trades": 50,
-   "open": 18,
-   "resolved_or_exited": 32,
-   "wins": 18,
-   "losses": 14,
-   "realized_pnl": -23.6302,
-   "open_cost": 76.4127,
-   "avg_slippage_vs_leader": 0.0063,
-   "skips": 32300,
+   "updated": "2026-11-23T12:31:33",
+   "cash": 3.4321,
+   "trades": 52,
+   "open": 15,
+   "resolved_or_exited": 37,
+   "wins": 20,
+   "losses": 17,
+   "realized_pnl": -30.6798,
+   "open_cost": 65.8881,
+   "avg_slippage_vs_leader": 0.0062,
+   "skips": 32308,
    "fee_note": "taker fee = base_fee_bps/1e4*min(p,1-p)*shares, base_fee from clob /fee-rate per token (assumption)"
   },
   "events": [
+   {
+    "ev": "paper_buy",
+    "ts": "2026-11-23T12:23:08",
+    "side": null,
+    "title": "Will the price of Bitcoin be greater than $72,000 on November 24?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "paper_buy",
+    "ts": "2026-11-23T12:23:08",
+    "side": null,
+    "title": "Will the price of Bitcoin be above $64,000 on November 24?",
+    "outcome": "No",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "resolved",
+    "ts": "2026-11-23T12:16:29",
+    "side": null,
+    "title": "Will the price of Solana be between $40 and $50 on November 23?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "resolved",
+    "ts": "2026-11-23T12:16:29",
+    "side": null,
+    "title": "Will the price of Ethereum be between $1,400 and $1,500 on November 23?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "resolved",
+    "ts": "2026-11-23T12:16:29",
+    "side": null,
+    "title": "Will the price of Bitcoin be between $66,000 and $68,000 on November 23?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "resolved",
+    "ts": "2026-11-23T12:16:29",
+    "side": null,
+    "title": "Will the price of Ethereum be less than $1,400 on November 23?",
+    "outcome": "No",
+    "px": null,
+    "size": null
+   },
+   {
+    "ev": "resolved",
+    "ts": "2026-11-23T12:16:28",
+    "side": null,
+    "title": "Will the price of Ethereum be greater than $2,300 on November 23?",
+    "outcome": "No",
+    "px": null,
+    "size": null
+   },
    {
     "ev": "paper_buy",
     "ts": "2026-11-23T08:37:53",
@@ -456,75 +519,12 @@
     "outcome": "Yes",
     "px": null,
     "size": null
-   },
-   {
-    "ev": "paper_buy",
-    "ts": "2026-11-22T13:10:31",
-    "side": null,
-    "title": "Will the price of Bitcoin be between $70,000 and $72,000 on November 24?",
-    "outcome": "No",
-    "px": null,
-    "size": null
-   },
-   {
-    "ev": "paper_buy",
-    "ts": "2026-11-22T13:05:27",
-    "side": null,
-    "title": "Will the price of Ethereum be less than $1,400 on November 23?",
-    "outcome": "No",
-    "px": null,
-    "size": null
-   },
-   {
-    "ev": "resolved",
-    "ts": "2026-11-22T12:14:28",
-    "side": null,
-    "title": "Will the price of Bitcoin be between $72,000 and $74,000 on November 22?",
-    "outcome": "Yes",
-    "px": null,
-    "size": null
-   },
-   {
-    "ev": "resolved",
-    "ts": "2026-11-22T12:14:28",
-    "side": null,
-    "title": "Will the price of Bitcoin be between $56,000 and $58,000 on November 22?",
-    "outcome": "No",
-    "px": null,
-    "size": null
-   },
-   {
-    "ev": "resolved",
-    "ts": "2026-11-22T12:14:27",
-    "side": null,
-    "title": "Will the price of XRP be above $0.90 on November 22?",
-    "outcome": "Yes",
-    "px": null,
-    "size": null
-   },
-   {
-    "ev": "resolved",
-    "ts": "2026-11-22T12:14:27",
-    "side": null,
-    "title": "Will the price of XRP be between $1.00 and $1.10 on November 22?",
-    "outcome": "No",
-    "px": null,
-    "size": null
-   },
-   {
-    "ev": "paper_buy",
-    "ts": "2026-11-22T01:43:29",
-    "side": null,
-    "title": "Will the price of Bitcoin be between $72,000 and $74,000 on November 22?",
-    "outcome": "Yes",
-    "px": null,
-    "size": null
    }
   ]
  },
  "btc_ladder": {
   "summary": {
-   "updated": "2026-11-23T11:54:43-05:00",
+   "updated": "2026-11-23T12:31:05-05:00",
    "name": "BTC Ladder (live)",
    "mode": "LIVE",
    "pairs": 37,
@@ -566,22 +566,22 @@
     "both_open": false
    },
    {
-    "horizon": "year-2026",
+    "horizon": "nov-2026",
     "kind": "dip",
     "strike": 55000,
-    "intl_yes": 0.415,
-    "us_yes": 0.35,
-    "gap_points": 6.5,
+    "intl_yes": 0.1575,
+    "us_yes": 0.11,
+    "gap_points": 4.75,
     "cheaper": "us",
     "both_open": true
    },
    {
-    "horizon": "nov-2026",
+    "horizon": "year-2026",
     "kind": "dip",
     "strike": 55000,
-    "intl_yes": 0.1445,
-    "us_yes": 0.09,
-    "gap_points": 5.45,
+    "intl_yes": 0.445,
+    "us_yes": 0.4,
+    "gap_points": 4.5,
     "cheaper": "us",
     "both_open": true
    },
@@ -589,9 +589,9 @@
     "horizon": "nov-2026",
     "kind": "dip",
     "strike": 52500,
-    "intl_yes": 0.085,
+    "intl_yes": 0.09,
     "us_yes": 0.05,
-    "gap_points": 3.5,
+    "gap_points": 4.0,
     "cheaper": "us",
     "both_open": true
    },
@@ -606,22 +606,22 @@
     "both_open": true
    },
    {
-    "horizon": "nov-2026",
+    "horizon": "year-2026",
     "kind": "dip",
-    "strike": 47500,
-    "intl_yes": 0.0455,
-    "us_yes": 0.02,
-    "gap_points": 2.55,
+    "strike": 45000,
+    "intl_yes": 0.1225,
+    "us_yes": 0.1,
+    "gap_points": 2.25,
     "cheaper": "us",
     "both_open": true
    },
    {
     "horizon": "year-2026",
     "kind": "dip",
-    "strike": 45000,
-    "intl_yes": 0.1235,
-    "us_yes": 0.1,
-    "gap_points": 2.35,
+    "strike": 40000,
+    "intl_yes": 0.0795,
+    "us_yes": 0.07,
+    "gap_points": 0.95,
     "cheaper": "us",
     "both_open": true
    },
@@ -629,9 +629,9 @@
     "horizon": "year-2026",
     "kind": "dip",
     "strike": 50000,
-    "intl_yes": 0.2385,
+    "intl_yes": 0.2395,
     "us_yes": 0.23,
-    "gap_points": 0.85,
+    "gap_points": 0.95,
     "cheaper": "us",
     "both_open": true
    },
@@ -656,6 +656,16 @@
     "both_open": true
    },
    {
+    "horizon": "nov-2026",
+    "kind": "reach",
+    "strike": 97500,
+    "intl_yes": 0.0025,
+    "us_yes": 0.01,
+    "gap_points": 0.75,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
     "horizon": "year-2026",
     "kind": "reach",
     "strike": 200000,
@@ -666,11 +676,11 @@
     "both_open": true
    },
    {
-    "horizon": "nov-2026",
+    "horizon": "year-2026",
     "kind": "reach",
-    "strike": 97500,
-    "intl_yes": 0.0035,
-    "us_yes": 0.01,
+    "strike": 110000,
+    "intl_yes": 0.0135,
+    "us_yes": 0.02,
     "gap_points": 0.65,
     "cheaper": "intl",
     "both_open": true
@@ -679,9 +689,9 @@
     "horizon": "nov-2026",
     "kind": "dip",
     "strike": 45000,
-    "intl_yes": 0.0145,
+    "intl_yes": 0.014,
     "us_yes": 0.02,
-    "gap_points": 0.55,
+    "gap_points": 0.6,
     "cheaper": "intl",
     "both_open": true
    },
@@ -696,13 +706,13 @@
     "both_open": true
    },
    {
-    "horizon": "year-2026",
-    "kind": "reach",
-    "strike": 110000,
-    "intl_yes": 0.0145,
-    "us_yes": 0.02,
-    "gap_points": 0.55,
-    "cheaper": "intl",
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 47500,
+    "intl_yes": 0.0345,
+    "us_yes": 0.03,
+    "gap_points": 0.45,
+    "cheaper": "us",
     "both_open": true
    },
    {
@@ -727,16 +737,6 @@
    },
    {
     "horizon": "year-2026",
-    "kind": "dip",
-    "strike": 40000,
-    "intl_yes": 0.0735,
-    "us_yes": 0.07,
-    "gap_points": 0.35,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "year-2026",
     "kind": "reach",
     "strike": 120000,
     "intl_yes": 0.0135,
@@ -748,11 +748,21 @@
    {
     "horizon": "nov-2026",
     "kind": "reach",
-    "strike": 82500,
-    "intl_yes": 0.013,
+    "strike": 87500,
+    "intl_yes": 0.0075,
     "us_yes": 0.01,
-    "gap_points": 0.3,
-    "cheaper": "us",
+    "gap_points": 0.25,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "reach",
+    "strike": 90000,
+    "intl_yes": 0.0075,
+    "us_yes": 0.01,
+    "gap_points": 0.25,
+    "cheaper": "intl",
     "both_open": true
    },
    {
@@ -768,30 +778,20 @@
    {
     "horizon": "nov-2026",
     "kind": "reach",
-    "strike": 90000,
-    "intl_yes": 0.008,
+    "strike": 82500,
+    "intl_yes": 0.0105,
     "us_yes": 0.01,
-    "gap_points": 0.2,
-    "cheaper": "intl",
-    "both_open": true
-   },
-   {
-    "horizon": "nov-2026",
-    "kind": "reach",
-    "strike": 87500,
-    "intl_yes": 0.0085,
-    "us_yes": 0.01,
-    "gap_points": 0.15,
-    "cheaper": "intl",
+    "gap_points": 0.05,
+    "cheaper": "us",
     "both_open": true
    },
    {
     "horizon": "nov-2026",
     "kind": "reach",
     "strike": 85000,
-    "intl_yes": 0.011,
+    "intl_yes": 0.0105,
     "us_yes": 0.01,
-    "gap_points": 0.1,
+    "gap_points": 0.05,
     "cheaper": "us",
     "both_open": true
    },
@@ -1030,16 +1030,16 @@
  },
  "btc_longshort": {
   "summary": {
-   "updated": "2026-11-23T11:54:50-05:00",
+   "updated": "2026-11-23T12:30:34-05:00",
    "name": "BTC Long/Short (live)",
    "mode": "LIVE",
    "signal": "FLAT",
-   "btc_px": 62148.2,
+   "btc_px": 61642.03,
    "etf_date": "23 Nov 2026",
    "etf_total_m": 0.0,
    "etf_positive": false,
    "reasons": [
-    "BTC 62148.20 held above $60,000 for 4h+ (4h low 61007.30)",
+    "BTC 61642.03 held above $60,000 for 4h+ (4h low 61007.30)",
     "US spot BTC ETF 23 Nov 2026 net +0.0m (farside.co.uk/btc)",
     "ETF flow is not positive \u2014 no LONG"
    ],
@@ -1061,21 +1061,21 @@
    "live_ready": true,
    "live_blockers": [],
    "scorecard_due": "2026-12-01",
-   "markets_scanned": 123
+   "markets_scanned": 137
   },
   "signal": {
    "state": "FLAT",
    "reasons": [
-    "BTC 62148.20 held above $60,000 for 4h+ (4h low 61007.30)",
+    "BTC 61642.03 held above $60,000 for 4h+ (4h low 61007.30)",
     "US spot BTC ETF 23 Nov 2026 net +0.0m (farside.co.uk/btc)",
     "ETF flow is not positive \u2014 no LONG"
    ],
    "details": {
-    "price": 62148.2,
+    "price": 61642.03,
     "held_4h_above_60k": true,
     "below_58700_1h": false,
     "min_low_4h": 61007.3,
-    "max_high_1h": 62867.64,
+    "max_high_1h": 62675.45,
     "candles_4h": 48,
     "candles_1h": 12,
     "btc_source": "coinbase"
@@ -1091,13 +1091,48 @@
    "btc": {
     "ok": true,
     "source": "coinbase",
-    "price": 62148.2
+    "price": 61642.03
    }
   },
   "positions": [],
   "working_orders": [],
   "closed_recent": [],
   "events": [
+   {
+    "ev": "signal",
+    "ts": "2026-11-23T12:30:32-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-23T12:25:29-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-23T12:20:26-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-23T12:15:23-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-23T12:10:16-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-23T12:05:12-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-23T11:59:51-05:00",
+    "signal": "FLAT"
+   },
    {
     "ev": "signal",
     "ts": "2026-11-23T11:54:48-05:00",
@@ -1161,41 +1196,6 @@
    {
     "ev": "signal",
     "ts": "2026-11-23T10:53:59-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-23T10:48:54-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-23T10:43:51-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-23T10:38:48-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-23T10:33:45-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-23T10:28:42-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-23T10:23:39-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-23T10:18:35-05:00",
     "signal": "FLAT"
    }
   ],
