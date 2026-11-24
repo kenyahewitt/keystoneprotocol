@@ -1,13 +1,13 @@
 {
- "generated": "2026-11-24T11:30:33.219950+00:00",
+ "generated": "2026-11-24T11:58:11.649638+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
   "closed_trades": 423,
   "wins": 164,
   "win_rate": 0.3877,
   "net_sol": -0.2663,
-  "net_sol_24h": 0.0348,
-  "closed_24h": 15,
+  "net_sol_24h": 0.0385,
+  "closed_24h": 14,
   "open_positions": [],
   "recent": [
    {
@@ -371,7 +371,7 @@
  },
  "polycopy": {
   "summary": {
-   "updated": "2026-11-24T06:30:05",
+   "updated": "2026-11-24T06:58:06",
    "cash": -0.1232,
    "trades": 54,
    "open": 17,
@@ -524,19 +524,19 @@
  },
  "btc_ladder": {
   "summary": {
-   "updated": "2026-11-24T06:29:22-05:00",
+   "updated": "2026-11-24T06:53:36-05:00",
    "name": "BTC Ladder (live)",
    "mode": "LIVE",
    "pairs": 37,
    "pairs_open": 25,
-   "gaps_over_15": 5,
-   "open": 0,
+   "gaps_over_15": 1,
+   "open": 2,
    "closed": 0,
    "wins": 0,
    "losses": 0,
    "realized_pnl": 0,
-   "unrealized_pnl": 0,
-   "paper_cash": 1000.0,
+   "unrealized_pnl": 115.3907,
+   "paper_cash": 960.0,
    "live_caps": {
     "per_trade": 3.0,
     "total_open": 10.0
@@ -552,7 +552,7 @@
     "intl": 69,
     "us": 42
    },
-   "consistency_flags": 0
+   "consistency_flags": 4
   },
   "pairs": [
    {
@@ -560,98 +560,28 @@
     "kind": "reach",
     "strike": 90000,
     "intl_yes": 1.0,
-    "us_yes": 0.0,
-    "gap_points": 100.0,
+    "us_yes": 0.04,
+    "gap_points": 96.0,
     "cheaper": "us",
     "both_open": false
    },
    {
     "horizon": "year-2026",
-    "kind": "dip",
-    "strike": 55000,
-    "intl_yes": 0.595,
-    "us_yes": 0.0,
-    "gap_points": 59.5,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "year-2026",
-    "kind": "dip",
-    "strike": 50000,
-    "intl_yes": 0.3375,
-    "us_yes": 0.0,
-    "gap_points": 33.75,
-    "cheaper": "us",
+    "kind": "reach",
+    "strike": 250000,
+    "intl_yes": 0.0025,
+    "us_yes": 0.35,
+    "gap_points": 34.75,
+    "cheaper": "intl",
     "both_open": true
    },
    {
     "horizon": "nov-2026",
     "kind": "dip",
     "strike": 55000,
-    "intl_yes": 0.313,
-    "us_yes": 0.0,
-    "gap_points": 31.3,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "nov-2026",
-    "kind": "dip",
-    "strike": 52500,
-    "intl_yes": 0.165,
-    "us_yes": 0.0,
-    "gap_points": 16.5,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "year-2026",
-    "kind": "dip",
-    "strike": 45000,
-    "intl_yes": 0.1555,
-    "us_yes": 0.0,
-    "gap_points": 15.55,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "nov-2026",
-    "kind": "dip",
-    "strike": 50000,
-    "intl_yes": 0.108,
-    "us_yes": 0.0,
-    "gap_points": 10.8,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "year-2026",
-    "kind": "dip",
-    "strike": 40000,
-    "intl_yes": 0.1015,
-    "us_yes": 0.0,
-    "gap_points": 10.15,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "nov-2026",
-    "kind": "dip",
-    "strike": 47500,
-    "intl_yes": 0.0485,
-    "us_yes": 0.0,
-    "gap_points": 4.85,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "nov-2026",
-    "kind": "dip",
-    "strike": 45000,
-    "intl_yes": 0.038,
-    "us_yes": 0.0,
-    "gap_points": 3.8,
+    "intl_yes": 0.263,
+    "us_yes": 0.18,
+    "gap_points": 8.3,
     "cheaper": "us",
     "both_open": true
    },
@@ -660,48 +590,28 @@
     "kind": "reach",
     "strike": 110000,
     "intl_yes": 0.014,
-    "us_yes": 0.0,
-    "gap_points": 1.4,
+    "us_yes": 0.08,
+    "gap_points": 6.6,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 52500,
+    "intl_yes": 0.155,
+    "us_yes": 0.09,
+    "gap_points": 6.5,
     "cheaper": "us",
     "both_open": true
    },
    {
-    "horizon": "year-2026",
-    "kind": "reach",
-    "strike": 100000,
-    "intl_yes": 0.0105,
-    "us_yes": 0.0,
-    "gap_points": 1.05,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "year-2026",
-    "kind": "reach",
-    "strike": 120000,
-    "intl_yes": 0.0105,
-    "us_yes": 0.0,
-    "gap_points": 1.05,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "year-2026",
-    "kind": "reach",
-    "strike": 140000,
-    "intl_yes": 0.01,
-    "us_yes": 0.0,
-    "gap_points": 1.0,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "year-2026",
-    "kind": "reach",
-    "strike": 130000,
-    "intl_yes": 0.009,
-    "us_yes": 0.0,
-    "gap_points": 0.9,
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 50000,
+    "intl_yes": 0.0935,
+    "us_yes": 0.03,
+    "gap_points": 6.35,
     "cheaper": "us",
     "both_open": true
    },
@@ -709,20 +619,40 @@
     "horizon": "nov-2026",
     "kind": "reach",
     "strike": 82500,
-    "intl_yes": 0.0075,
-    "us_yes": 0.0,
-    "gap_points": 0.75,
+    "intl_yes": 0.0065,
+    "us_yes": 0.07,
+    "gap_points": 6.35,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 50000,
+    "intl_yes": 0.3085,
+    "us_yes": 0.25,
+    "gap_points": 5.85,
     "cheaper": "us",
     "both_open": true
    },
    {
     "horizon": "year-2026",
-    "kind": "reach",
-    "strike": 150000,
-    "intl_yes": 0.0055,
-    "us_yes": 0.0,
-    "gap_points": 0.55,
-    "cheaper": "us",
+    "kind": "dip",
+    "strike": 45000,
+    "intl_yes": 0.1535,
+    "us_yes": 0.21,
+    "gap_points": 5.65,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 40000,
+    "intl_yes": 0.094,
+    "us_yes": 0.15,
+    "gap_points": 5.6,
+    "cheaper": "intl",
     "both_open": true
    },
    {
@@ -730,9 +660,9 @@
     "kind": "reach",
     "strike": 87500,
     "intl_yes": 0.0045,
-    "us_yes": 0.0,
-    "gap_points": 0.45,
-    "cheaper": "us",
+    "us_yes": 0.05,
+    "gap_points": 4.55,
+    "cheaper": "intl",
     "both_open": true
    },
    {
@@ -740,59 +670,79 @@
     "kind": "reach",
     "strike": 90000,
     "intl_yes": 0.0045,
-    "us_yes": 0.0,
-    "gap_points": 0.45,
-    "cheaper": "us",
+    "us_yes": 0.05,
+    "gap_points": 4.55,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "reach",
+    "strike": 140000,
+    "intl_yes": 0.01,
+    "us_yes": 0.05,
+    "gap_points": 4.0,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "reach",
+    "strike": 120000,
+    "intl_yes": 0.0105,
+    "us_yes": 0.05,
+    "gap_points": 3.95,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "reach",
+    "strike": 130000,
+    "intl_yes": 0.0115,
+    "us_yes": 0.05,
+    "gap_points": 3.85,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 47500,
+    "intl_yes": 0.042,
+    "us_yes": 0.08,
+    "gap_points": 3.8,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 45000,
+    "intl_yes": 0.0275,
+    "us_yes": 0.06,
+    "gap_points": 3.25,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 55000,
+    "intl_yes": 0.575,
+    "us_yes": 0.6,
+    "gap_points": 2.5,
+    "cheaper": "intl",
     "both_open": true
    },
    {
     "horizon": "nov-2026",
     "kind": "reach",
     "strike": 85000,
-    "intl_yes": 0.0025,
-    "us_yes": 0.0,
-    "gap_points": 0.25,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "nov-2026",
-    "kind": "reach",
-    "strike": 92500,
-    "intl_yes": 0.0025,
-    "us_yes": 0.0,
-    "gap_points": 0.25,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "nov-2026",
-    "kind": "reach",
-    "strike": 95000,
-    "intl_yes": 0.0025,
-    "us_yes": 0.0,
-    "gap_points": 0.25,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "year-2026",
-    "kind": "reach",
-    "strike": 200000,
-    "intl_yes": 0.0025,
-    "us_yes": 0.0,
-    "gap_points": 0.25,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "year-2026",
-    "kind": "reach",
-    "strike": 250000,
-    "intl_yes": 0.0025,
-    "us_yes": 0.0,
-    "gap_points": 0.25,
-    "cheaper": "us",
+    "intl_yes": 0.0035,
+    "us_yes": 0.02,
+    "gap_points": 1.65,
+    "cheaper": "intl",
     "both_open": true
    },
    {
@@ -800,9 +750,9 @@
     "kind": "reach",
     "strike": 100000,
     "intl_yes": 0.0015,
-    "us_yes": 0.0,
-    "gap_points": 0.15,
-    "cheaper": "us",
+    "us_yes": 0.01,
+    "gap_points": 0.85,
+    "cheaper": "intl",
     "both_open": true
    },
    {
@@ -810,8 +760,58 @@
     "kind": "reach",
     "strike": 97500,
     "intl_yes": 0.0015,
-    "us_yes": 0.0,
-    "gap_points": 0.15,
+    "us_yes": 0.01,
+    "gap_points": 0.85,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "reach",
+    "strike": 92500,
+    "intl_yes": 0.0025,
+    "us_yes": 0.01,
+    "gap_points": 0.75,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "reach",
+    "strike": 95000,
+    "intl_yes": 0.0025,
+    "us_yes": 0.01,
+    "gap_points": 0.75,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "reach",
+    "strike": 200000,
+    "intl_yes": 0.0025,
+    "us_yes": 0.01,
+    "gap_points": 0.75,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "reach",
+    "strike": 150000,
+    "intl_yes": 0.0055,
+    "us_yes": 0.01,
+    "gap_points": 0.45,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "reach",
+    "strike": 100000,
+    "intl_yes": 0.0105,
+    "us_yes": 0.01,
+    "gap_points": 0.05,
     "cheaper": "us",
     "both_open": true
    },
@@ -928,186 +928,280 @@
   ],
   "wide_gaps": [
    {
-    "key": "nov-2026|dip|52500",
-    "horizon": "nov-2026",
-    "kind": "dip",
-    "strike": 52500,
-    "intl": {
-     "yes": 0.165,
-     "closed": false,
-     "question": "Will Bitcoin dip to $52,500 in November?",
-     "event_slug": "what-price-will-bitcoin-hit-in-november-2026",
-     "market_slug": "will-bitcoin-dip-to-52pt5k-in-november-2026",
-     "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-november-2026/will-bitcoin-dip-to-52pt5k-in-november-2026",
-     "end": "2026-12-01T05:00:00Z",
-     "settlement": "Binance BTC/USDT 1-minute candle (High for reach, Low for dip)",
-     "token_yes": "57262514223782033093240713701226939851669731050011954521827566775962691875445",
-     "token_no": "76271002287793271354225331833686087491326385302841219873761084628145215158084",
-     "liquidity": 47713.8764
-    },
-    "us": {
-     "yes": 0.0,
-     "closed": false,
-     "question": "How low will BTC get in November?",
-     "event_slug": "btc-hit-l-m-2026-11",
-     "market_slug": "cpc-btc-hit-l-m-2026-11-52500",
-     "url": "https://polymarket.us/event/btc-hit-l-m-2026-11",
-     "end": "2026-12-01T05:00:00Z",
-     "settlement": "CF Benchmarks Bitcoin Real-Time Index (BRTI) (index=BRTI)",
-     "window_end": "2026-12-01T05:00:00Z"
-    },
-    "gap_points": 16.5,
-    "cheaper_venue": "us",
-    "richer_venue": "intl",
-    "both_open": true,
-    "settlement_note": "Different settlement sources: intl uses Binance BTC/USDT 1m High/Low; US uses CF Benchmarks BRTI. A price gap is not risk-free arb."
-   },
-   {
-    "key": "nov-2026|dip|55000",
-    "horizon": "nov-2026",
-    "kind": "dip",
-    "strike": 55000,
-    "intl": {
-     "yes": 0.313,
-     "closed": false,
-     "question": "Will Bitcoin dip to $55,000 in November?",
-     "event_slug": "what-price-will-bitcoin-hit-in-november-2026",
-     "market_slug": "will-bitcoin-dip-to-55k-in-november-2026",
-     "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-in-november-2026/will-bitcoin-dip-to-55k-in-november-2026",
-     "end": "2026-12-01T05:00:00Z",
-     "settlement": "Binance BTC/USDT 1-minute candle (High for reach, Low for dip)",
-     "token_yes": "86818214716339720623824297871888907455819034267198335174718592093543870031596",
-     "token_no": "34486274497219401190105867456670397932477225968828604202014096609283683225717",
-     "liquidity": 63434.24526
-    },
-    "us": {
-     "yes": 0.0,
-     "closed": false,
-     "question": "How low will BTC get in November?",
-     "event_slug": "btc-hit-l-m-2026-11",
-     "market_slug": "cpc-btc-hit-l-m-2026-11-55000",
-     "url": "https://polymarket.us/event/btc-hit-l-m-2026-11",
-     "end": "2026-12-01T05:00:00Z",
-     "settlement": "CF Benchmarks Bitcoin Real-Time Index (BRTI) (index=BRTI)",
-     "window_end": "2026-12-01T05:00:00Z"
-    },
-    "gap_points": 31.3,
-    "cheaper_venue": "us",
-    "richer_venue": "intl",
-    "both_open": true,
-    "settlement_note": "Different settlement sources: intl uses Binance BTC/USDT 1m High/Low; US uses CF Benchmarks BRTI. A price gap is not risk-free arb."
-   },
-   {
-    "key": "year-2026|dip|45000",
+    "key": "year-2026|reach|250000",
     "horizon": "year-2026",
-    "kind": "dip",
-    "strike": 45000,
+    "kind": "reach",
+    "strike": 250000,
     "intl": {
-     "yes": 0.1555,
+     "yes": 0.0025,
      "closed": false,
-     "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+     "question": "Will Bitcoin reach $250,000 by December 31, 2026?",
      "event_slug": "what-price-will-bitcoin-hit-before-2027",
-     "market_slug": "will-bitcoin-dip-to-45000-by-december-31-2026-674-923-755-971-998-525-926-245-316-517-544-589-965-923-986-841-815-224-586-231-289-533-573",
-     "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027/will-bitcoin-dip-to-45000-by-december-31-2026-674-923-755-971-998-525-926-245-316-517-544-589-965-923-986-841-815-224-586-231-289-533-573",
+     "market_slug": "will-bitcoin-reach-250000-by-december-31-2026-579-442",
+     "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027/will-bitcoin-reach-250000-by-december-31-2026-579-442",
      "end": "2027-01-01T05:00:00Z",
      "settlement": "Binance BTC/USDT 1-minute candle (High for reach, Low for dip)",
-     "token_yes": "9894510651052373088408067031031513212801618531203062911959630395716258202132",
-     "token_no": "20326394798700413571801660749437036272627203479853632032510011746755865615562",
-     "liquidity": 103483.99235
+     "token_yes": "13433573766910980267981622064090484781359464703732825845886677588040916221533",
+     "token_no": "68320692409850091190490975441025843632582876963922128660910974326175304515755",
+     "liquidity": 273589.59158
     },
     "us": {
-     "yes": 0.0,
+     "yes": 0.35,
      "closed": false,
-     "question": "How low will Bitcoin get this year?",
-     "event_slug": "btc-hitprice-low-yr-12-31-2026",
-     "market_slug": "cpc-btc-hitprice-low-yr-12-31-2026-45k",
-     "url": "https://polymarket.us/event/btc-hitprice-low-yr-12-31-2026",
+     "question": "Will Bitcoin be above ___ in 2026?",
+     "event_slug": "btc-above-yr-12-31-2026",
+     "market_slug": "cpc-btc-above-yr-12-31-2026-250k",
+     "url": "https://polymarket.us/event/btc-above-yr-12-31-2026",
      "end": "2027-01-01T05:00:00Z",
      "settlement": "CF Benchmarks Bitcoin Real-Time Index (BRTI) (index=BRTI)",
      "window_end": "2027-01-01T05:00:00Z"
     },
-    "gap_points": 15.55,
-    "cheaper_venue": "us",
-    "richer_venue": "intl",
+    "gap_points": 34.75,
+    "cheaper_venue": "intl",
+    "richer_venue": "us",
     "both_open": true,
     "settlement_note": "Different settlement sources: intl uses Binance BTC/USDT 1m High/Low; US uses CF Benchmarks BRTI. A price gap is not risk-free arb."
-   },
+   }
+  ],
+  "positions": [
    {
     "key": "year-2026|dip|50000",
     "horizon": "year-2026",
     "kind": "dip",
     "strike": 50000,
-    "intl": {
-     "yes": 0.3375,
-     "closed": false,
-     "question": "Will Bitcoin dip to $50,000 by December 31, 2026?",
-     "event_slug": "what-price-will-bitcoin-hit-before-2027",
-     "market_slug": "will-bitcoin-dip-to-50000-by-december-31-2026-454-325-222-878-949-487-451-853-523-111",
-     "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027/will-bitcoin-dip-to-50000-by-december-31-2026-454-325-222-878-949-487-451-853-523-111",
-     "end": "2027-01-01T05:00:00Z",
-     "settlement": "Binance BTC/USDT 1-minute candle (High for reach, Low for dip)",
-     "token_yes": "13887983551129862992605123088744175927084435631400400451585519366058907542147",
-     "token_no": "41832664285845832459030640969891483663884721696292020563915305291791682631668",
-     "liquidity": 102379.79451
-    },
-    "us": {
-     "yes": 0.0,
-     "closed": false,
-     "question": "How low will Bitcoin get this year?",
-     "event_slug": "btc-hitprice-low-yr-12-31-2026",
-     "market_slug": "cpc-btc-hitprice-low-yr-12-31-2026-50k",
-     "url": "https://polymarket.us/event/btc-hitprice-low-yr-12-31-2026",
-     "end": "2027-01-01T05:00:00Z",
-     "settlement": "CF Benchmarks Bitcoin Real-Time Index (BRTI) (index=BRTI)",
-     "window_end": "2027-01-01T05:00:00Z"
-    },
-    "gap_points": 33.75,
-    "cheaper_venue": "us",
-    "richer_venue": "intl",
-    "both_open": true,
-    "settlement_note": "Different settlement sources: intl uses Binance BTC/USDT 1m High/Low; US uses CF Benchmarks BRTI. A price gap is not risk-free arb."
+    "gap_at_open": 31.45,
+    "opened_at": "2026-11-24T06:47:33-05:00",
+    "u_pnl": 115.3907,
+    "mtm": 135.3907,
+    "mode": "PAPER",
+    "legs": [
+     {
+      "venue": "us",
+      "side": "YES",
+      "entry_yes": 0.02,
+      "entry_px": 0.02,
+      "spend": 10.0,
+      "shares": 500.0,
+      "status": "open"
+     },
+     {
+      "venue": "intl",
+      "side": "NO",
+      "entry_yes": 0.3345,
+      "entry_px": 0.6655,
+      "spend": 10.0,
+      "shares": 15.0263,
+      "status": "open"
+     }
+    ]
    },
    {
-    "key": "year-2026|dip|55000",
+    "key": "year-2026|reach|250000",
     "horizon": "year-2026",
-    "kind": "dip",
-    "strike": 55000,
-    "intl": {
-     "yes": 0.595,
-     "closed": false,
-     "question": "Will Bitcoin dip to $55,000 by December 31, 2026?",
-     "event_slug": "what-price-will-bitcoin-hit-before-2027",
-     "market_slug": "will-bitcoin-dip-to-55000-by-december-31-2026-527-627-868-745-188-361-314-673-612-946-821-624-855-557-684-381-884-939-182-939-516",
-     "url": "https://polymarket.com/event/what-price-will-bitcoin-hit-before-2027/will-bitcoin-dip-to-55000-by-december-31-2026-527-627-868-745-188-361-314-673-612-946-821-624-855-557-684-381-884-939-182-939-516",
-     "end": "2027-01-01T05:00:00Z",
-     "settlement": "Binance BTC/USDT 1-minute candle (High for reach, Low for dip)",
-     "token_yes": "115462087336983275104521488923966022755348986822352694745153736621832003960847",
-     "token_no": "48849252416222520684793262794712201381742900852794310345084361317209768152557",
-     "liquidity": 89547.5146
-    },
-    "us": {
-     "yes": 0.0,
-     "closed": false,
-     "question": "How low will Bitcoin get this year?",
-     "event_slug": "btc-hitprice-low-yr-12-31-2026",
-     "market_slug": "cpc-btc-hitprice-low-yr-12-31-2026-55k",
-     "url": "https://polymarket.us/event/btc-hitprice-low-yr-12-31-2026",
-     "end": "2027-01-01T05:00:00Z",
-     "settlement": "CF Benchmarks Bitcoin Real-Time Index (BRTI) (index=BRTI)",
-     "window_end": "2027-01-01T05:00:00Z"
-    },
-    "gap_points": 59.5,
-    "cheaper_venue": "us",
-    "richer_venue": "intl",
-    "both_open": true,
-    "settlement_note": "Different settlement sources: intl uses Binance BTC/USDT 1m High/Low; US uses CF Benchmarks BRTI. A price gap is not risk-free arb."
+    "kind": "reach",
+    "strike": 250000,
+    "gap_at_open": 34.75,
+    "opened_at": "2026-11-24T06:53:36-05:00",
+    "u_pnl": -0.0,
+    "mtm": 20.0,
+    "mode": "PAPER",
+    "legs": [
+     {
+      "venue": "intl",
+      "side": "YES",
+      "entry_yes": 0.0025,
+      "entry_px": 0.0025,
+      "spend": 10.0,
+      "shares": 4000.0,
+      "status": "open"
+     },
+     {
+      "venue": "us",
+      "side": "NO",
+      "entry_yes": 0.35,
+      "entry_px": 0.65,
+      "spend": 10.0,
+      "shares": 15.3846,
+      "status": "open"
+     }
+    ]
    }
   ],
-  "positions": [],
   "closed_recent": [],
-  "consistency": [],
+  "consistency": [
+   {
+    "venue": "us",
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "a": 47500,
+    "a_yes": 0.08,
+    "b": 50000,
+    "b_yes": 0.03,
+    "break_points": 5.0
+   },
+   {
+    "venue": "us",
+    "horizon": "nov-2026",
+    "kind": "reach",
+    "a": 85000,
+    "a_yes": 0.02,
+    "b": 87500,
+    "b_yes": 0.05,
+    "break_points": 3.0
+   },
+   {
+    "venue": "us",
+    "horizon": "year-2026",
+    "kind": "reach",
+    "a": 100000,
+    "a_yes": 0.01,
+    "b": 110000,
+    "b_yes": 0.08,
+    "break_points": 7.0
+   },
+   {
+    "venue": "us",
+    "horizon": "year-2026",
+    "kind": "reach",
+    "a": 200000,
+    "a_yes": 0.01,
+    "b": 250000,
+    "b_yes": 0.35,
+    "break_points": 34.0
+   }
+  ],
   "events": [
    {
+    "ev": "paper_open",
+    "ts": "2026-11-24T06:53:36-05:00",
+    "key": "year-2026|reach|250000",
+    "gap": 34.75,
+    "horizon": "year-2026",
+    "kind": "reach",
+    "strike": 250000,
+    "cheap": "intl",
+    "pnl": null,
+    "order_id": null,
+    "tx": null
+   },
+   {
+    "ev": "paper_open",
+    "ts": "2026-11-24T06:47:33-05:00",
+    "key": "year-2026|dip|50000",
+    "gap": 31.45,
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 50000,
+    "cheap": "us",
+    "pnl": null,
+    "order_id": null,
+    "tx": null
+   },
+   {
+    "ev": "live_blocked",
+    "ts": "2026-11-24T06:41:29-05:00",
+    "key": "year-2026|dip|45000",
+    "gap": null,
+    "horizon": null,
+    "kind": null,
+    "strike": null,
+    "cheap": null,
+    "pnl": null,
+    "order_id": null,
+    "tx": null
+   },
+   {
+    "ev": "live_blocked",
+    "ts": "2026-11-24T06:41:29-05:00",
+    "key": "nov-2026|dip|52500",
+    "gap": null,
+    "horizon": null,
+    "kind": null,
+    "strike": null,
+    "cheap": null,
+    "pnl": null,
+    "order_id": null,
+    "tx": null
+   },
+   {
+    "ev": "live_blocked",
+    "ts": "2026-11-24T06:41:29-05:00",
+    "key": "nov-2026|dip|55000",
+    "gap": null,
+    "horizon": null,
+    "kind": null,
+    "strike": null,
+    "cheap": null,
+    "pnl": null,
+    "order_id": null,
+    "tx": null
+   },
+   {
+    "ev": "live_blocked",
+    "ts": "2026-11-24T06:41:29-05:00",
+    "key": "year-2026|dip|50000",
+    "gap": null,
+    "horizon": null,
+    "kind": null,
+    "strike": null,
+    "cheap": null,
+    "pnl": null,
+    "order_id": null,
+    "tx": null
+   },
+   {
+    "ev": "live_blocked",
+    "ts": "2026-11-24T06:35:26-05:00",
+    "key": "year-2026|dip|45000",
+    "gap": null,
+    "horizon": null,
+    "kind": null,
+    "strike": null,
+    "cheap": null,
+    "pnl": null,
+    "order_id": null,
+    "tx": null
+   },
+   {
+    "ev": "live_blocked",
+    "ts": "2026-11-24T06:35:26-05:00",
+    "key": "nov-2026|dip|52500",
+    "gap": null,
+    "horizon": null,
+    "kind": null,
+    "strike": null,
+    "cheap": null,
+    "pnl": null,
+    "order_id": null,
+    "tx": null
+   },
+   {
+    "ev": "live_blocked",
+    "ts": "2026-11-24T06:35:26-05:00",
+    "key": "nov-2026|dip|55000",
+    "gap": null,
+    "horizon": null,
+    "kind": null,
+    "strike": null,
+    "cheap": null,
+    "pnl": null,
+    "order_id": null,
+    "tx": null
+   },
+   {
+    "ev": "live_blocked",
+    "ts": "2026-11-24T06:35:26-05:00",
+    "key": "year-2026|dip|50000",
+    "gap": null,
+    "horizon": null,
+    "kind": null,
+    "strike": null,
+    "cheap": null,
+    "pnl": null,
+    "order_id": null,
+    "tx": null
+   },
+   {
     "ev": "live_blocked",
     "ts": "2026-11-24T06:29:22-05:00",
     "key": "year-2026|dip|45000",
@@ -1163,136 +1257,6 @@
     "ev": "live_blocked",
     "ts": "2026-11-24T06:23:18-05:00",
     "key": "year-2026|dip|45000",
-    "gap": null,
-    "horizon": null,
-    "kind": null,
-    "strike": null,
-    "cheap": null,
-    "pnl": null,
-    "order_id": null,
-    "tx": null
-   },
-   {
-    "ev": "live_blocked",
-    "ts": "2026-11-24T06:23:18-05:00",
-    "key": "nov-2026|dip|52500",
-    "gap": null,
-    "horizon": null,
-    "kind": null,
-    "strike": null,
-    "cheap": null,
-    "pnl": null,
-    "order_id": null,
-    "tx": null
-   },
-   {
-    "ev": "live_blocked",
-    "ts": "2026-11-24T06:23:18-05:00",
-    "key": "year-2026|dip|50000",
-    "gap": null,
-    "horizon": null,
-    "kind": null,
-    "strike": null,
-    "cheap": null,
-    "pnl": null,
-    "order_id": null,
-    "tx": null
-   },
-   {
-    "ev": "live_blocked",
-    "ts": "2026-11-24T06:23:18-05:00",
-    "key": "nov-2026|dip|55000",
-    "gap": null,
-    "horizon": null,
-    "kind": null,
-    "strike": null,
-    "cheap": null,
-    "pnl": null,
-    "order_id": null,
-    "tx": null
-   },
-   {
-    "ev": "live_blocked",
-    "ts": "2026-11-24T06:17:14-05:00",
-    "key": "year-2026|dip|45000",
-    "gap": null,
-    "horizon": null,
-    "kind": null,
-    "strike": null,
-    "cheap": null,
-    "pnl": null,
-    "order_id": null,
-    "tx": null
-   },
-   {
-    "ev": "live_blocked",
-    "ts": "2026-11-24T06:17:14-05:00",
-    "key": "nov-2026|dip|52500",
-    "gap": null,
-    "horizon": null,
-    "kind": null,
-    "strike": null,
-    "cheap": null,
-    "pnl": null,
-    "order_id": null,
-    "tx": null
-   },
-   {
-    "ev": "live_blocked",
-    "ts": "2026-11-24T06:17:14-05:00",
-    "key": "nov-2026|dip|55000",
-    "gap": null,
-    "horizon": null,
-    "kind": null,
-    "strike": null,
-    "cheap": null,
-    "pnl": null,
-    "order_id": null,
-    "tx": null
-   },
-   {
-    "ev": "live_blocked",
-    "ts": "2026-11-24T06:17:14-05:00",
-    "key": "year-2026|dip|50000",
-    "gap": null,
-    "horizon": null,
-    "kind": null,
-    "strike": null,
-    "cheap": null,
-    "pnl": null,
-    "order_id": null,
-    "tx": null
-   },
-   {
-    "ev": "live_blocked",
-    "ts": "2026-11-24T06:11:10-05:00",
-    "key": "year-2026|dip|45000",
-    "gap": null,
-    "horizon": null,
-    "kind": null,
-    "strike": null,
-    "cheap": null,
-    "pnl": null,
-    "order_id": null,
-    "tx": null
-   },
-   {
-    "ev": "live_blocked",
-    "ts": "2026-11-24T06:11:10-05:00",
-    "key": "nov-2026|dip|52500",
-    "gap": null,
-    "horizon": null,
-    "kind": null,
-    "strike": null,
-    "cheap": null,
-    "pnl": null,
-    "order_id": null,
-    "tx": null
-   },
-   {
-    "ev": "live_blocked",
-    "ts": "2026-11-24T06:11:10-05:00",
-    "key": "nov-2026|dip|55000",
     "gap": null,
     "horizon": null,
     "kind": null,
@@ -1323,16 +1287,16 @@
  },
  "btc_longshort": {
   "summary": {
-   "updated": "2026-11-24T06:26:48-05:00",
+   "updated": "2026-11-24T06:57:04-05:00",
    "name": "BTC Long/Short (live)",
    "mode": "LIVE",
    "signal": "FLAT",
-   "btc_px": 59706.46,
+   "btc_px": 60337.96,
    "etf_date": "23 Nov 2026",
    "etf_total_m": -569.7,
    "etf_positive": false,
    "reasons": [
-    "BTC 59706.46 has not held above $60,000 for 4h (4h low 59300.01)"
+    "BTC 60337.96 has not held above $60,000 for 4h (4h low 59300.01)"
    ],
    "open": 0,
    "working": 0,
@@ -1352,19 +1316,19 @@
    "live_ready": true,
    "live_blockers": [],
    "scorecard_due": "2026-12-01",
-   "markets_scanned": 186
+   "markets_scanned": 164
   },
   "signal": {
    "state": "FLAT",
    "reasons": [
-    "BTC 59706.46 has not held above $60,000 for 4h (4h low 59300.01)"
+    "BTC 60337.96 has not held above $60,000 for 4h (4h low 59300.01)"
    ],
    "details": {
-    "price": 59706.46,
+    "price": 60337.96,
     "held_4h_above_60k": false,
     "below_58700_1h": false,
     "min_low_4h": 59300.01,
-    "max_high_1h": 59810.29,
+    "max_high_1h": 60378.38,
     "candles_4h": 48,
     "candles_1h": 12,
     "btc_source": "coinbase"
@@ -1380,13 +1344,43 @@
    "btc": {
     "ok": true,
     "source": "coinbase",
-    "price": 59706.46
+    "price": 60337.96
    }
   },
   "positions": [],
   "working_orders": [],
   "closed_recent": [],
   "events": [
+   {
+    "ev": "signal",
+    "ts": "2026-11-24T06:57:02-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-24T06:52:00-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-24T06:46:57-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-24T06:41:54-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-24T06:36:51-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-24T06:31:49-05:00",
+    "signal": "FLAT"
+   },
    {
     "ev": "signal",
     "ts": "2026-11-24T06:26:46-05:00",
@@ -1455,36 +1449,6 @@
    {
     "ev": "signal",
     "ts": "2026-11-24T05:21:07-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-24T05:16:04-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-24T05:11:01-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-24T05:05:58-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-24T05:00:55-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-24T04:55:53-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-24T04:50:50-05:00",
     "signal": "FLAT"
    }
   ],
