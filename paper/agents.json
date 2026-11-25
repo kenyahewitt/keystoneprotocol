@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T16:59:32.059946+00:00",
+ "generated": "2026-11-25T17:23:42.218603+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
   "closed_trades": 431,
@@ -371,20 +371,29 @@
  },
  "polycopy": {
   "summary": {
-   "updated": "2026-11-25T11:59:09",
+   "updated": "2026-11-25T12:23:39",
    "cash": 14.8768,
    "trades": 54,
-   "open": 11,
-   "resolved_or_exited": 43,
+   "open": 10,
+   "resolved_or_exited": 44,
    "wins": 23,
-   "losses": 20,
-   "realized_pnl": -36.8261,
-   "open_cost": 48.2971,
+   "losses": 21,
+   "realized_pnl": -39.0261,
+   "open_cost": 46.0971,
    "avg_slippage_vs_leader": 0.0065,
    "skips": 32311,
    "fee_note": "taker fee = base_fee_bps/1e4*min(p,1-p)*shares, base_fee from clob /fee-rate per token (assumption)"
   },
   "events": [
+   {
+    "ev": "resolved",
+    "ts": "2026-11-25T12:14:57",
+    "side": null,
+    "title": "Will the price of Ethereum be between $1,300 and $1,400 on November 25?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
    {
     "ev": "resolved",
     "ts": "2026-11-24T14:07:57",
@@ -510,21 +519,12 @@
     "outcome": "No",
     "px": null,
     "size": null
-   },
-   {
-    "ev": "resolved",
-    "ts": "2026-11-23T12:16:28",
-    "side": null,
-    "title": "Will the price of Ethereum be greater than $2,300 on November 23?",
-    "outcome": "No",
-    "px": null,
-    "size": null
    }
   ]
  },
  "btc_ladder": {
   "summary": {
-   "updated": "2026-11-25T11:58:40-05:00",
+   "updated": "2026-11-25T12:22:54-05:00",
    "name": "BTC Ladder (live)",
    "mode": "LIVE",
    "pairs": 37,
@@ -535,7 +535,7 @@
    "wins": 0,
    "losses": 0,
    "realized_pnl": 0,
-   "unrealized_pnl": 194.3443,
+   "unrealized_pnl": 179.8927,
    "paper_cash": 960.0,
    "live_caps": {
     "per_trade": 3.0,
@@ -566,22 +566,32 @@
     "both_open": false
    },
    {
-    "horizon": "year-2026",
+    "horizon": "nov-2026",
     "kind": "dip",
-    "strike": 40000,
-    "intl_yes": 0.1145,
-    "us_yes": 0.14,
-    "gap_points": 2.55,
+    "strike": 52500,
+    "intl_yes": 0.115,
+    "us_yes": 0.18,
+    "gap_points": 6.5,
     "cheaper": "intl",
     "both_open": true
    },
    {
-    "horizon": "year-2026",
+    "horizon": "nov-2026",
     "kind": "dip",
     "strike": 55000,
-    "intl_yes": 0.675,
-    "us_yes": 0.7,
-    "gap_points": 2.5,
+    "intl_yes": 0.268,
+    "us_yes": 0.33,
+    "gap_points": 6.2,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 47500,
+    "intl_yes": 0.029,
+    "us_yes": 0.07,
+    "gap_points": 4.1,
     "cheaper": "intl",
     "both_open": true
    },
@@ -589,20 +599,40 @@
     "horizon": "nov-2026",
     "kind": "dip",
     "strike": 50000,
-    "intl_yes": 0.1,
-    "us_yes": 0.08,
-    "gap_points": 2.0,
-    "cheaper": "us",
+    "intl_yes": 0.0585,
+    "us_yes": 0.09,
+    "gap_points": 3.15,
+    "cheaper": "intl",
     "both_open": true
    },
    {
-    "horizon": "nov-2026",
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 45000,
+    "intl_yes": 0.1705,
+    "us_yes": 0.2,
+    "gap_points": 2.95,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 40000,
+    "intl_yes": 0.113,
+    "us_yes": 0.14,
+    "gap_points": 2.7,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
     "kind": "dip",
     "strike": 55000,
-    "intl_yes": 0.3885,
-    "us_yes": 0.37,
-    "gap_points": 1.85,
-    "cheaper": "us",
+    "intl_yes": 0.645,
+    "us_yes": 0.67,
+    "gap_points": 2.5,
+    "cheaper": "intl",
     "both_open": true
    },
    {
@@ -616,22 +646,12 @@
     "both_open": true
    },
    {
-    "horizon": "nov-2026",
-    "kind": "dip",
-    "strike": 52500,
-    "intl_yes": 0.185,
-    "us_yes": 0.17,
-    "gap_points": 1.5,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
     "horizon": "year-2026",
     "kind": "dip",
-    "strike": 45000,
-    "intl_yes": 0.186,
-    "us_yes": 0.2,
-    "gap_points": 1.4,
+    "strike": 50000,
+    "intl_yes": 0.357,
+    "us_yes": 0.37,
+    "gap_points": 1.3,
     "cheaper": "intl",
     "both_open": true
    },
@@ -727,16 +747,6 @@
    },
    {
     "horizon": "year-2026",
-    "kind": "dip",
-    "strike": 50000,
-    "intl_yes": 0.3935,
-    "us_yes": 0.4,
-    "gap_points": 0.65,
-    "cheaper": "intl",
-    "both_open": true
-   },
-   {
-    "horizon": "year-2026",
     "kind": "reach",
     "strike": 200000,
     "intl_yes": 0.0035,
@@ -766,16 +776,6 @@
     "both_open": true
    },
    {
-    "horizon": "nov-2026",
-    "kind": "dip",
-    "strike": 45000,
-    "intl_yes": 0.0235,
-    "us_yes": 0.02,
-    "gap_points": 0.35,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
     "horizon": "year-2026",
     "kind": "reach",
     "strike": 120000,
@@ -788,10 +788,10 @@
    {
     "horizon": "nov-2026",
     "kind": "dip",
-    "strike": 47500,
-    "intl_yes": 0.061,
-    "us_yes": 0.06,
-    "gap_points": 0.1,
+    "strike": 45000,
+    "intl_yes": 0.0205,
+    "us_yes": 0.02,
+    "gap_points": 0.05,
     "cheaper": "us",
     "both_open": true
    },
@@ -935,8 +935,8 @@
     "strike": 50000,
     "gap_at_open": 31.45,
     "opened_at": "2026-11-24T06:47:33-05:00",
-    "u_pnl": 189.1135,
-    "mtm": 209.1135,
+    "u_pnl": 174.6619,
+    "mtm": 194.6619,
     "mode": "PAPER",
     "legs": [
      {
@@ -1210,16 +1210,16 @@
  },
  "btc_longshort": {
   "summary": {
-   "updated": "2026-11-25T11:59:08-05:00",
+   "updated": "2026-11-25T12:19:20-05:00",
    "name": "BTC Long/Short (live)",
    "mode": "LIVE",
    "signal": "FLAT",
-   "btc_px": 58481.43,
+   "btc_px": 59532.83,
    "etf_date": "25 Nov 2026",
    "etf_total_m": 0.0,
    "etf_positive": false,
    "reasons": [
-    "BTC 58481.43 has not held above $60,000 for 4h (4h low 57208.17)"
+    "BTC 59532.83 has not held above $60,000 for 4h (4h low 57208.17)"
    ],
    "open": 0,
    "working": 0,
@@ -1239,19 +1239,19 @@
    "live_ready": true,
    "live_blockers": [],
    "scorecard_due": "2026-12-01",
-   "markets_scanned": 147
+   "markets_scanned": 183
   },
   "signal": {
    "state": "FLAT",
    "reasons": [
-    "BTC 58481.43 has not held above $60,000 for 4h (4h low 57208.17)"
+    "BTC 59532.83 has not held above $60,000 for 4h (4h low 57208.17)"
    ],
    "details": {
-    "price": 58481.43,
+    "price": 59532.83,
     "held_4h_above_60k": false,
     "below_58700_1h": false,
     "min_low_4h": 57208.17,
-    "max_high_1h": 58930.74,
+    "max_high_1h": 59691.19,
     "candles_4h": 48,
     "candles_1h": 12,
     "btc_source": "coinbase"
@@ -1267,13 +1267,33 @@
    "btc": {
     "ok": true,
     "source": "coinbase",
-    "price": 58481.43
+    "price": 59532.83
    }
   },
   "positions": [],
   "working_orders": [],
   "closed_recent": [],
   "events": [
+   {
+    "ev": "signal",
+    "ts": "2026-11-25T12:19:19-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-25T12:14:16-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-25T12:09:12-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-25T12:04:09-05:00",
+    "signal": "FLAT"
+   },
    {
     "ev": "signal",
     "ts": "2026-11-25T11:59:06-05:00",
@@ -1369,32 +1389,6 @@
     "why": "extreme_price",
     "slug": "will-the-bitcoin-volatility-index-dip-to-35-by-november-30",
     "title": "Will the Bitcoin Volatility Index dip to 35 by November 30?"
-   },
-   {
-    "ev": "skip_market",
-    "ts": "2026-11-25T11:18:39-05:00",
-    "why": "min_size_exceeds_cap",
-    "slug": "will-bitcoin-reach-64k-november-23-29-2026-from-november-23"
-   },
-   {
-    "ev": "skip_market",
-    "ts": "2026-11-25T11:18:39-05:00",
-    "why": "min_size_exceeds_cap",
-    "slug": "will-bitcoin-reach-62k-november-23-29-2026"
-   },
-   {
-    "ev": "skip_market",
-    "ts": "2026-11-25T11:18:39-05:00",
-    "why": "extreme_price",
-    "slug": "will-bitcoin-dip-to-48k-november-23-29-2026",
-    "title": "Will Bitcoin dip to $48,000 November 23-29?"
-   },
-   {
-    "ev": "skip_market",
-    "ts": "2026-11-25T11:18:38-05:00",
-    "why": "extreme_price",
-    "slug": "will-bitcoin-dip-to-50k-november-23-29-2026",
-    "title": "Will Bitcoin dip to $50,000 November 23-29?"
    }
   ],
   "live": {
