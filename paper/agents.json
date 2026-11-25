@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T12:28:14.741608+00:00",
+ "generated": "2026-11-25T12:58:31.098514+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
   "closed_trades": 431,
@@ -371,7 +371,7 @@
  },
  "polycopy": {
   "summary": {
-   "updated": "2026-11-25T07:27:51",
+   "updated": "2026-11-25T07:58:25",
    "cash": 14.8768,
    "trades": 54,
    "open": 11,
@@ -524,7 +524,7 @@
  },
  "btc_ladder": {
   "summary": {
-   "updated": "2026-11-25T07:26:01-05:00",
+   "updated": "2026-11-25T07:56:18-05:00",
    "name": "BTC Ladder (live)",
    "mode": "LIVE",
    "pairs": 37,
@@ -535,7 +535,7 @@
    "wins": 0,
    "losses": 0,
    "realized_pnl": 0,
-   "unrealized_pnl": 184.4645,
+   "unrealized_pnl": 184.5246,
    "paper_cash": 960.0,
    "live_caps": {
     "per_trade": 3.0,
@@ -568,16 +568,6 @@
    {
     "horizon": "nov-2026",
     "kind": "dip",
-    "strike": 55000,
-    "intl_yes": 0.4065,
-    "us_yes": 0.35,
-    "gap_points": 5.65,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "nov-2026",
-    "kind": "dip",
     "strike": 52500,
     "intl_yes": 0.175,
     "us_yes": 0.14,
@@ -598,20 +588,10 @@
    {
     "horizon": "nov-2026",
     "kind": "dip",
-    "strike": 50000,
-    "intl_yes": 0.102,
-    "us_yes": 0.09,
-    "gap_points": 1.2,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "year-2026",
-    "kind": "dip",
-    "strike": 45000,
-    "intl_yes": 0.202,
-    "us_yes": 0.19,
-    "gap_points": 1.2,
+    "strike": 55000,
+    "intl_yes": 0.3835,
+    "us_yes": 0.37,
+    "gap_points": 1.35,
     "cheaper": "us",
     "both_open": true
    },
@@ -657,12 +637,32 @@
    },
    {
     "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 50000,
+    "intl_yes": 0.0985,
+    "us_yes": 0.09,
+    "gap_points": 0.85,
+    "cheaper": "us",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
     "kind": "reach",
     "strike": 92500,
     "intl_yes": 0.0015,
     "us_yes": 0.01,
     "gap_points": 0.85,
     "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 45000,
+    "intl_yes": 0.198,
+    "us_yes": 0.19,
+    "gap_points": 0.8,
+    "cheaper": "us",
     "both_open": true
    },
    {
@@ -707,16 +707,6 @@
    },
    {
     "horizon": "nov-2026",
-    "kind": "dip",
-    "strike": 45000,
-    "intl_yes": 0.026,
-    "us_yes": 0.02,
-    "gap_points": 0.6,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "nov-2026",
     "kind": "reach",
     "strike": 82500,
     "intl_yes": 0.0045,
@@ -736,12 +726,12 @@
     "both_open": true
    },
    {
-    "horizon": "year-2026",
+    "horizon": "nov-2026",
     "kind": "dip",
-    "strike": 50000,
-    "intl_yes": 0.3855,
-    "us_yes": 0.38,
-    "gap_points": 0.55,
+    "strike": 45000,
+    "intl_yes": 0.0245,
+    "us_yes": 0.02,
+    "gap_points": 0.45,
     "cheaper": "us",
     "both_open": true
    },
@@ -769,10 +759,20 @@
     "horizon": "nov-2026",
     "kind": "dip",
     "strike": 47500,
-    "intl_yes": 0.058,
+    "intl_yes": 0.0575,
     "us_yes": 0.06,
-    "gap_points": 0.2,
+    "gap_points": 0.25,
     "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 50000,
+    "intl_yes": 0.3815,
+    "us_yes": 0.38,
+    "gap_points": 0.15,
+    "cheaper": "us",
     "both_open": true
    },
    {
@@ -935,8 +935,8 @@
     "strike": 50000,
     "gap_at_open": 31.45,
     "opened_at": "2026-11-24T06:47:33-05:00",
-    "u_pnl": 179.2337,
-    "mtm": 199.2337,
+    "u_pnl": 179.2938,
+    "mtm": 199.2938,
     "mode": "PAPER",
     "legs": [
      {
@@ -1210,16 +1210,16 @@
  },
  "btc_longshort": {
   "summary": {
-   "updated": "2026-11-25T07:27:42-05:00",
+   "updated": "2026-11-25T07:58:22-05:00",
    "name": "BTC Long/Short (live)",
    "mode": "LIVE",
-   "signal": "FLAT",
-   "btc_px": 58634.81,
+   "signal": "SHORT",
+   "btc_px": 58616.06,
    "etf_date": "25 Nov 2026",
    "etf_total_m": 0.0,
    "etf_positive": false,
    "reasons": [
-    "BTC 58634.81 has not held above $60,000 for 4h (4h low 58364.61)"
+    "BTC 58616.06 stayed below $58,700 for 1h+ (1h high 58692.47)"
    ],
    "open": 0,
    "working": 0,
@@ -1239,19 +1239,19 @@
    "live_ready": true,
    "live_blockers": [],
    "scorecard_due": "2026-12-01",
-   "markets_scanned": 183
+   "markets_scanned": 162
   },
   "signal": {
-   "state": "FLAT",
+   "state": "SHORT",
    "reasons": [
-    "BTC 58634.81 has not held above $60,000 for 4h (4h low 58364.61)"
+    "BTC 58616.06 stayed below $58,700 for 1h+ (1h high 58692.47)"
    ],
    "details": {
-    "price": 58634.81,
+    "price": 58616.06,
     "held_4h_above_60k": false,
-    "below_58700_1h": false,
+    "below_58700_1h": true,
     "min_low_4h": 58364.61,
-    "max_high_1h": 58734.44,
+    "max_high_1h": 58692.47,
     "candles_4h": 48,
     "candles_1h": 12,
     "btc_source": "coinbase"
@@ -1267,7 +1267,7 @@
    "btc": {
     "ok": true,
     "source": "coinbase",
-    "price": 58634.81
+    "price": 58616.06
    }
   },
   "positions": [],
@@ -1275,104 +1275,141 @@
   "closed_recent": [],
   "events": [
    {
-    "ev": "signal",
-    "ts": "2026-11-25T07:27:40-05:00",
-    "signal": "FLAT"
+    "ev": "skip_market",
+    "ts": "2026-11-25T07:58:20-05:00",
+    "why": "wide_spread",
+    "slug": "will-ethbtc-dip-to-0pt0265-november-23-29-2026",
+    "title": "Will ETH/BTC dip to 0.0265 November 23-29?"
    },
    {
-    "ev": "signal",
-    "ts": "2026-11-25T07:22:37-05:00",
-    "signal": "FLAT"
+    "ev": "skip_market",
+    "ts": "2026-11-25T07:58:20-05:00",
+    "why": "wide_spread",
+    "slug": "will-ethbtc-dip-to-0pt0270-november-23-29-2026",
+    "title": "Will ETH/BTC dip to 0.0270 November 23-29?"
    },
    {
-    "ev": "signal",
-    "ts": "2026-11-25T07:17:34-05:00",
-    "signal": "FLAT"
+    "ev": "skip_market",
+    "ts": "2026-11-25T07:58:20-05:00",
+    "why": "wide_spread",
+    "slug": "will-ethbtc-dip-to-0pt0275-november-23-29-2026",
+    "title": "Will ETH/BTC dip to 0.0275 November 23-29?"
    },
    {
-    "ev": "signal",
-    "ts": "2026-11-25T07:12:32-05:00",
-    "signal": "FLAT"
+    "ev": "skip_market",
+    "ts": "2026-11-25T07:58:20-05:00",
+    "why": "wide_spread",
+    "slug": "will-ethbtc-reach-0pt0295-november-23-29-2026",
+    "title": "Will ETH/BTC reach 0.0295 November 23-29?"
    },
    {
-    "ev": "signal",
-    "ts": "2026-11-25T07:07:28-05:00",
-    "signal": "FLAT"
+    "ev": "skip_market",
+    "ts": "2026-11-25T07:58:20-05:00",
+    "why": "wide_spread",
+    "slug": "will-ethbtc-reach-0pt0300-november-23-29-2026",
+    "title": "Will ETH/BTC reach 0.0300 November 23-29?"
    },
    {
-    "ev": "signal",
-    "ts": "2026-11-25T07:02:26-05:00",
-    "signal": "FLAT"
+    "ev": "skip_market",
+    "ts": "2026-11-25T07:58:20-05:00",
+    "why": "wide_spread",
+    "slug": "will-ethbtc-reach-0pt0310-november-23-29-2026",
+    "title": "Will ETH/BTC reach 0.0310 November 23-29?"
    },
    {
-    "ev": "signal",
-    "ts": "2026-11-25T06:57:22-05:00",
-    "signal": "FLAT"
+    "ev": "skip_market",
+    "ts": "2026-11-25T07:58:20-05:00",
+    "why": "extreme_price",
+    "slug": "will-the-bitcoin-volatility-index-dip-to-30-by-november-30",
+    "title": "Will the Bitcoin Volatility Index dip to 30 by November 30?"
    },
    {
-    "ev": "signal",
-    "ts": "2026-11-25T06:52:20-05:00",
-    "signal": "FLAT"
+    "ev": "skip_market",
+    "ts": "2026-11-25T07:58:19-05:00",
+    "why": "extreme_price",
+    "slug": "will-the-bitcoin-volatility-index-dip-to-35-by-november-30",
+    "title": "Will the Bitcoin Volatility Index dip to 35 by November 30?"
    },
    {
-    "ev": "signal",
-    "ts": "2026-11-25T06:47:17-05:00",
-    "signal": "FLAT"
+    "ev": "skip_market",
+    "ts": "2026-11-25T07:58:19-05:00",
+    "why": "min_size_exceeds_cap",
+    "slug": "will-bitcoin-reach-64k-november-23-29-2026-from-november-23"
    },
    {
-    "ev": "signal",
-    "ts": "2026-11-25T06:42:14-05:00",
-    "signal": "FLAT"
+    "ev": "skip_market",
+    "ts": "2026-11-25T07:58:19-05:00",
+    "why": "min_size_exceeds_cap",
+    "slug": "will-bitcoin-reach-62k-november-23-29-2026"
    },
    {
-    "ev": "signal",
-    "ts": "2026-11-25T06:37:11-05:00",
-    "signal": "FLAT"
+    "ev": "skip_market",
+    "ts": "2026-11-25T07:58:19-05:00",
+    "why": "extreme_price",
+    "slug": "will-bitcoin-dip-to-48k-november-23-29-2026",
+    "title": "Will Bitcoin dip to $48,000 November 23-29?"
    },
    {
-    "ev": "signal",
-    "ts": "2026-11-25T06:32:08-05:00",
-    "signal": "FLAT"
+    "ev": "skip_market",
+    "ts": "2026-11-25T07:58:19-05:00",
+    "why": "extreme_price",
+    "slug": "will-bitcoin-dip-to-50k-november-23-29-2026",
+    "title": "Will Bitcoin dip to $50,000 November 23-29?"
    },
    {
-    "ev": "signal",
-    "ts": "2026-11-25T06:27:05-05:00",
-    "signal": "FLAT"
+    "ev": "skip_market",
+    "ts": "2026-11-25T07:58:18-05:00",
+    "why": "min_size_exceeds_cap",
+    "slug": "will-bitcoin-dip-to-58k-november-23-29-2026"
    },
    {
-    "ev": "signal",
-    "ts": "2026-11-25T06:22:02-05:00",
-    "signal": "FLAT"
+    "ev": "skip_market",
+    "ts": "2026-11-25T07:58:18-05:00",
+    "why": "extreme_price",
+    "slug": "will-bitcoin-reach-66k-november-23-29-2026",
+    "title": "Will Bitcoin reach $66,000 November 23-29?"
    },
    {
-    "ev": "signal",
-    "ts": "2026-11-25T06:16:59-05:00",
-    "signal": "FLAT"
+    "ev": "skip_market",
+    "ts": "2026-11-25T07:58:18-05:00",
+    "why": "extreme_price",
+    "slug": "will-bitcoin-reach-68k-november-23-29-2026",
+    "title": "Will Bitcoin reach $68,000 November 23-29?"
    },
    {
-    "ev": "signal",
-    "ts": "2026-11-25T06:11:55-05:00",
-    "signal": "FLAT"
+    "ev": "skip_market",
+    "ts": "2026-11-25T07:58:18-05:00",
+    "why": "extreme_price",
+    "slug": "will-bitcoin-reach-70k-november-23-29-2026",
+    "title": "Will Bitcoin reach $70,000 November 23-29?"
    },
    {
-    "ev": "signal",
-    "ts": "2026-11-25T06:06:52-05:00",
-    "signal": "FLAT"
+    "ev": "skip_market",
+    "ts": "2026-11-25T07:58:18-05:00",
+    "why": "extreme_price",
+    "slug": "will-bitcoin-reach-72k-november-23-29-2026",
+    "title": "Will Bitcoin reach $72,000 November 23-29?"
    },
    {
-    "ev": "signal",
-    "ts": "2026-11-25T06:01:49-05:00",
-    "signal": "FLAT"
+    "ev": "skip_market",
+    "ts": "2026-11-25T07:58:18-05:00",
+    "why": "extreme_price",
+    "slug": "will-bitcoin-reach-74k-november-23-29-2026",
+    "title": "Will Bitcoin reach $74,000 November 23-29?"
    },
    {
-    "ev": "signal",
-    "ts": "2026-11-25T05:56:47-05:00",
-    "signal": "FLAT"
+    "ev": "skip_market",
+    "ts": "2026-11-25T07:58:18-05:00",
+    "why": "extreme_price",
+    "slug": "will-bitcoin-reach-76k-november-23-29-2026",
+    "title": "Will Bitcoin reach $76,000 November 23-29?"
    },
    {
-    "ev": "signal",
-    "ts": "2026-11-25T05:51:42-05:00",
-    "signal": "FLAT"
+    "ev": "skip_market",
+    "ts": "2026-11-25T07:58:17-05:00",
+    "why": "extreme_price",
+    "slug": "will-bitcoin-dip-to-52k-on-november-25-2026",
+    "title": "Will Bitcoin dip to $52,000 on November 25?"
    }
   ],
   "live": {
