@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T21:59:37.402114+00:00",
+ "generated": "2026-11-25T22:23:36.632440+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
   "closed_trades": 431,
@@ -371,20 +371,29 @@
  },
  "polycopy": {
   "summary": {
-   "updated": "2026-11-25T16:59:33",
-   "cash": 8.1718,
+   "updated": "2026-11-25T17:23:31",
+   "cash": 13.1718,
    "trades": 56,
-   "open": 12,
-   "resolved_or_exited": 44,
-   "wins": 23,
+   "open": 11,
+   "resolved_or_exited": 45,
+   "wins": 24,
    "losses": 21,
-   "realized_pnl": -39.0261,
-   "open_cost": 52.8021,
+   "realized_pnl": -38.5311,
+   "open_cost": 48.2971,
    "avg_slippage_vs_leader": 0.0067,
    "skips": 32311,
    "fee_note": "taker fee = base_fee_bps/1e4*min(p,1-p)*shares, base_fee from clob /fee-rate per token (assumption)"
   },
   "events": [
+   {
+    "ev": "resolved",
+    "ts": "2026-11-25T17:11:33",
+    "side": null,
+    "title": "Will Club Atl\u00e9tico de Madrid win on 2026-11-25?",
+    "outcome": "Yes",
+    "px": null,
+    "size": null
+   },
    {
     "ev": "paper_buy",
     "ts": "2026-11-25T14:52:20",
@@ -510,21 +519,12 @@
     "outcome": "Yes",
     "px": null,
     "size": null
-   },
-   {
-    "ev": "resolved",
-    "ts": "2026-11-23T12:16:29",
-    "side": null,
-    "title": "Will the price of Ethereum be between $1,400 and $1,500 on November 23?",
-    "outcome": "Yes",
-    "px": null,
-    "size": null
    }
   ]
  },
  "btc_ladder": {
   "summary": {
-   "updated": "2026-11-25T16:55:37-05:00",
+   "updated": "2026-11-25T17:19:52-05:00",
    "name": "BTC Ladder (live)",
    "mode": "LIVE",
    "pairs": 37,
@@ -535,7 +535,7 @@
    "wins": 0,
    "losses": 0,
    "realized_pnl": 0,
-   "unrealized_pnl": 155.6666,
+   "unrealized_pnl": 155.4562,
    "paper_cash": 960.0,
    "live_caps": {
     "per_trade": 3.0,
@@ -576,22 +576,22 @@
     "both_open": true
    },
    {
-    "horizon": "year-2026",
-    "kind": "dip",
-    "strike": 55000,
-    "intl_yes": 0.515,
-    "us_yes": 0.55,
-    "gap_points": 3.5,
+    "horizon": "nov-2026",
+    "kind": "reach",
+    "strike": 82500,
+    "intl_yes": 0.0035,
+    "us_yes": 0.03,
+    "gap_points": 2.65,
     "cheaper": "intl",
     "both_open": true
    },
    {
     "horizon": "year-2026",
     "kind": "dip",
-    "strike": 45000,
-    "intl_yes": 0.1225,
-    "us_yes": 0.14,
-    "gap_points": 1.75,
+    "strike": 55000,
+    "intl_yes": 0.525,
+    "us_yes": 0.55,
+    "gap_points": 2.5,
     "cheaper": "intl",
     "both_open": true
    },
@@ -606,32 +606,22 @@
     "both_open": true
    },
    {
-    "horizon": "nov-2026",
-    "kind": "reach",
-    "strike": 82500,
-    "intl_yes": 0.0035,
-    "us_yes": 0.02,
-    "gap_points": 1.65,
-    "cheaper": "intl",
-    "both_open": true
-   },
-   {
-    "horizon": "year-2026",
-    "kind": "dip",
-    "strike": 50000,
-    "intl_yes": 0.3055,
-    "us_yes": 0.32,
-    "gap_points": 1.45,
-    "cheaper": "intl",
-    "both_open": true
-   },
-   {
     "horizon": "year-2026",
     "kind": "reach",
     "strike": 140000,
     "intl_yes": 0.0085,
     "us_yes": 0.02,
     "gap_points": 1.15,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 40000,
+    "intl_yes": 0.08,
+    "us_yes": 0.09,
+    "gap_points": 1.0,
     "cheaper": "intl",
     "both_open": true
    },
@@ -696,22 +686,22 @@
     "both_open": true
    },
    {
-    "horizon": "year-2026",
+    "horizon": "nov-2026",
     "kind": "dip",
-    "strike": 40000,
-    "intl_yes": 0.0815,
-    "us_yes": 0.09,
-    "gap_points": 0.85,
-    "cheaper": "intl",
+    "strike": 47500,
+    "intl_yes": 0.0275,
+    "us_yes": 0.02,
+    "gap_points": 0.75,
+    "cheaper": "us",
     "both_open": true
    },
    {
     "horizon": "nov-2026",
     "kind": "dip",
-    "strike": 47500,
-    "intl_yes": 0.028,
-    "us_yes": 0.02,
-    "gap_points": 0.8,
+    "strike": 55000,
+    "intl_yes": 0.1775,
+    "us_yes": 0.17,
+    "gap_points": 0.75,
     "cheaper": "us",
     "both_open": true
    },
@@ -743,6 +733,16 @@
     "us_yes": 0.01,
     "gap_points": 0.65,
     "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 45000,
+    "intl_yes": 0.125,
+    "us_yes": 0.12,
+    "gap_points": 0.5,
+    "cheaper": "us",
     "both_open": true
    },
    {
@@ -786,11 +786,11 @@
     "both_open": true
    },
    {
-    "horizon": "nov-2026",
+    "horizon": "year-2026",
     "kind": "dip",
-    "strike": 55000,
-    "intl_yes": 0.1695,
-    "us_yes": 0.17,
+    "strike": 50000,
+    "intl_yes": 0.3195,
+    "us_yes": 0.32,
     "gap_points": 0.05,
     "cheaper": "intl",
     "both_open": true
@@ -935,8 +935,8 @@
     "strike": 50000,
     "gap_at_open": 31.45,
     "opened_at": "2026-11-24T06:47:33-05:00",
-    "u_pnl": 150.4358,
-    "mtm": 170.4358,
+    "u_pnl": 150.2254,
+    "mtm": 170.2254,
     "mode": "PAPER",
     "legs": [
      {
@@ -1210,16 +1210,16 @@
  },
  "btc_longshort": {
   "summary": {
-   "updated": "2026-11-25T16:57:31-05:00",
+   "updated": "2026-11-25T17:22:50-05:00",
    "name": "BTC Long/Short (live)",
    "mode": "LIVE",
    "signal": "FLAT",
-   "btc_px": 60234.94,
+   "btc_px": 60033.09,
    "etf_date": "25 Nov 2026",
    "etf_total_m": 0.0,
    "etf_positive": false,
    "reasons": [
-    "BTC 60234.94 has not held above $60,000 for 4h (4h low 59408.53)"
+    "BTC 60033.09 has not held above $60,000 for 4h (4h low 59409.09)"
    ],
    "open": 0,
    "working": 0,
@@ -1239,18 +1239,18 @@
    "live_ready": true,
    "live_blockers": [],
    "scorecard_due": "2026-12-01",
-   "markets_scanned": 162
+   "markets_scanned": 183
   },
   "signal": {
    "state": "FLAT",
    "reasons": [
-    "BTC 60234.94 has not held above $60,000 for 4h (4h low 59408.53)"
+    "BTC 60033.09 has not held above $60,000 for 4h (4h low 59409.09)"
    ],
    "details": {
-    "price": 60234.94,
+    "price": 60033.09,
     "held_4h_above_60k": false,
     "below_58700_1h": false,
-    "min_low_4h": 59408.53,
+    "min_low_4h": 59409.09,
     "max_high_1h": 60428.33,
     "candles_4h": 48,
     "candles_1h": 12,
@@ -1267,13 +1267,38 @@
    "btc": {
     "ok": true,
     "source": "coinbase",
-    "price": 60234.94
+    "price": 60033.09
    }
   },
   "positions": [],
   "working_orders": [],
   "closed_recent": [],
   "events": [
+   {
+    "ev": "signal",
+    "ts": "2026-11-25T17:22:48-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-25T17:17:45-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-25T17:12:37-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-25T17:07:34-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-25T17:02:32-05:00",
+    "signal": "FLAT"
+   },
    {
     "ev": "signal",
     "ts": "2026-11-25T16:57:29-05:00",
@@ -1347,31 +1372,6 @@
    {
     "ev": "signal",
     "ts": "2026-11-25T15:46:29-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-25T15:41:26-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-25T15:36:23-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-25T15:31:20-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-25T15:26:16-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-25T15:21:13-05:00",
     "signal": "FLAT"
    }
   ],
