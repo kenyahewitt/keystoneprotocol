@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T00:02:10.467995+00:00",
+ "generated": "2026-11-27T00:02:25.461905+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
   "closed_trades": 437,
@@ -524,7 +524,7 @@
  },
  "btc_ladder": {
   "summary": {
-   "updated": "2026-11-26T18:56:13-05:00",
+   "updated": "2026-11-26T19:02:17-05:00",
    "name": "BTC Ladder (live)",
    "mode": "LIVE",
    "pairs": 37,
@@ -535,7 +535,7 @@
    "wins": 0,
    "losses": 0,
    "realized_pnl": 0,
-   "unrealized_pnl": 135.614,
+   "unrealized_pnl": 135.6891,
    "paper_cash": 960.0,
    "live_caps": {
     "per_trade": 3.0,
@@ -566,16 +566,6 @@
     "both_open": false
    },
    {
-    "horizon": "year-2026",
-    "kind": "dip",
-    "strike": 50000,
-    "intl_yes": 0.309,
-    "us_yes": 0.28,
-    "gap_points": 2.9,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
     "horizon": "nov-2026",
     "kind": "dip",
     "strike": 47500,
@@ -583,6 +573,16 @@
     "us_yes": 0.04,
     "gap_points": 2.85,
     "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "year-2026",
+    "kind": "dip",
+    "strike": 50000,
+    "intl_yes": 0.304,
+    "us_yes": 0.28,
+    "gap_points": 2.4,
+    "cheaper": "us",
     "both_open": true
    },
    {
@@ -599,9 +599,9 @@
     "horizon": "year-2026",
     "kind": "dip",
     "strike": 45000,
-    "intl_yes": 0.1295,
+    "intl_yes": 0.131,
     "us_yes": 0.15,
-    "gap_points": 2.05,
+    "gap_points": 1.9,
     "cheaper": "intl",
     "both_open": true
    },
@@ -738,11 +738,11 @@
    {
     "horizon": "nov-2026",
     "kind": "dip",
-    "strike": 55000,
-    "intl_yes": 0.1055,
-    "us_yes": 0.1,
+    "strike": 52500,
+    "intl_yes": 0.0345,
+    "us_yes": 0.04,
     "gap_points": 0.55,
-    "cheaper": "us",
+    "cheaper": "intl",
     "both_open": true
    },
    {
@@ -768,11 +768,11 @@
    {
     "horizon": "nov-2026",
     "kind": "dip",
-    "strike": 52500,
-    "intl_yes": 0.037,
-    "us_yes": 0.04,
+    "strike": 55000,
+    "intl_yes": 0.103,
+    "us_yes": 0.1,
     "gap_points": 0.3,
-    "cheaper": "intl",
+    "cheaper": "us",
     "both_open": true
    },
    {
@@ -935,8 +935,8 @@
     "strike": 50000,
     "gap_at_open": 31.45,
     "opened_at": "2026-11-24T06:47:33-05:00",
-    "u_pnl": 130.3832,
-    "mtm": 150.3832,
+    "u_pnl": 130.4583,
+    "mtm": 150.4583,
     "mode": "PAPER",
     "legs": [
      {
