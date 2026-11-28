@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T03:29:28.069192+00:00",
+ "generated": "2026-11-28T03:59:44.556912+00:00",
  "note": "Public, read-only agent telemetry. Paper page never trades real funds.",
  "sol_sniper": {
   "closed_trades": 442,
@@ -371,7 +371,7 @@
  },
  "polycopy": {
   "summary": {
-   "updated": "2026-11-27T22:29:24",
+   "updated": "2026-11-27T22:59:18",
    "cash": 20.4849,
    "trades": 60,
    "open": 10,
@@ -524,7 +524,7 @@
  },
  "btc_ladder": {
   "summary": {
-   "updated": "2026-11-27T22:24:52-05:00",
+   "updated": "2026-11-27T22:55:11-05:00",
    "name": "BTC Ladder (live)",
    "mode": "LIVE",
    "pairs": 37,
@@ -535,7 +535,7 @@
    "wins": 0,
    "losses": 0,
    "realized_pnl": 0,
-   "unrealized_pnl": 141.9971,
+   "unrealized_pnl": 141.9821,
    "paper_cash": 960.0,
    "live_caps": {
     "per_trade": 3.0,
@@ -579,9 +579,9 @@
     "horizon": "year-2026",
     "kind": "dip",
     "strike": 45000,
-    "intl_yes": 0.1205,
+    "intl_yes": 0.1215,
     "us_yes": 0.15,
-    "gap_points": 2.95,
+    "gap_points": 2.85,
     "cheaper": "intl",
     "both_open": true
    },
@@ -647,16 +647,6 @@
    },
    {
     "horizon": "nov-2026",
-    "kind": "dip",
-    "strike": 55000,
-    "intl_yes": 0.0985,
-    "us_yes": 0.08,
-    "gap_points": 1.85,
-    "cheaper": "us",
-    "both_open": true
-   },
-   {
-    "horizon": "nov-2026",
     "kind": "reach",
     "strike": 85000,
     "intl_yes": 0.0025,
@@ -669,10 +659,20 @@
     "horizon": "year-2026",
     "kind": "dip",
     "strike": 50000,
-    "intl_yes": 0.2835,
+    "intl_yes": 0.2845,
     "us_yes": 0.3,
-    "gap_points": 1.65,
+    "gap_points": 1.55,
     "cheaper": "intl",
+    "both_open": true
+   },
+   {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 55000,
+    "intl_yes": 0.093,
+    "us_yes": 0.08,
+    "gap_points": 1.3,
+    "cheaper": "us",
     "both_open": true
    },
    {
@@ -699,9 +699,9 @@
     "horizon": "nov-2026",
     "kind": "reach",
     "strike": 97500,
-    "intl_yes": 0.0005,
+    "intl_yes": 0.001,
     "us_yes": 0.01,
-    "gap_points": 0.95,
+    "gap_points": 0.9,
     "cheaper": "intl",
     "both_open": true
    },
@@ -736,22 +736,22 @@
     "both_open": true
    },
    {
+    "horizon": "nov-2026",
+    "kind": "dip",
+    "strike": 52500,
+    "intl_yes": 0.0335,
+    "us_yes": 0.04,
+    "gap_points": 0.65,
+    "cheaper": "intl",
+    "both_open": true
+   },
+   {
     "horizon": "year-2026",
     "kind": "reach",
     "strike": 200000,
     "intl_yes": 0.0035,
     "us_yes": 0.01,
     "gap_points": 0.65,
-    "cheaper": "intl",
-    "both_open": true
-   },
-   {
-    "horizon": "nov-2026",
-    "kind": "dip",
-    "strike": 52500,
-    "intl_yes": 0.0345,
-    "us_yes": 0.04,
-    "gap_points": 0.55,
     "cheaper": "intl",
     "both_open": true
    },
@@ -769,9 +769,9 @@
     "horizon": "year-2026",
     "kind": "reach",
     "strike": 150000,
-    "intl_yes": 0.0065,
+    "intl_yes": 0.0075,
     "us_yes": 0.01,
-    "gap_points": 0.35,
+    "gap_points": 0.25,
     "cheaper": "intl",
     "both_open": true
    },
@@ -935,8 +935,8 @@
     "strike": 50000,
     "gap_at_open": 31.45,
     "opened_at": "2026-11-24T06:47:33-05:00",
-    "u_pnl": 140.7663,
-    "mtm": 160.7663,
+    "u_pnl": 140.7513,
+    "mtm": 160.7513,
     "mode": "PAPER",
     "legs": [
      {
@@ -1221,16 +1221,16 @@
  },
  "btc_longshort": {
   "summary": {
-   "updated": "2026-11-27T22:29:09-05:00",
+   "updated": "2026-11-27T22:59:32-05:00",
    "name": "BTC Long/Short (live)",
    "mode": "LIVE",
    "signal": "FLAT",
-   "btc_px": 59859.28,
+   "btc_px": 59985.64,
    "etf_date": "27 Nov 2026",
    "etf_total_m": -61.8,
    "etf_positive": false,
    "reasons": [
-    "BTC 59859.28 has not held above $60,000 for 4h (4h low 59743.86)"
+    "BTC 59985.64 has not held above $60,000 for 4h (4h low 59767.57)"
    ],
    "open": 0,
    "working": 0,
@@ -1250,19 +1250,19 @@
    "live_ready": true,
    "live_blockers": [],
    "scorecard_due": "2026-12-01",
-   "markets_scanned": 181
+   "markets_scanned": 160
   },
   "signal": {
    "state": "FLAT",
    "reasons": [
-    "BTC 59859.28 has not held above $60,000 for 4h (4h low 59743.86)"
+    "BTC 59985.64 has not held above $60,000 for 4h (4h low 59767.57)"
    ],
    "details": {
-    "price": 59859.28,
+    "price": 59985.64,
     "held_4h_above_60k": false,
     "below_58700_1h": false,
-    "min_low_4h": 59743.86,
-    "max_high_1h": 60073.92,
+    "min_low_4h": 59767.57,
+    "max_high_1h": 59988.5,
     "candles_4h": 48,
     "candles_1h": 12,
     "btc_source": "coinbase"
@@ -1278,13 +1278,43 @@
    "btc": {
     "ok": true,
     "source": "coinbase",
-    "price": 59859.28
+    "price": 59985.64
    }
   },
   "positions": [],
   "working_orders": [],
   "closed_recent": [],
   "events": [
+   {
+    "ev": "signal",
+    "ts": "2026-11-27T22:59:30-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-27T22:54:27-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-27T22:49:24-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-27T22:44:18-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-27T22:39:13-05:00",
+    "signal": "FLAT"
+   },
+   {
+    "ev": "signal",
+    "ts": "2026-11-27T22:34:10-05:00",
+    "signal": "FLAT"
+   },
    {
     "ev": "signal",
     "ts": "2026-11-27T22:29:07-05:00",
@@ -1353,36 +1383,6 @@
    {
     "ev": "signal",
     "ts": "2026-11-27T21:23:24-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-27T21:18:22-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-27T21:13:18-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-27T21:08:16-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-27T21:03:12-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-27T20:58:09-05:00",
-    "signal": "FLAT"
-   },
-   {
-    "ev": "signal",
-    "ts": "2026-11-27T20:53:06-05:00",
     "signal": "FLAT"
    }
   ],
